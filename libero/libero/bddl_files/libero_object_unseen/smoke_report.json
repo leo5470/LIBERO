@@ -1,0 +1,1571 @@
+{
+  "suite": "libero_object_unseen",
+  "n_tasks": 92,
+  "n_failed": 0,
+  "results": [
+    {
+      "name": "pick_up_the_apple__objaverse_15_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_apple__objaverse_20_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_apple__objaverse_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_apricot__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_apricot__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_apricot__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_avocado__objaverse_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_avocado__objaverse_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_beet__aigen_9_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bell_pepper__objaverse_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bell_pepper__objaverse_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bell_pepper__objaverse_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bottled_water__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bottled_water__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bottled_water__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_boxed_drink__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_boxed_drink__aigen_12_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_boxed_drink__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_boxed_food__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_boxed_food__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bread__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bread__aigen_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bread_flat__objaverse_bread_13_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_broccoli__objaverse_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_broccoli__objaverse_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_brussel_sprout__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_brussel_sprout__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_brussel_sprout__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cake__objaverse_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cake__objaverse_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cake__objaverse_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_can__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_can__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_can__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candle__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candle__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candle__aigen_9_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candy__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candy__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candy__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cheese__objaverse_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cherry__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cherry__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cherry__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_chicken_breast__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_chicken_breast__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_coffee_cup__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_coffee_cup__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_coffee_cup__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_croissant__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cup__aigen_13_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cup__aigen_17_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cup__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cupcake__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cupcake__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cupcake__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_donut__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_dumpling__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_dumpling__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_dumpling__aigen_12_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_egg__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_egg__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_egg__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_garlic__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_garlic__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ginger__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ginger__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ginger__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_jam__aigen_12_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_jam__aigen_14_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_jam__aigen_15_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ketchup__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ketchup__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ketchup__aigen_9_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_milk__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_milk__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_milk__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_pear__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_pear__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_shaker__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_shaker__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_shaker__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_sponge__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_sponge__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_steak__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_steak__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_tangerine__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_tangerine__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_tangerine__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_yogurt__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_yogurt__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_yogurt__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import abc
 import os
 import glob
+import json
 import random
 import torch
 
@@ -78,6 +79,37 @@ for libero_suite in libero_suites:
 
         # print(language, "\n", f"{task}.bddl", "\n")
         # print("")
+
+
+def _load_manifest_suite(suite_name):
+    """Load a generated suite whose folder carries a manifest.json.
+
+    Manifest suites (e.g. libero_object_unseen) store task languages explicitly —
+    filename-derived languages would mangle per-instance keys like apple__objaverse_15 —
+    and may have != 10 tasks. Missing manifest just leaves the suite unregistered so the
+    package still imports on machines where it was never generated.
+    """
+    manifest_path = os.path.join(
+        get_libero_path("bddl_files"), suite_name, "manifest.json"
+    )
+    if not os.path.isfile(manifest_path):
+        return
+    with open(manifest_path) as f:
+        manifest = json.load(f)
+    task_maps[suite_name] = {
+        t["name"]: Task(
+            name=t["name"],
+            language=t["language"],
+            problem="Libero",
+            problem_folder=suite_name,
+            bddl_file=t["name"] + ".bddl",
+            init_states_file=t["name"] + ".pruned_init",
+        )
+        for t in manifest["tasks"]
+    }
+
+
+_load_manifest_suite("libero_object_unseen")
 
 
 task_orders = [
@@ -209,6 +241,28 @@ class LIBERO_10(Benchmark):
         super().__init__(task_order_index=task_order_index)
         self.name = "libero_10"
         self._make_benchmark()
+
+
+@register_benchmark
+class LIBERO_OBJECT_UNSEEN(Benchmark):
+    def __init__(self, task_order_index=0):
+        super().__init__(task_order_index=task_order_index)
+        assert (
+            task_order_index == 0
+        ), "[error] libero_object_unseen only supports the default task order"
+        self.name = "libero_object_unseen"
+        if self.name not in task_maps:
+            raise RuntimeError(
+                f"[error] suite '{self.name}' not generated: missing manifest.json under "
+                f"{os.path.join(get_libero_path('bddl_files'), self.name)} "
+                "(run scripts/create_libero_object_unseen_tasks.py)"
+            )
+        self._make_benchmark()
+
+    def _make_benchmark(self):
+        # Manifest suites can have != 10 tasks; identity order (cf. libero_90 above).
+        self.tasks = list(task_maps[self.name].values())
+        self.n_tasks = len(self.tasks)
 
 
 @register_benchmark
