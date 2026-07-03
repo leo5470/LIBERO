@@ -6,6 +6,7 @@ from .hope_objects import *
 from .google_scanned_objects import *
 from .articulated_objects import *
 from .turbosquid_objects import *
+from .robocasa_objects import *
 from .site_object import SiteObject
 from .target_zones import *
 

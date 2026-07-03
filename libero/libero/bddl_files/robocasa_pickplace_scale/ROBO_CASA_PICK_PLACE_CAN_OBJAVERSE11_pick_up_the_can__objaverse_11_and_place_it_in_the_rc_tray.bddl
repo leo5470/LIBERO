@@ -1,0 +1,55 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language pick up the can  objaverse 11 and place it in the rc tray)
+    (:regions
+      (can__objaverse_11_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.025 -0.125 0.025 -0.07500000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (rc_tray_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.03 0.12 0.03 0.18)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (contain_region
+          (:target rc_tray_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+  )
+
+  (:objects
+    can__objaverse_11_1 - can__objaverse_11
+    rc_tray_1 - rc_tray
+  )
+
+  (:obj_of_interest
+    can__objaverse_11_1
+    rc_tray_1
+  )
+
+  (:init
+    (On can__objaverse_11_1 kitchen_table_can__objaverse_11_init_region)
+    (On rc_tray_1 kitchen_table_rc_tray_init_region)
+  )
+
+  (:goal
+    (And (In can__objaverse_11_1 rc_tray_1_contain_region))
+  )
+
+)

@@ -1,0 +1,55 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language pick up the croissant  objaverse 10 and place it in the rc tray)
+    (:regions
+      (croissant__objaverse_10_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.025 -0.125 0.025 -0.07500000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (rc_tray_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.03 0.12 0.03 0.18)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (contain_region
+          (:target rc_tray_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+  )
+
+  (:objects
+    croissant__objaverse_10_1 - croissant__objaverse_10
+    rc_tray_1 - rc_tray
+  )
+
+  (:obj_of_interest
+    croissant__objaverse_10_1
+    rc_tray_1
+  )
+
+  (:init
+    (On croissant__objaverse_10_1 kitchen_table_croissant__objaverse_10_init_region)
+    (On rc_tray_1 kitchen_table_rc_tray_init_region)
+  )
+
+  (:goal
+    (And (In croissant__objaverse_10_1 rc_tray_1_contain_region))
+  )
+
+)

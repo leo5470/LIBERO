@@ -1,0 +1,6815 @@
+{
+  "seed": 0,
+  "params": {
+    "seen_target": 40,
+    "tierb_target": 25,
+    "n_prime": 5,
+    "n_tiera": 3,
+    "n_tierb": 3,
+    "max_xy_half": 0.075
+  },
+  "seen_candidate_categories": [
+    "bowl",
+    "pan",
+    "mug",
+    "ketchup",
+    "milk",
+    "corn",
+    "wine",
+    "cherry",
+    "can",
+    "canned_food",
+    "boxed_food",
+    "cup",
+    "coffee_cup",
+    "condiment_bottle",
+    "croissant",
+    "shaker",
+    "garlic",
+    "rolling_pin",
+    "egg",
+    "bottled_water",
+    "ladle",
+    "fish",
+    "teapot",
+    "sponge",
+    "donut",
+    "hot_dog",
+    "candle",
+    "pear",
+    "jam",
+    "bread",
+    "squash",
+    "yogurt",
+    "boxed_drink",
+    "steak",
+    "jug",
+    "soap_dispenser",
+    "cupcake",
+    "tangerine",
+    "bar",
+    "baguette"
+  ],
+  "tierb_candidate_categories": [
+    "apple",
+    "apricot",
+    "asparagus",
+    "avocado",
+    "banana",
+    "beet",
+    "bell_pepper",
+    "bread_flat",
+    "broccoli",
+    "brussel_sprout",
+    "burrito",
+    "cake",
+    "candy",
+    "carrot",
+    "celery",
+    "cheese",
+    "chicken_breast",
+    "chili_pepper",
+    "cucumber",
+    "dumpling",
+    "eggplant",
+    "ginger",
+    "grapes",
+    "ice_cream",
+    "kebabs"
+  ],
+  "seen_report": {
+    "bowl": {
+      "group": "receptacle",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "pan": {
+      "group": "receptacle",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "mug": {
+      "group": "receptacle",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "objaverse_fallback"
+    },
+    "ketchup": {
+      "group": "condiment",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "milk": {
+      "group": "dairy",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "corn": {
+      "group": "vegetable",
+      "is_overlap": true,
+      "n_prime": 4,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "wine": {
+      "group": "drink",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "cherry": {
+      "group": "fruit",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "aigen",
+      "tier_a_source": "aigen_instance_only"
+    },
+    "can": {
+      "group": "drink",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "canned_food": {
+      "group": "packaged_food",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "boxed_food": {
+      "group": "packaged_food",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "cup": {
+      "group": "receptacle",
+      "is_overlap": true,
+      "n_prime": 4,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "coffee_cup": {
+      "group": "drink",
+      "is_overlap": true,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "condiment_bottle": {
+      "group": "condiment",
+      "is_overlap": true,
+      "n_prime": 3,
+      "n_tier_a": 0,
+      "prime_source": "objaverse",
+      "tier_a_source": "objaverse_fallback"
+    },
+    "croissant": {
+      "group": "pastry",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "shaker": {
+      "group": "condiment",
+      "is_overlap": false,
+      "n_prime": 4,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "garlic": {
+      "group": "vegetable",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "rolling_pin": {
+      "group": "tool",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "egg": {
+      "group": "dairy",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "bottled_water": {
+      "group": "drink",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "ladle": {
+      "group": "utensil",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "fish": {
+      "group": "meat",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "teapot": {
+      "group": "receptacle",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "sponge": {
+      "group": "cleaner",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "donut": {
+      "group": "sweets",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "hot_dog": {
+      "group": "cooked_food",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "candle": {
+      "group": "decoration",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "pear": {
+      "group": "fruit",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "jam": {
+      "group": "packaged_food",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "bread": {
+      "group": "bread_food",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "squash": {
+      "group": "vegetable",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "objaverse_fallback"
+    },
+    "yogurt": {
+      "group": "dairy",
+      "is_overlap": false,
+      "n_prime": 3,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "boxed_drink": {
+      "group": "drink",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "steak": {
+      "group": "meat",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "jug": {
+      "group": "receptacle",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "soap_dispenser": {
+      "group": "cleaner",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "cupcake": {
+      "group": "sweets",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "tangerine": {
+      "group": "fruit",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "bar": {
+      "group": "packaged_food",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    },
+    "baguette": {
+      "group": "bread_food",
+      "is_overlap": false,
+      "n_prime": 5,
+      "n_tier_a": 3,
+      "prime_source": "objaverse",
+      "tier_a_source": "aigen"
+    }
+  },
+  "tierb_report": {
+    "apple": {
+      "group": "fruit",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "apricot": {
+      "group": "fruit",
+      "n": 3,
+      "source": "aigen"
+    },
+    "asparagus": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "aigen"
+    },
+    "avocado": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "banana": {
+      "group": "fruit",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "beet": {
+      "group": "vegetable",
+      "n": 2,
+      "source": "aigen"
+    },
+    "bell_pepper": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "bread_flat": {
+      "group": "bread_food",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "broccoli": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "brussel_sprout": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "aigen"
+    },
+    "burrito": {
+      "group": "cooked_food",
+      "n": 3,
+      "source": "aigen"
+    },
+    "cake": {
+      "group": "sweets",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "candy": {
+      "group": "sweets",
+      "n": 3,
+      "source": "aigen"
+    },
+    "carrot": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "celery": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "aigen"
+    },
+    "cheese": {
+      "group": "dairy",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "chicken_breast": {
+      "group": "meat",
+      "n": 3,
+      "source": "aigen"
+    },
+    "chili_pepper": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "aigen"
+    },
+    "cucumber": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "dumpling": {
+      "group": "meat",
+      "n": 3,
+      "source": "aigen"
+    },
+    "eggplant": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "objaverse"
+    },
+    "ginger": {
+      "group": "vegetable",
+      "n": 3,
+      "source": "aigen"
+    },
+    "grapes": {
+      "group": "fruit",
+      "n": 3,
+      "source": "aigen"
+    },
+    "ice_cream": {
+      "group": "sweets",
+      "n": 3,
+      "source": "aigen"
+    },
+    "kebabs": {
+      "group": "cooked_food",
+      "n": 3,
+      "source": "aigen"
+    }
+  },
+  "keys": [
+    {
+      "key": "bowl__objaverse_14",
+      "category": "bowl",
+      "instance": "bowl_14",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 2.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bowl/bowl_14/model.xml",
+      "bbox_half": [
+        0.11499,
+        0.11499,
+        0.05676
+      ]
+    },
+    {
+      "key": "bowl__objaverse_19",
+      "category": "bowl",
+      "instance": "bowl_19",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 2.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bowl/bowl_19/model.xml",
+      "bbox_half": [
+        0.115,
+        0.115,
+        0.05635
+      ]
+    },
+    {
+      "key": "bowl__objaverse_2",
+      "category": "bowl",
+      "instance": "bowl_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 2.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bowl/bowl_2/model.xml",
+      "bbox_half": [
+        0.115,
+        0.115,
+        0.04843
+      ]
+    },
+    {
+      "key": "bowl__objaverse_5",
+      "category": "bowl",
+      "instance": "bowl_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 2.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bowl/bowl_5/model.xml",
+      "bbox_half": [
+        0.115,
+        0.115,
+        0.03345
+      ]
+    },
+    {
+      "key": "bowl__objaverse_1",
+      "category": "bowl",
+      "instance": "bowl_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 2.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bowl/bowl_1/model.xml",
+      "bbox_half": [
+        0.12,
+        0.12,
+        0.05257
+      ]
+    },
+    {
+      "key": "bowl__aigen_5",
+      "category": "bowl",
+      "instance": "bowl_5",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.75,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bowl/bowl_5/model.xml",
+      "bbox_half": [
+        0.10666,
+        0.10659,
+        0.06523
+      ]
+    },
+    {
+      "key": "bowl__aigen_7",
+      "category": "bowl",
+      "instance": "bowl_7",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.75,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bowl/bowl_7/model.xml",
+      "bbox_half": [
+        0.11547,
+        0.11545,
+        0.05515
+      ]
+    },
+    {
+      "key": "bowl__aigen_1",
+      "category": "bowl",
+      "instance": "bowl_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.75,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bowl/bowl_1/model.xml",
+      "bbox_half": [
+        0.11576,
+        0.11547,
+        0.04998
+      ]
+    },
+    {
+      "key": "pan__objaverse_14",
+      "category": "pan",
+      "instance": "pan_14",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pan/pan_14/model.xml",
+      "bbox_half": [
+        0.13152,
+        0.18868,
+        0.0229
+      ]
+    },
+    {
+      "key": "pan__objaverse_7",
+      "category": "pan",
+      "instance": "pan_7",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pan/pan_7/model.xml",
+      "bbox_half": [
+        0.10021,
+        0.19293,
+        0.01616
+      ]
+    },
+    {
+      "key": "pan__objaverse_21",
+      "category": "pan",
+      "instance": "pan_21",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pan/pan_21/model.xml",
+      "bbox_half": [
+        0.12774,
+        0.1936,
+        0.00822
+      ]
+    },
+    {
+      "key": "pan__objaverse_11",
+      "category": "pan",
+      "instance": "pan_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pan/pan_11/model.xml",
+      "bbox_half": [
+        0.11928,
+        0.20059,
+        0.01349
+      ]
+    },
+    {
+      "key": "pan__objaverse_2",
+      "category": "pan",
+      "instance": "pan_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pan/pan_2/model.xml",
+      "bbox_half": [
+        0.11808,
+        0.20069,
+        0.03232
+      ]
+    },
+    {
+      "key": "pan__aigen_4",
+      "category": "pan",
+      "instance": "pan_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 2.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/pan/pan_4/model.xml",
+      "bbox_half": [
+        0.14222,
+        0.19415,
+        0.02898
+      ]
+    },
+    {
+      "key": "pan__aigen_2",
+      "category": "pan",
+      "instance": "pan_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 2.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/pan/pan_2/model.xml",
+      "bbox_half": [
+        0.14554,
+        0.21699,
+        0.02915
+      ]
+    },
+    {
+      "key": "pan__aigen_3",
+      "category": "pan",
+      "instance": "pan_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 2.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/pan/pan_3/model.xml",
+      "bbox_half": [
+        0.1261,
+        0.22841,
+        0.04773
+      ]
+    },
+    {
+      "key": "mug__objaverse_11",
+      "category": "mug",
+      "instance": "mug_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/mug/mug_11/model.xml",
+      "bbox_half": [
+        0.03847,
+        0.0525,
+        0.04469
+      ]
+    },
+    {
+      "key": "mug__objaverse_18",
+      "category": "mug",
+      "instance": "mug_18",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/mug/mug_18/model.xml",
+      "bbox_half": [
+        0.0372,
+        0.0525,
+        0.04798
+      ]
+    },
+    {
+      "key": "mug__objaverse_2",
+      "category": "mug",
+      "instance": "mug_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/mug/mug_2/model.xml",
+      "bbox_half": [
+        0.03522,
+        0.0525,
+        0.04551
+      ]
+    },
+    {
+      "key": "mug__objaverse_13",
+      "category": "mug",
+      "instance": "mug_13",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/mug/mug_13/model.xml",
+      "bbox_half": [
+        0.03932,
+        0.055,
+        0.04564
+      ]
+    },
+    {
+      "key": "mug__objaverse_14",
+      "category": "mug",
+      "instance": "mug_14",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/mug/mug_14/model.xml",
+      "bbox_half": [
+        0.03864,
+        0.055,
+        0.04758
+      ]
+    },
+    {
+      "key": "mug__objaverse_17",
+      "category": "mug",
+      "instance": "mug_17",
+      "source": "objaverse",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/mug/mug_17/model.xml",
+      "bbox_half": [
+        0.03938,
+        0.055,
+        0.0483
+      ]
+    },
+    {
+      "key": "mug__objaverse_4",
+      "category": "mug",
+      "instance": "mug_4",
+      "source": "objaverse",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/mug/mug_4/model.xml",
+      "bbox_half": [
+        0.03927,
+        0.055,
+        0.04344
+      ]
+    },
+    {
+      "key": "mug__objaverse_16",
+      "category": "mug",
+      "instance": "mug_16",
+      "source": "objaverse",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/mug/mug_16/model.xml",
+      "bbox_half": [
+        0.03853,
+        0.05553,
+        0.04804
+      ]
+    },
+    {
+      "key": "ketchup__objaverse_7",
+      "category": "ketchup",
+      "instance": "ketchup_7",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ketchup/ketchup_7/model.xml",
+      "bbox_half": [
+        0.02183,
+        0.02182,
+        0.0825
+      ]
+    },
+    {
+      "key": "ketchup__objaverse_8",
+      "category": "ketchup",
+      "instance": "ketchup_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ketchup/ketchup_8/model.xml",
+      "bbox_half": [
+        0.02243,
+        0.02243,
+        0.07568
+      ]
+    },
+    {
+      "key": "ketchup__objaverse_2",
+      "category": "ketchup",
+      "instance": "ketchup_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ketchup/ketchup_2/model.xml",
+      "bbox_half": [
+        0.02293,
+        0.02293,
+        0.0834
+      ]
+    },
+    {
+      "key": "ketchup__objaverse_10",
+      "category": "ketchup",
+      "instance": "ketchup_10",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ketchup/ketchup_10/model.xml",
+      "bbox_half": [
+        0.02411,
+        0.02411,
+        0.08083
+      ]
+    },
+    {
+      "key": "ketchup__objaverse_11",
+      "category": "ketchup",
+      "instance": "ketchup_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ketchup/ketchup_11/model.xml",
+      "bbox_half": [
+        0.02518,
+        0.02569,
+        0.07578
+      ]
+    },
+    {
+      "key": "ketchup__aigen_6",
+      "category": "ketchup",
+      "instance": "ketchup_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ketchup/ketchup_6/model.xml",
+      "bbox_half": [
+        0.0224,
+        0.02241,
+        0.0788
+      ]
+    },
+    {
+      "key": "ketchup__aigen_9",
+      "category": "ketchup",
+      "instance": "ketchup_9",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ketchup/ketchup_9/model.xml",
+      "bbox_half": [
+        0.02361,
+        0.02363,
+        0.0788
+      ]
+    },
+    {
+      "key": "ketchup__aigen_4",
+      "category": "ketchup",
+      "instance": "ketchup_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ketchup/ketchup_4/model.xml",
+      "bbox_half": [
+        0.02915,
+        0.02037,
+        0.0788
+      ]
+    },
+    {
+      "key": "milk__objaverse_5",
+      "category": "milk",
+      "instance": "milk_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "dairy",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/milk/milk_5/model.xml",
+      "bbox_half": [
+        0.02419,
+        0.02419,
+        0.08499
+      ]
+    },
+    {
+      "key": "milk__objaverse_10",
+      "category": "milk",
+      "instance": "milk_10",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "dairy",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/milk/milk_10/model.xml",
+      "bbox_half": [
+        0.02521,
+        0.02492,
+        0.09074
+      ]
+    },
+    {
+      "key": "milk__objaverse_4",
+      "category": "milk",
+      "instance": "milk_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "dairy",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/milk/milk_4/model.xml",
+      "bbox_half": [
+        0.02768,
+        0.02768,
+        0.08066
+      ]
+    },
+    {
+      "key": "milk__objaverse_1",
+      "category": "milk",
+      "instance": "milk_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "dairy",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/milk/milk_1/model.xml",
+      "bbox_half": [
+        0.02696,
+        0.0278,
+        0.06062
+      ]
+    },
+    {
+      "key": "milk__objaverse_0",
+      "category": "milk",
+      "instance": "milk_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "dairy",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/milk/milk_0/model.xml",
+      "bbox_half": [
+        0.02877,
+        0.02877,
+        0.09074
+      ]
+    },
+    {
+      "key": "milk__aigen_6",
+      "category": "milk",
+      "instance": "milk_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "dairy",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/milk/milk_6/model.xml",
+      "bbox_half": [
+        0.01802,
+        0.01869,
+        0.08223
+      ]
+    },
+    {
+      "key": "milk__aigen_7",
+      "category": "milk",
+      "instance": "milk_7",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "dairy",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/milk/milk_7/model.xml",
+      "bbox_half": [
+        0.02659,
+        0.0276,
+        0.08223
+      ]
+    },
+    {
+      "key": "milk__aigen_4",
+      "category": "milk",
+      "instance": "milk_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "dairy",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/milk/milk_4/model.xml",
+      "bbox_half": [
+        0.02905,
+        0.02967,
+        0.08223
+      ]
+    },
+    {
+      "key": "corn__objaverse_0",
+      "category": "corn",
+      "instance": "corn_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "vegetable",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/corn/corn_0/model.xml",
+      "bbox_half": [
+        0.03324,
+        0.08086,
+        0.03224
+      ]
+    },
+    {
+      "key": "corn__objaverse_1",
+      "category": "corn",
+      "instance": "corn_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "vegetable",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/corn/corn_1/model.xml",
+      "bbox_half": [
+        0.02521,
+        0.08135,
+        0.02421
+      ]
+    },
+    {
+      "key": "corn__objaverse_3",
+      "category": "corn",
+      "instance": "corn_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "vegetable",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/corn/corn_3/model.xml",
+      "bbox_half": [
+        0.02129,
+        0.0859,
+        0.02012
+      ]
+    },
+    {
+      "key": "corn__objaverse_4",
+      "category": "corn",
+      "instance": "corn_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "vegetable",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/corn/corn_4/model.xml",
+      "bbox_half": [
+        0.02299,
+        0.09695,
+        0.02141
+      ]
+    },
+    {
+      "key": "corn__aigen_0",
+      "category": "corn",
+      "instance": "corn_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "vegetable",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/corn/corn_0/model.xml",
+      "bbox_half": [
+        0.03606,
+        0.06852,
+        0.0358
+      ]
+    },
+    {
+      "key": "corn__aigen_1",
+      "category": "corn",
+      "instance": "corn_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "vegetable",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/corn/corn_1/model.xml",
+      "bbox_half": [
+        0.02331,
+        0.06852,
+        0.02352
+      ]
+    },
+    {
+      "key": "corn__aigen_2",
+      "category": "corn",
+      "instance": "corn_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "vegetable",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/corn/corn_2/model.xml",
+      "bbox_half": [
+        0.02511,
+        0.06852,
+        0.02659
+      ]
+    },
+    {
+      "key": "wine__objaverse_2",
+      "category": "wine",
+      "instance": "wine_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.6,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/wine/wine_2/model.xml",
+      "bbox_half": [
+        0.02837,
+        0.0298,
+        0.152
+      ]
+    },
+    {
+      "key": "wine__objaverse_1",
+      "category": "wine",
+      "instance": "wine_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.6,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/wine/wine_1/model.xml",
+      "bbox_half": [
+        0.03132,
+        0.03133,
+        0.13569
+      ]
+    },
+    {
+      "key": "wine__objaverse_12",
+      "category": "wine",
+      "instance": "wine_12",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.6,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/wine/wine_12/model.xml",
+      "bbox_half": [
+        0.03207,
+        0.03206,
+        0.128
+      ]
+    },
+    {
+      "key": "wine__objaverse_6",
+      "category": "wine",
+      "instance": "wine_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.6,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/wine/wine_6/model.xml",
+      "bbox_half": [
+        0.03236,
+        0.03208,
+        0.12795
+      ]
+    },
+    {
+      "key": "wine__objaverse_4",
+      "category": "wine",
+      "instance": "wine_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.6,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/wine/wine_4/model.xml",
+      "bbox_half": [
+        0.03361,
+        0.03308,
+        0.12734
+      ]
+    },
+    {
+      "key": "wine__aigen_5",
+      "category": "wine",
+      "instance": "wine_5",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/wine/wine_5/model.xml",
+      "bbox_half": [
+        0.03204,
+        0.03263,
+        0.13502
+      ]
+    },
+    {
+      "key": "wine__aigen_4",
+      "category": "wine",
+      "instance": "wine_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/wine/wine_4/model.xml",
+      "bbox_half": [
+        0.03422,
+        0.03421,
+        0.13502
+      ]
+    },
+    {
+      "key": "wine__aigen_3",
+      "category": "wine",
+      "instance": "wine_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/wine/wine_3/model.xml",
+      "bbox_half": [
+        0.03433,
+        0.03472,
+        0.13502
+      ]
+    },
+    {
+      "key": "cherry__aigen_3",
+      "category": "cherry",
+      "instance": "cherry_3",
+      "source": "aigen",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cherry/cherry_3/model.xml",
+      "bbox_half": [
+        0.01054,
+        0.01452,
+        0.05076
+      ]
+    },
+    {
+      "key": "cherry__aigen_8",
+      "category": "cherry",
+      "instance": "cherry_8",
+      "source": "aigen",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cherry/cherry_8/model.xml",
+      "bbox_half": [
+        0.01656,
+        0.01623,
+        0.04061
+      ]
+    },
+    {
+      "key": "cherry__aigen_1",
+      "category": "cherry",
+      "instance": "cherry_1",
+      "source": "aigen",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cherry/cherry_1/model.xml",
+      "bbox_half": [
+        0.01627,
+        0.01772,
+        0.03553
+      ]
+    },
+    {
+      "key": "cherry__aigen_4",
+      "category": "cherry",
+      "instance": "cherry_4",
+      "source": "aigen",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cherry/cherry_4/model.xml",
+      "bbox_half": [
+        0.01708,
+        0.01772,
+        0.04061
+      ]
+    },
+    {
+      "key": "cherry__aigen_9",
+      "category": "cherry",
+      "instance": "cherry_9",
+      "source": "aigen",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cherry/cherry_9/model.xml",
+      "bbox_half": [
+        0.01817,
+        0.0193,
+        0.04061
+      ]
+    },
+    {
+      "key": "cherry__aigen_2",
+      "category": "cherry",
+      "instance": "cherry_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cherry/cherry_2/model.xml",
+      "bbox_half": [
+        0.02154,
+        0.01725,
+        0.03553
+      ]
+    },
+    {
+      "key": "cherry__aigen_0",
+      "category": "cherry",
+      "instance": "cherry_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cherry/cherry_0/model.xml",
+      "bbox_half": [
+        0.02039,
+        0.02302,
+        0.03553
+      ]
+    },
+    {
+      "key": "cherry__aigen_7",
+      "category": "cherry",
+      "instance": "cherry_7",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cherry/cherry_7/model.xml",
+      "bbox_half": [
+        0.02354,
+        0.02525,
+        0.04568
+      ]
+    },
+    {
+      "key": "can__objaverse_16",
+      "category": "can",
+      "instance": "can_16",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/can/can_16/model.xml",
+      "bbox_half": [
+        0.0248,
+        0.0248,
+        0.05559
+      ]
+    },
+    {
+      "key": "can__objaverse_15",
+      "category": "can",
+      "instance": "can_15",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/can/can_15/model.xml",
+      "bbox_half": [
+        0.02776,
+        0.02776,
+        0.05
+      ]
+    },
+    {
+      "key": "can__objaverse_6",
+      "category": "can",
+      "instance": "can_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/can/can_6/model.xml",
+      "bbox_half": [
+        0.02808,
+        0.02808,
+        0.05552
+      ]
+    },
+    {
+      "key": "can__objaverse_11",
+      "category": "can",
+      "instance": "can_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/can/can_11/model.xml",
+      "bbox_half": [
+        0.0286,
+        0.02763,
+        0.05545
+      ]
+    },
+    {
+      "key": "can__objaverse_18",
+      "category": "can",
+      "instance": "can_18",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/can/can_18/model.xml",
+      "bbox_half": [
+        0.02901,
+        0.02901,
+        0.05
+      ]
+    },
+    {
+      "key": "can__aigen_3",
+      "category": "can",
+      "instance": "can_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/can/can_3/model.xml",
+      "bbox_half": [
+        0.02196,
+        0.02162,
+        0.04568
+      ]
+    },
+    {
+      "key": "can__aigen_6",
+      "category": "can",
+      "instance": "can_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/can/can_6/model.xml",
+      "bbox_half": [
+        0.02416,
+        0.02347,
+        0.04568
+      ]
+    },
+    {
+      "key": "can__aigen_2",
+      "category": "can",
+      "instance": "can_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/can/can_2/model.xml",
+      "bbox_half": [
+        0.0249,
+        0.02559,
+        0.04568
+      ]
+    },
+    {
+      "key": "canned_food__objaverse_3",
+      "category": "canned_food",
+      "instance": "canned_food_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/canned_food/canned_food_3/model.xml",
+      "bbox_half": [
+        0.02701,
+        0.02701,
+        0.04275
+      ]
+    },
+    {
+      "key": "canned_food__objaverse_18",
+      "category": "canned_food",
+      "instance": "canned_food_18",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/canned_food/canned_food_18/model.xml",
+      "bbox_half": [
+        0.02749,
+        0.02749,
+        0.02925
+      ]
+    },
+    {
+      "key": "canned_food__objaverse_11",
+      "category": "canned_food",
+      "instance": "canned_food_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/canned_food/canned_food_11/model.xml",
+      "bbox_half": [
+        0.02828,
+        0.02828,
+        0.04275
+      ]
+    },
+    {
+      "key": "canned_food__objaverse_0",
+      "category": "canned_food",
+      "instance": "canned_food_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/canned_food/canned_food_0/model.xml",
+      "bbox_half": [
+        0.02907,
+        0.02907,
+        0.04309
+      ]
+    },
+    {
+      "key": "canned_food__objaverse_4",
+      "category": "canned_food",
+      "instance": "canned_food_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/canned_food/canned_food_4/model.xml",
+      "bbox_half": [
+        0.02923,
+        0.02923,
+        0.04322
+      ]
+    },
+    {
+      "key": "canned_food__aigen_6",
+      "category": "canned_food",
+      "instance": "canned_food_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/canned_food/canned_food_6/model.xml",
+      "bbox_half": [
+        0.02755,
+        0.02738,
+        0.04086
+      ]
+    },
+    {
+      "key": "canned_food__aigen_2",
+      "category": "canned_food",
+      "instance": "canned_food_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/canned_food/canned_food_2/model.xml",
+      "bbox_half": [
+        0.02729,
+        0.02758,
+        0.04086
+      ]
+    },
+    {
+      "key": "canned_food__aigen_4",
+      "category": "canned_food",
+      "instance": "canned_food_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/canned_food/canned_food_4/model.xml",
+      "bbox_half": [
+        0.03,
+        0.02976,
+        0.03502
+      ]
+    },
+    {
+      "key": "boxed_food__objaverse_4",
+      "category": "boxed_food",
+      "instance": "boxed_food_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_food/boxed_food_4/model.xml",
+      "bbox_half": [
+        0.01863,
+        0.03585,
+        0.07135
+      ]
+    },
+    {
+      "key": "boxed_food__objaverse_2",
+      "category": "boxed_food",
+      "instance": "boxed_food_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_food/boxed_food_2/model.xml",
+      "bbox_half": [
+        0.0174,
+        0.04867,
+        0.0825
+      ]
+    },
+    {
+      "key": "boxed_food__objaverse_11",
+      "category": "boxed_food",
+      "instance": "boxed_food_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_food/boxed_food_11/model.xml",
+      "bbox_half": [
+        0.02017,
+        0.05042,
+        0.0605
+      ]
+    },
+    {
+      "key": "boxed_food__objaverse_0",
+      "category": "boxed_food",
+      "instance": "boxed_food_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_food/boxed_food_0/model.xml",
+      "bbox_half": [
+        0.02495,
+        0.066,
+        0.0398
+      ]
+    },
+    {
+      "key": "boxed_food__objaverse_1",
+      "category": "boxed_food",
+      "instance": "boxed_food_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_food/boxed_food_1/model.xml",
+      "bbox_half": [
+        0.02043,
+        0.0715,
+        0.07135
+      ]
+    },
+    {
+      "key": "boxed_food__aigen_2",
+      "category": "boxed_food",
+      "instance": "boxed_food_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/boxed_food/boxed_food_2/model.xml",
+      "bbox_half": [
+        0.03473,
+        0.03525,
+        0.06345
+      ]
+    },
+    {
+      "key": "boxed_food__aigen_4",
+      "category": "boxed_food",
+      "instance": "boxed_food_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/boxed_food/boxed_food_4/model.xml",
+      "bbox_half": [
+        0.0245,
+        0.03695,
+        0.06345
+      ]
+    },
+    {
+      "key": "boxed_food__aigen_5",
+      "category": "boxed_food",
+      "instance": "boxed_food_5",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "packaged_food",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/boxed_food/boxed_food_5/model.xml",
+      "bbox_half": [
+        0.02751,
+        0.04012,
+        0.06345
+      ]
+    },
+    {
+      "key": "cup__objaverse_2",
+      "category": "cup",
+      "instance": "cup_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cup/cup_2/model.xml",
+      "bbox_half": [
+        0.03722,
+        0.03722,
+        0.0575
+      ]
+    },
+    {
+      "key": "cup__objaverse_5",
+      "category": "cup",
+      "instance": "cup_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cup/cup_5/model.xml",
+      "bbox_half": [
+        0.0425,
+        0.0425,
+        0.0425
+      ]
+    },
+    {
+      "key": "cup__objaverse_3",
+      "category": "cup",
+      "instance": "cup_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cup/cup_3/model.xml",
+      "bbox_half": [
+        0.04298,
+        0.0433,
+        0.0525
+      ]
+    },
+    {
+      "key": "cup__objaverse_4",
+      "category": "cup",
+      "instance": "cup_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cup/cup_4/model.xml",
+      "bbox_half": [
+        0.04354,
+        0.04354,
+        0.0525
+      ]
+    },
+    {
+      "key": "cup__aigen_17",
+      "category": "cup",
+      "instance": "cup_17",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cup/cup_17/model.xml",
+      "bbox_half": [
+        0.03606,
+        0.03548,
+        0.04797
+      ]
+    },
+    {
+      "key": "cup__aigen_3",
+      "category": "cup",
+      "instance": "cup_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cup/cup_3/model.xml",
+      "bbox_half": [
+        0.03633,
+        0.0356,
+        0.05482
+      ]
+    },
+    {
+      "key": "cup__aigen_13",
+      "category": "cup",
+      "instance": "cup_13",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "receptacle",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cup/cup_13/model.xml",
+      "bbox_half": [
+        0.03636,
+        0.03556,
+        0.05482
+      ]
+    },
+    {
+      "key": "coffee_cup__objaverse_16",
+      "category": "coffee_cup",
+      "instance": "coffee_cup_16",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/coffee_cup/coffee_cup_16/model.xml",
+      "bbox_half": [
+        0.03022,
+        0.03021,
+        0.06292
+      ]
+    },
+    {
+      "key": "coffee_cup__objaverse_3",
+      "category": "coffee_cup",
+      "instance": "coffee_cup_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/coffee_cup/coffee_cup_3/model.xml",
+      "bbox_half": [
+        0.0323,
+        0.0323,
+        0.05301
+      ]
+    },
+    {
+      "key": "coffee_cup__objaverse_9",
+      "category": "coffee_cup",
+      "instance": "coffee_cup_9",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/coffee_cup/coffee_cup_9/model.xml",
+      "bbox_half": [
+        0.03261,
+        0.03241,
+        0.05797
+      ]
+    },
+    {
+      "key": "coffee_cup__objaverse_7",
+      "category": "coffee_cup",
+      "instance": "coffee_cup_7",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/coffee_cup/coffee_cup_7/model.xml",
+      "bbox_half": [
+        0.03265,
+        0.03265,
+        0.06317
+      ]
+    },
+    {
+      "key": "coffee_cup__objaverse_17",
+      "category": "coffee_cup",
+      "instance": "coffee_cup_17",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/coffee_cup/coffee_cup_17/model.xml",
+      "bbox_half": [
+        0.03248,
+        0.03282,
+        0.05807
+      ]
+    },
+    {
+      "key": "coffee_cup__aigen_2",
+      "category": "coffee_cup",
+      "instance": "coffee_cup_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/coffee_cup/coffee_cup_2/model.xml",
+      "bbox_half": [
+        0.03377,
+        0.03343,
+        0.05482
+      ]
+    },
+    {
+      "key": "coffee_cup__aigen_3",
+      "category": "coffee_cup",
+      "instance": "coffee_cup_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/coffee_cup/coffee_cup_3/model.xml",
+      "bbox_half": [
+        0.0343,
+        0.03447,
+        0.04797
+      ]
+    },
+    {
+      "key": "coffee_cup__aigen_4",
+      "category": "coffee_cup",
+      "instance": "coffee_cup_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": true,
+      "group": "drink",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/coffee_cup/coffee_cup_4/model.xml",
+      "bbox_half": [
+        0.03527,
+        0.03501,
+        0.04797
+      ]
+    },
+    {
+      "key": "condiment_bottle__objaverse_condiment_0",
+      "category": "condiment_bottle",
+      "instance": "condiment_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/condiment/condiment_0/model.xml",
+      "bbox_half": [
+        0.02398,
+        0.02438,
+        0.07953
+      ]
+    },
+    {
+      "key": "condiment_bottle__objaverse_condiment_3",
+      "category": "condiment_bottle",
+      "instance": "condiment_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/condiment/condiment_3/model.xml",
+      "bbox_half": [
+        0.03846,
+        0.02242,
+        0.06899
+      ]
+    },
+    {
+      "key": "condiment_bottle__objaverse_condiment_2",
+      "category": "condiment_bottle",
+      "instance": "condiment_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": true,
+      "group": "condiment",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/condiment/condiment_2/model.xml",
+      "bbox_half": [
+        0.04136,
+        0.02558,
+        0.07954
+      ]
+    },
+    {
+      "key": "croissant__objaverse_8",
+      "category": "croissant",
+      "instance": "croissant_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "pastry",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/croissant/croissant_8/model.xml",
+      "bbox_half": [
+        0.04286,
+        0.04855,
+        0.01703
+      ]
+    },
+    {
+      "key": "croissant__objaverse_1",
+      "category": "croissant",
+      "instance": "croissant_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "pastry",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/croissant/croissant_1/model.xml",
+      "bbox_half": [
+        0.04062,
+        0.05837,
+        0.02298
+      ]
+    },
+    {
+      "key": "croissant__objaverse_9",
+      "category": "croissant",
+      "instance": "croissant_9",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "pastry",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/croissant/croissant_9/model.xml",
+      "bbox_half": [
+        0.04046,
+        0.06465,
+        0.02508
+      ]
+    },
+    {
+      "key": "croissant__objaverse_4",
+      "category": "croissant",
+      "instance": "croissant_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "pastry",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/croissant/croissant_4/model.xml",
+      "bbox_half": [
+        0.03008,
+        0.06668,
+        0.02033
+      ]
+    },
+    {
+      "key": "croissant__objaverse_10",
+      "category": "croissant",
+      "instance": "croissant_10",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "pastry",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/croissant/croissant_10/model.xml",
+      "bbox_half": [
+        0.0286,
+        0.06875,
+        0.02436
+      ]
+    },
+    {
+      "key": "croissant__aigen_1",
+      "category": "croissant",
+      "instance": "croissant_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "pastry",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/croissant/croissant_1/model.xml",
+      "bbox_half": [
+        0.02867,
+        0.04568,
+        0.01636
+      ]
+    },
+    {
+      "key": "croissant__aigen_3",
+      "category": "croissant",
+      "instance": "croissant_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "pastry",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/croissant/croissant_3/model.xml",
+      "bbox_half": [
+        0.04568,
+        0.0427,
+        0.03341
+      ]
+    },
+    {
+      "key": "croissant__aigen_6",
+      "category": "croissant",
+      "instance": "croissant_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "pastry",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/croissant/croissant_6/model.xml",
+      "bbox_half": [
+        0.02406,
+        0.04568,
+        0.01432
+      ]
+    },
+    {
+      "key": "shaker__objaverse_2",
+      "category": "shaker",
+      "instance": "shaker_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/shaker/shaker_2/model.xml",
+      "bbox_half": [
+        0.02428,
+        0.02428,
+        0.04799
+      ]
+    },
+    {
+      "key": "shaker__objaverse_3",
+      "category": "shaker",
+      "instance": "shaker_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/shaker/shaker_3/model.xml",
+      "bbox_half": [
+        0.02577,
+        0.02253,
+        0.0475
+      ]
+    },
+    {
+      "key": "shaker__objaverse_0",
+      "category": "shaker",
+      "instance": "shaker_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/shaker/shaker_0/model.xml",
+      "bbox_half": [
+        0.02676,
+        0.02667,
+        0.04801
+      ]
+    },
+    {
+      "key": "shaker__objaverse_1",
+      "category": "shaker",
+      "instance": "shaker_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "condiment",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/shaker/shaker_1/model.xml",
+      "bbox_half": [
+        0.02676,
+        0.02667,
+        0.04801
+      ]
+    },
+    {
+      "key": "shaker__aigen_3",
+      "category": "shaker",
+      "instance": "shaker_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "condiment",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/shaker/shaker_3/model.xml",
+      "bbox_half": [
+        0.02017,
+        0.01962,
+        0.04441
+      ]
+    },
+    {
+      "key": "shaker__aigen_4",
+      "category": "shaker",
+      "instance": "shaker_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "condiment",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/shaker/shaker_4/model.xml",
+      "bbox_half": [
+        0.02414,
+        0.02359,
+        0.04441
+      ]
+    },
+    {
+      "key": "shaker__aigen_5",
+      "category": "shaker",
+      "instance": "shaker_5",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "condiment",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/shaker/shaker_5/model.xml",
+      "bbox_half": [
+        0.02449,
+        0.02435,
+        0.04441
+      ]
+    },
+    {
+      "key": "garlic__objaverse_0",
+      "category": "garlic",
+      "instance": "garlic_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/garlic/garlic_0/model.xml",
+      "bbox_half": [
+        0.0241,
+        0.02399,
+        0.03575
+      ]
+    },
+    {
+      "key": "garlic__objaverse_5",
+      "category": "garlic",
+      "instance": "garlic_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/garlic/garlic_5/model.xml",
+      "bbox_half": [
+        0.02778,
+        0.02769,
+        0.02289
+      ]
+    },
+    {
+      "key": "garlic__objaverse_4",
+      "category": "garlic",
+      "instance": "garlic_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/garlic/garlic_4/model.xml",
+      "bbox_half": [
+        0.03274,
+        0.03182,
+        0.0385
+      ]
+    },
+    {
+      "key": "garlic__objaverse_1",
+      "category": "garlic",
+      "instance": "garlic_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/garlic/garlic_1/model.xml",
+      "bbox_half": [
+        0.0331,
+        0.03028,
+        0.0385
+      ]
+    },
+    {
+      "key": "garlic__objaverse_2",
+      "category": "garlic",
+      "instance": "garlic_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/garlic/garlic_2/model.xml",
+      "bbox_half": [
+        0.03745,
+        0.03723,
+        0.03992
+      ]
+    },
+    {
+      "key": "garlic__aigen_6",
+      "category": "garlic",
+      "instance": "garlic_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.3,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/garlic/garlic_6/model.xml",
+      "bbox_half": [
+        0.02857,
+        0.02987,
+        0.03299
+      ]
+    },
+    {
+      "key": "garlic__aigen_12",
+      "category": "garlic",
+      "instance": "garlic_12",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.3,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/garlic/garlic_12/model.xml",
+      "bbox_half": [
+        0.03082,
+        0.03056,
+        0.03299
+      ]
+    },
+    {
+      "key": "garlic__aigen_1",
+      "category": "garlic",
+      "instance": "garlic_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.3,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/garlic/garlic_1/model.xml",
+      "bbox_half": [
+        0.0321,
+        0.03028,
+        0.03299
+      ]
+    },
+    {
+      "key": "rolling_pin__objaverse_4",
+      "category": "rolling_pin",
+      "instance": "rolling_pin_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "tool",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/rolling_pin/rolling_pin_4/model.xml",
+      "bbox_half": [
+        0.02424,
+        0.13125,
+        0.02399
+      ]
+    },
+    {
+      "key": "rolling_pin__objaverse_5",
+      "category": "rolling_pin",
+      "instance": "rolling_pin_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "tool",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/rolling_pin/rolling_pin_5/model.xml",
+      "bbox_half": [
+        0.02166,
+        0.13245,
+        0.02176
+      ]
+    },
+    {
+      "key": "rolling_pin__objaverse_1",
+      "category": "rolling_pin",
+      "instance": "rolling_pin_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "tool",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/rolling_pin/rolling_pin_1/model.xml",
+      "bbox_half": [
+        0.02406,
+        0.13844,
+        0.02406
+      ]
+    },
+    {
+      "key": "rolling_pin__objaverse_0",
+      "category": "rolling_pin",
+      "instance": "rolling_pin_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "tool",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/rolling_pin/rolling_pin_0/model.xml",
+      "bbox_half": [
+        0.02096,
+        0.14375,
+        0.02096
+      ]
+    },
+    {
+      "key": "rolling_pin__objaverse_3",
+      "category": "rolling_pin",
+      "instance": "rolling_pin_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "tool",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/rolling_pin/rolling_pin_3/model.xml",
+      "bbox_half": [
+        0.01669,
+        0.14375,
+        0.01669
+      ]
+    },
+    {
+      "key": "rolling_pin__aigen_2",
+      "category": "rolling_pin",
+      "instance": "rolling_pin_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "tool",
+      "applied_scale": 1.6,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/rolling_pin/rolling_pin_2/model.xml",
+      "bbox_half": [
+        0.02029,
+        0.09745,
+        0.02182
+      ]
+    },
+    {
+      "key": "rolling_pin__aigen_0",
+      "category": "rolling_pin",
+      "instance": "rolling_pin_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "tool",
+      "applied_scale": 1.6,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/rolling_pin/rolling_pin_0/model.xml",
+      "bbox_half": [
+        0.02106,
+        0.1137,
+        0.02206
+      ]
+    },
+    {
+      "key": "rolling_pin__aigen_1",
+      "category": "rolling_pin",
+      "instance": "rolling_pin_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "tool",
+      "applied_scale": 1.6,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/rolling_pin/rolling_pin_1/model.xml",
+      "bbox_half": [
+        0.02419,
+        0.1137,
+        0.02376
+      ]
+    },
+    {
+      "key": "egg__objaverse_4",
+      "category": "egg",
+      "instance": "egg_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.85,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/egg/egg_4/model.xml",
+      "bbox_half": [
+        0.02424,
+        0.02418,
+        0.03349
+      ]
+    },
+    {
+      "key": "egg__objaverse_7",
+      "category": "egg",
+      "instance": "egg_7",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.85,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/egg/egg_7/model.xml",
+      "bbox_half": [
+        0.02659,
+        0.02785,
+        0.03357
+      ]
+    },
+    {
+      "key": "egg__objaverse_8",
+      "category": "egg",
+      "instance": "egg_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.85,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/egg/egg_8/model.xml",
+      "bbox_half": [
+        0.02835,
+        0.02815,
+        0.0334
+      ]
+    },
+    {
+      "key": "egg__objaverse_5",
+      "category": "egg",
+      "instance": "egg_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.85,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/egg/egg_5/model.xml",
+      "bbox_half": [
+        0.02426,
+        0.0312,
+        0.02435
+      ]
+    },
+    {
+      "key": "egg__objaverse_13",
+      "category": "egg",
+      "instance": "egg_13",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.85,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/egg/egg_13/model.xml",
+      "bbox_half": [
+        0.02437,
+        0.0313,
+        0.0241
+      ]
+    },
+    {
+      "key": "egg__aigen_0",
+      "category": "egg",
+      "instance": "egg_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/egg/egg_0/model.xml",
+      "bbox_half": [
+        0.02796,
+        0.03794,
+        0.02775
+      ]
+    },
+    {
+      "key": "egg__aigen_1",
+      "category": "egg",
+      "instance": "egg_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/egg/egg_1/model.xml",
+      "bbox_half": [
+        0.02778,
+        0.03794,
+        0.02775
+      ]
+    },
+    {
+      "key": "egg__aigen_10",
+      "category": "egg",
+      "instance": "egg_10",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/egg/egg_10/model.xml",
+      "bbox_half": [
+        0.02587,
+        0.03794,
+        0.02605
+      ]
+    },
+    {
+      "key": "bottled_water__objaverse_17",
+      "category": "bottled_water",
+      "instance": "bottled_water_17",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bottled_water/bottled_water_17/model.xml",
+      "bbox_half": [
+        0.02327,
+        0.02312,
+        0.08716
+      ]
+    },
+    {
+      "key": "bottled_water__objaverse_3",
+      "category": "bottled_water",
+      "instance": "bottled_water_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bottled_water/bottled_water_3/model.xml",
+      "bbox_half": [
+        0.02358,
+        0.02327,
+        0.08238
+      ]
+    },
+    {
+      "key": "bottled_water__objaverse_8",
+      "category": "bottled_water",
+      "instance": "bottled_water_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bottled_water/bottled_water_8/model.xml",
+      "bbox_half": [
+        0.02365,
+        0.02315,
+        0.08219
+      ]
+    },
+    {
+      "key": "bottled_water__objaverse_11",
+      "category": "bottled_water",
+      "instance": "bottled_water_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bottled_water/bottled_water_11/model.xml",
+      "bbox_half": [
+        0.02401,
+        0.02383,
+        0.08756
+      ]
+    },
+    {
+      "key": "bottled_water__objaverse_16",
+      "category": "bottled_water",
+      "instance": "bottled_water_16",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bottled_water/bottled_water_16/model.xml",
+      "bbox_half": [
+        0.02325,
+        0.0243,
+        0.09298
+      ]
+    },
+    {
+      "key": "bottled_water__aigen_0",
+      "category": "bottled_water",
+      "instance": "bottled_water_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.3,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bottled_water/bottled_water_0/model.xml",
+      "bbox_half": [
+        0.02247,
+        0.02224,
+        0.07918
+      ]
+    },
+    {
+      "key": "bottled_water__aigen_6",
+      "category": "bottled_water",
+      "instance": "bottled_water_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.3,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bottled_water/bottled_water_6/model.xml",
+      "bbox_half": [
+        0.02501,
+        0.02429,
+        0.07258
+      ]
+    },
+    {
+      "key": "bottled_water__aigen_7",
+      "category": "bottled_water",
+      "instance": "bottled_water_7",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.3,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bottled_water/bottled_water_7/model.xml",
+      "bbox_half": [
+        0.02501,
+        0.02468,
+        0.07918
+      ]
+    },
+    {
+      "key": "ladle__objaverse_0",
+      "category": "ladle",
+      "instance": "ladle_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "utensil",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ladle/ladle_0/model.xml",
+      "bbox_half": [
+        0.03492,
+        0.11446,
+        0.06058
+      ]
+    },
+    {
+      "key": "ladle__objaverse_4",
+      "category": "ladle",
+      "instance": "ladle_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "utensil",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ladle/ladle_4/model.xml",
+      "bbox_half": [
+        0.03492,
+        0.1155,
+        0.03494
+      ]
+    },
+    {
+      "key": "ladle__objaverse_2",
+      "category": "ladle",
+      "instance": "ladle_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "utensil",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ladle/ladle_2/model.xml",
+      "bbox_half": [
+        0.0288,
+        0.11643,
+        0.03761
+      ]
+    },
+    {
+      "key": "ladle__objaverse_3",
+      "category": "ladle",
+      "instance": "ladle_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "utensil",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ladle/ladle_3/model.xml",
+      "bbox_half": [
+        0.0225,
+        0.12682,
+        0.02816
+      ]
+    },
+    {
+      "key": "ladle__objaverse_1",
+      "category": "ladle",
+      "instance": "ladle_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "utensil",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/ladle/ladle_1/model.xml",
+      "bbox_half": [
+        0.02874,
+        0.14919,
+        0.06522
+      ]
+    },
+    {
+      "key": "ladle__aigen_0",
+      "category": "ladle",
+      "instance": "ladle_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "utensil",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ladle/ladle_0/model.xml",
+      "bbox_half": [
+        0.02721,
+        0.07614,
+        0.03523
+      ]
+    },
+    {
+      "key": "ladle__aigen_6",
+      "category": "ladle",
+      "instance": "ladle_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "utensil",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ladle/ladle_6/model.xml",
+      "bbox_half": [
+        0.03302,
+        0.07614,
+        0.03295
+      ]
+    },
+    {
+      "key": "ladle__aigen_1",
+      "category": "ladle",
+      "instance": "ladle_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "utensil",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ladle/ladle_1/model.xml",
+      "bbox_half": [
+        0.03671,
+        0.08375,
+        0.04375
+      ]
+    },
+    {
+      "key": "fish__objaverse_2",
+      "category": "fish",
+      "instance": "fish_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        1.5
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/fish/fish_2/model.xml",
+      "bbox_half": [
+        0.03442,
+        0.07447,
+        0.05144
+      ]
+    },
+    {
+      "key": "fish__objaverse_3",
+      "category": "fish",
+      "instance": "fish_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        1.5
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/fish/fish_3/model.xml",
+      "bbox_half": [
+        0.02812,
+        0.08377,
+        0.04692
+      ]
+    },
+    {
+      "key": "fish__objaverse_4",
+      "category": "fish",
+      "instance": "fish_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        1.5
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/fish/fish_4/model.xml",
+      "bbox_half": [
+        0.02945,
+        0.08396,
+        0.05141
+      ]
+    },
+    {
+      "key": "fish__objaverse_1",
+      "category": "fish",
+      "instance": "fish_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        1.5
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/fish/fish_1/model.xml",
+      "bbox_half": [
+        0.02239,
+        0.0843,
+        0.01757
+      ]
+    },
+    {
+      "key": "fish__objaverse_0",
+      "category": "fish",
+      "instance": "fish_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        1.5
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/fish/fish_0/model.xml",
+      "bbox_half": [
+        0.02672,
+        0.08446,
+        0.01552
+      ]
+    },
+    {
+      "key": "fish__aigen_0",
+      "category": "fish",
+      "instance": "fish_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.35,
+        1.35,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/fish/fish_0/model.xml",
+      "bbox_half": [
+        0.04287,
+        0.08908,
+        0.0453
+      ]
+    },
+    {
+      "key": "fish__aigen_1",
+      "category": "fish",
+      "instance": "fish_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.35,
+        1.35,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/fish/fish_1/model.xml",
+      "bbox_half": [
+        0.03806,
+        0.08908,
+        0.03152
+      ]
+    },
+    {
+      "key": "fish__aigen_2",
+      "category": "fish",
+      "instance": "fish_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.35,
+        1.35,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/fish/fish_2/model.xml",
+      "bbox_half": [
+        0.03821,
+        0.08908,
+        0.03152
+      ]
+    },
+    {
+      "key": "teapot__objaverse_13",
+      "category": "teapot",
+      "instance": "teapot_13",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/teapot/teapot_13/model.xml",
+      "bbox_half": [
+        0.0632,
+        0.07018,
+        0.07243
+      ]
+    },
+    {
+      "key": "teapot__objaverse_15",
+      "category": "teapot",
+      "instance": "teapot_15",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/teapot/teapot_15/model.xml",
+      "bbox_half": [
+        0.06394,
+        0.07245,
+        0.06943
+      ]
+    },
+    {
+      "key": "teapot__objaverse_5",
+      "category": "teapot",
+      "instance": "teapot_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/teapot/teapot_5/model.xml",
+      "bbox_half": [
+        0.05274,
+        0.07863,
+        0.05265
+      ]
+    },
+    {
+      "key": "teapot__objaverse_4",
+      "category": "teapot",
+      "instance": "teapot_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/teapot/teapot_4/model.xml",
+      "bbox_half": [
+        0.06336,
+        0.07874,
+        0.06934
+      ]
+    },
+    {
+      "key": "teapot__objaverse_6",
+      "category": "teapot",
+      "instance": "teapot_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/teapot/teapot_6/model.xml",
+      "bbox_half": [
+        0.05006,
+        0.07883,
+        0.04581
+      ]
+    },
+    {
+      "key": "teapot__aigen_1",
+      "category": "teapot",
+      "instance": "teapot_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/teapot/teapot_1/model.xml",
+      "bbox_half": [
+        0.0446,
+        0.08883,
+        0.07822
+      ]
+    },
+    {
+      "key": "teapot__aigen_2",
+      "category": "teapot",
+      "instance": "teapot_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/teapot/teapot_2/model.xml",
+      "bbox_half": [
+        0.05688,
+        0.08883,
+        0.06894
+      ]
+    },
+    {
+      "key": "teapot__aigen_4",
+      "category": "teapot",
+      "instance": "teapot_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/teapot/teapot_4/model.xml",
+      "bbox_half": [
+        0.0571,
+        0.08883,
+        0.07027
+      ]
+    },
+    {
+      "key": "sponge__objaverse_3",
+      "category": "sponge",
+      "instance": "sponge_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/sponge/sponge_3/model.xml",
+      "bbox_half": [
+        0.03035,
+        0.04042,
+        0.01919
+      ]
+    },
+    {
+      "key": "sponge__objaverse_4",
+      "category": "sponge",
+      "instance": "sponge_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/sponge/sponge_4/model.xml",
+      "bbox_half": [
+        0.02994,
+        0.04237,
+        0.01244
+      ]
+    },
+    {
+      "key": "sponge__objaverse_2",
+      "category": "sponge",
+      "instance": "sponge_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/sponge/sponge_2/model.xml",
+      "bbox_half": [
+        0.03437,
+        0.04432,
+        0.01351
+      ]
+    },
+    {
+      "key": "sponge__objaverse_5",
+      "category": "sponge",
+      "instance": "sponge_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/sponge/sponge_5/model.xml",
+      "bbox_half": [
+        0.03275,
+        0.04922,
+        0.01247
+      ]
+    },
+    {
+      "key": "sponge__objaverse_8",
+      "category": "sponge",
+      "instance": "sponge_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/sponge/sponge_8/model.xml",
+      "bbox_half": [
+        0.03529,
+        0.04928,
+        0.01337
+      ]
+    },
+    {
+      "key": "sponge__aigen_2",
+      "category": "sponge",
+      "instance": "sponge_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.2,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/sponge/sponge_2/model.xml",
+      "bbox_half": [
+        0.03838,
+        0.03737,
+        0.03375
+      ]
+    },
+    {
+      "key": "sponge__aigen_3",
+      "category": "sponge",
+      "instance": "sponge_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.2,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/sponge/sponge_3/model.xml",
+      "bbox_half": [
+        0.03864,
+        0.03676,
+        0.04073
+      ]
+    },
+    {
+      "key": "sponge__aigen_0",
+      "category": "sponge",
+      "instance": "sponge_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.2,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/sponge/sponge_0/model.xml",
+      "bbox_half": [
+        0.03052,
+        0.04264,
+        0.01527
+      ]
+    },
+    {
+      "key": "donut__objaverse_9",
+      "category": "donut",
+      "instance": "donut_9",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/donut/donut_9/model.xml",
+      "bbox_half": [
+        0.04548,
+        0.04924,
+        0.02057
+      ]
+    },
+    {
+      "key": "donut__objaverse_8",
+      "category": "donut",
+      "instance": "donut_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/donut/donut_8/model.xml",
+      "bbox_half": [
+        0.05361,
+        0.05378,
+        0.02507
+      ]
+    },
+    {
+      "key": "donut__objaverse_5",
+      "category": "donut",
+      "instance": "donut_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/donut/donut_5/model.xml",
+      "bbox_half": [
+        0.05785,
+        0.05801,
+        0.02306
+      ]
+    },
+    {
+      "key": "donut__objaverse_12",
+      "category": "donut",
+      "instance": "donut_12",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/donut/donut_12/model.xml",
+      "bbox_half": [
+        0.05805,
+        0.05597,
+        0.02169
+      ]
+    },
+    {
+      "key": "donut__objaverse_2",
+      "category": "donut",
+      "instance": "donut_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/donut/donut_2/model.xml",
+      "bbox_half": [
+        0.05805,
+        0.05754,
+        0.02268
+      ]
+    },
+    {
+      "key": "donut__aigen_0",
+      "category": "donut",
+      "instance": "donut_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/donut/donut_0/model.xml",
+      "bbox_half": [
+        0.04254,
+        0.04369,
+        0.04023
+      ]
+    },
+    {
+      "key": "donut__aigen_1",
+      "category": "donut",
+      "instance": "donut_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/donut/donut_1/model.xml",
+      "bbox_half": [
+        0.04546,
+        0.04683,
+        0.02962
+      ]
+    },
+    {
+      "key": "donut__aigen_3",
+      "category": "donut",
+      "instance": "donut_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/donut/donut_3/model.xml",
+      "bbox_half": [
+        0.04694,
+        0.04568,
+        0.02152
+      ]
+    },
+    {
+      "key": "hot_dog__objaverse_5",
+      "category": "hot_dog",
+      "instance": "hot_dog_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/hot_dog/hot_dog_5/model.xml",
+      "bbox_half": [
+        0.02913,
+        0.06789,
+        0.02374
+      ]
+    },
+    {
+      "key": "hot_dog__objaverse_2",
+      "category": "hot_dog",
+      "instance": "hot_dog_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/hot_dog/hot_dog_2/model.xml",
+      "bbox_half": [
+        0.02906,
+        0.07323,
+        0.02964
+      ]
+    },
+    {
+      "key": "hot_dog__objaverse_0",
+      "category": "hot_dog",
+      "instance": "hot_dog_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/hot_dog/hot_dog_0/model.xml",
+      "bbox_half": [
+        0.03251,
+        0.07555,
+        0.0261
+      ]
+    },
+    {
+      "key": "hot_dog__objaverse_6",
+      "category": "hot_dog",
+      "instance": "hot_dog_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/hot_dog/hot_dog_6/model.xml",
+      "bbox_half": [
+        0.02673,
+        0.07568,
+        0.02424
+      ]
+    },
+    {
+      "key": "hot_dog__objaverse_4",
+      "category": "hot_dog",
+      "instance": "hot_dog_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/hot_dog/hot_dog_4/model.xml",
+      "bbox_half": [
+        0.03041,
+        0.0757,
+        0.0276
+      ]
+    },
+    {
+      "key": "hot_dog__aigen_10",
+      "category": "hot_dog",
+      "instance": "hot_dog_10",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.4,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/hot_dog/hot_dog_10/model.xml",
+      "bbox_half": [
+        0.03108,
+        0.06334,
+        0.03711
+      ]
+    },
+    {
+      "key": "hot_dog__aigen_0",
+      "category": "hot_dog",
+      "instance": "hot_dog_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.4,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/hot_dog/hot_dog_0/model.xml",
+      "bbox_half": [
+        0.0244,
+        0.06395,
+        0.021
+      ]
+    },
+    {
+      "key": "hot_dog__aigen_1",
+      "category": "hot_dog",
+      "instance": "hot_dog_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.4,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/hot_dog/hot_dog_1/model.xml",
+      "bbox_half": [
+        0.02751,
+        0.06395,
+        0.02673
+      ]
+    },
+    {
+      "key": "candle__objaverse_6",
+      "category": "candle",
+      "instance": "candle_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "decoration",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/candle/candle_6/model.xml",
+      "bbox_half": [
+        0.02119,
+        0.02119,
+        0.07555
+      ]
+    },
+    {
+      "key": "candle__objaverse_8",
+      "category": "candle",
+      "instance": "candle_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "decoration",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/candle/candle_8/model.xml",
+      "bbox_half": [
+        0.02209,
+        0.02209,
+        0.085
+      ]
+    },
+    {
+      "key": "candle__objaverse_4",
+      "category": "candle",
+      "instance": "candle_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "decoration",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/candle/candle_4/model.xml",
+      "bbox_half": [
+        0.02324,
+        0.02324,
+        0.08056
+      ]
+    },
+    {
+      "key": "candle__objaverse_10",
+      "category": "candle",
+      "instance": "candle_10",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "decoration",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/candle/candle_10/model.xml",
+      "bbox_half": [
+        0.02424,
+        0.02495,
+        0.05032
+      ]
+    },
+    {
+      "key": "candle__objaverse_12",
+      "category": "candle",
+      "instance": "candle_12",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "decoration",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/candle/candle_12/model.xml",
+      "bbox_half": [
+        0.02666,
+        0.02666,
+        0.105
+      ]
+    },
+    {
+      "key": "candle__aigen_2",
+      "category": "candle",
+      "instance": "candle_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "decoration",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/candle/candle_2/model.xml",
+      "bbox_half": [
+        0.02616,
+        0.02531,
+        0.06091
+      ]
+    },
+    {
+      "key": "candle__aigen_9",
+      "category": "candle",
+      "instance": "candle_9",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "decoration",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/candle/candle_9/model.xml",
+      "bbox_half": [
+        0.02645,
+        0.02728,
+        0.06852
+      ]
+    },
+    {
+      "key": "candle__aigen_4",
+      "category": "candle",
+      "instance": "candle_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "decoration",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/candle/candle_4/model.xml",
+      "bbox_half": [
+        0.0298,
+        0.02745,
+        0.06852
+      ]
+    },
+    {
+      "key": "pear__objaverse_6",
+      "category": "pear",
+      "instance": "pear_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pear/pear_6/model.xml",
+      "bbox_half": [
+        0.03384,
+        0.045,
+        0.03324
+      ]
+    },
+    {
+      "key": "pear__objaverse_15",
+      "category": "pear",
+      "instance": "pear_15",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pear/pear_15/model.xml",
+      "bbox_half": [
+        0.03417,
+        0.05,
+        0.03298
+      ]
+    },
+    {
+      "key": "pear__objaverse_12",
+      "category": "pear",
+      "instance": "pear_12",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pear/pear_12/model.xml",
+      "bbox_half": [
+        0.03438,
+        0.05024,
+        0.0342
+      ]
+    },
+    {
+      "key": "pear__objaverse_17",
+      "category": "pear",
+      "instance": "pear_17",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pear/pear_17/model.xml",
+      "bbox_half": [
+        0.03604,
+        0.05043,
+        0.03592
+      ]
+    },
+    {
+      "key": "pear__objaverse_8",
+      "category": "pear",
+      "instance": "pear_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/pear/pear_8/model.xml",
+      "bbox_half": [
+        0.03001,
+        0.05043,
+        0.03648
+      ]
+    },
+    {
+      "key": "pear__aigen_0",
+      "category": "pear",
+      "instance": "pear_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/pear/pear_0/model.xml",
+      "bbox_half": [
+        0.03494,
+        0.04822,
+        0.03527
+      ]
+    },
+    {
+      "key": "pear__aigen_1",
+      "category": "pear",
+      "instance": "pear_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/pear/pear_1/model.xml",
+      "bbox_half": [
+        0.03274,
+        0.04822,
+        0.03239
+      ]
+    },
+    {
+      "key": "pear__aigen_10",
+      "category": "pear",
+      "instance": "pear_10",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/pear/pear_10/model.xml",
+      "bbox_half": [
+        0.03315,
+        0.04822,
+        0.03311
+      ]
+    },
+    {
+      "key": "jam__objaverse_1",
+      "category": "jam",
+      "instance": "jam_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jam/jam_1/model.xml",
+      "bbox_half": [
+        0.02824,
+        0.02824,
+        0.03375
+      ]
+    },
+    {
+      "key": "jam__objaverse_6",
+      "category": "jam",
+      "instance": "jam_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jam/jam_6/model.xml",
+      "bbox_half": [
+        0.02824,
+        0.02824,
+        0.03375
+      ]
+    },
+    {
+      "key": "jam__objaverse_5",
+      "category": "jam",
+      "instance": "jam_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jam/jam_5/model.xml",
+      "bbox_half": [
+        0.03178,
+        0.03117,
+        0.03412
+      ]
+    },
+    {
+      "key": "jam__objaverse_0",
+      "category": "jam",
+      "instance": "jam_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jam/jam_0/model.xml",
+      "bbox_half": [
+        0.03396,
+        0.03398,
+        0.02797
+      ]
+    },
+    {
+      "key": "jam__objaverse_2",
+      "category": "jam",
+      "instance": "jam_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jam/jam_2/model.xml",
+      "bbox_half": [
+        0.03396,
+        0.03398,
+        0.02797
+      ]
+    },
+    {
+      "key": "jam__aigen_14",
+      "category": "jam",
+      "instance": "jam_14",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/jam/jam_14/model.xml",
+      "bbox_half": [
+        0.02313,
+        0.0233,
+        0.03731
+      ]
+    },
+    {
+      "key": "jam__aigen_12",
+      "category": "jam",
+      "instance": "jam_12",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/jam/jam_12/model.xml",
+      "bbox_half": [
+        0.02397,
+        0.0232,
+        0.03731
+      ]
+    },
+    {
+      "key": "jam__aigen_15",
+      "category": "jam",
+      "instance": "jam_15",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": 1.05,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/jam/jam_15/model.xml",
+      "bbox_half": [
+        0.02413,
+        0.02389,
+        0.04264
+      ]
+    },
+    {
+      "key": "bread__objaverse_0",
+      "category": "bread",
+      "instance": "bread_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.7,
+        0.7,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bread/bread_0/model.xml",
+      "bbox_half": [
+        0.04124,
+        0.0403,
+        0.03275
+      ]
+    },
+    {
+      "key": "bread__objaverse_19",
+      "category": "bread",
+      "instance": "bread_19",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.7,
+        0.7,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bread/bread_19/model.xml",
+      "bbox_half": [
+        0.04167,
+        0.04316,
+        0.03071
+      ]
+    },
+    {
+      "key": "bread__objaverse_2",
+      "category": "bread",
+      "instance": "bread_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.7,
+        0.7,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bread/bread_2/model.xml",
+      "bbox_half": [
+        0.04108,
+        0.04343,
+        0.03734
+      ]
+    },
+    {
+      "key": "bread__objaverse_21",
+      "category": "bread",
+      "instance": "bread_21",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.7,
+        0.7,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bread/bread_21/model.xml",
+      "bbox_half": [
+        0.03022,
+        0.04364,
+        0.03535
+      ]
+    },
+    {
+      "key": "bread__objaverse_4",
+      "category": "bread",
+      "instance": "bread_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.7,
+        0.7,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bread/bread_4/model.xml",
+      "bbox_half": [
+        0.04228,
+        0.04463,
+        0.03439
+      ]
+    },
+    {
+      "key": "bread__aigen_5",
+      "category": "bread",
+      "instance": "bread_5",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.8,
+        0.8,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bread/bread_5/model.xml",
+      "bbox_half": [
+        0.02962,
+        0.03972,
+        0.03561
+      ]
+    },
+    {
+      "key": "bread__aigen_8",
+      "category": "bread",
+      "instance": "bread_8",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.8,
+        0.8,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bread/bread_8/model.xml",
+      "bbox_half": [
+        0.03178,
+        0.04041,
+        0.02727
+      ]
+    },
+    {
+      "key": "bread__aigen_0",
+      "category": "bread",
+      "instance": "bread_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.8,
+        0.8,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bread/bread_0/model.xml",
+      "bbox_half": [
+        0.02728,
+        0.04061,
+        0.01624
+      ]
+    },
+    {
+      "key": "squash__objaverse_3",
+      "category": "squash",
+      "instance": "squash_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/squash/squash_3/model.xml",
+      "bbox_half": [
+        0.03245,
+        0.03252,
+        0.0425
+      ]
+    },
+    {
+      "key": "squash__objaverse_13",
+      "category": "squash",
+      "instance": "squash_13",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/squash/squash_13/model.xml",
+      "bbox_half": [
+        0.03687,
+        0.0375,
+        0.02991
+      ]
+    },
+    {
+      "key": "squash__objaverse_16",
+      "category": "squash",
+      "instance": "squash_16",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/squash/squash_16/model.xml",
+      "bbox_half": [
+        0.0375,
+        0.03681,
+        0.03262
+      ]
+    },
+    {
+      "key": "squash__objaverse_0",
+      "category": "squash",
+      "instance": "squash_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/squash/squash_0/model.xml",
+      "bbox_half": [
+        0.03621,
+        0.03787,
+        0.03544
+      ]
+    },
+    {
+      "key": "squash__objaverse_1",
+      "category": "squash",
+      "instance": "squash_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/squash/squash_1/model.xml",
+      "bbox_half": [
+        0.0402,
+        0.04041,
+        0.02593
+      ]
+    },
+    {
+      "key": "squash__objaverse_5",
+      "category": "squash",
+      "instance": "squash_5",
+      "source": "objaverse",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/squash/squash_5/model.xml",
+      "bbox_half": [
+        0.03471,
+        0.06249,
+        0.03332
+      ]
+    },
+    {
+      "key": "squash__objaverse_7",
+      "category": "squash",
+      "instance": "squash_7",
+      "source": "objaverse",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/squash/squash_7/model.xml",
+      "bbox_half": [
+        0.02933,
+        0.0675,
+        0.02943
+      ]
+    },
+    {
+      "key": "squash__objaverse_15",
+      "category": "squash",
+      "instance": "squash_15",
+      "source": "objaverse",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/squash/squash_15/model.xml",
+      "bbox_half": [
+        0.02288,
+        0.08804,
+        0.02053
+      ]
+    },
+    {
+      "key": "yogurt__objaverse_3",
+      "category": "yogurt",
+      "instance": "yogurt_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/yogurt/yogurt_3/model.xml",
+      "bbox_half": [
+        0.0281,
+        0.02814,
+        0.04488
+      ]
+    },
+    {
+      "key": "yogurt__objaverse_1",
+      "category": "yogurt",
+      "instance": "yogurt_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/yogurt/yogurt_1/model.xml",
+      "bbox_half": [
+        0.0351,
+        0.0351,
+        0.0246
+      ]
+    },
+    {
+      "key": "yogurt__objaverse_2",
+      "category": "yogurt",
+      "instance": "yogurt_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/yogurt/yogurt_2/model.xml",
+      "bbox_half": [
+        0.03431,
+        0.04027,
+        0.01997
+      ]
+    },
+    {
+      "key": "yogurt__aigen_0",
+      "category": "yogurt",
+      "instance": "yogurt_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/yogurt/yogurt_0/model.xml",
+      "bbox_half": [
+        0.03097,
+        0.03083,
+        0.03299
+      ]
+    },
+    {
+      "key": "yogurt__aigen_2",
+      "category": "yogurt",
+      "instance": "yogurt_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/yogurt/yogurt_2/model.xml",
+      "bbox_half": [
+        0.03233,
+        0.03299,
+        0.03201
+      ]
+    },
+    {
+      "key": "yogurt__aigen_3",
+      "category": "yogurt",
+      "instance": "yogurt_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/yogurt/yogurt_3/model.xml",
+      "bbox_half": [
+        0.03299,
+        0.03287,
+        0.02068
+      ]
+    },
+    {
+      "key": "boxed_drink__objaverse_7",
+      "category": "boxed_drink",
+      "instance": "boxed_drink_7",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 0.8,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_drink/boxed_drink_7/model.xml",
+      "bbox_half": [
+        0.0213,
+        0.01636,
+        0.06862
+      ]
+    },
+    {
+      "key": "boxed_drink__objaverse_1",
+      "category": "boxed_drink",
+      "instance": "boxed_drink_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 0.8,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_drink/boxed_drink_1/model.xml",
+      "bbox_half": [
+        0.02303,
+        0.02041,
+        0.05054
+      ]
+    },
+    {
+      "key": "boxed_drink__objaverse_4",
+      "category": "boxed_drink",
+      "instance": "boxed_drink_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 0.8,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_drink/boxed_drink_4/model.xml",
+      "bbox_half": [
+        0.02303,
+        0.02041,
+        0.05054
+      ]
+    },
+    {
+      "key": "boxed_drink__objaverse_5",
+      "category": "boxed_drink",
+      "instance": "boxed_drink_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 0.8,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_drink/boxed_drink_5/model.xml",
+      "bbox_half": [
+        0.02388,
+        0.02038,
+        0.0606
+      ]
+    },
+    {
+      "key": "boxed_drink__objaverse_2",
+      "category": "boxed_drink",
+      "instance": "boxed_drink_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 0.8,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/boxed_drink/boxed_drink_2/model.xml",
+      "bbox_half": [
+        0.02488,
+        0.02204,
+        0.05458
+      ]
+    },
+    {
+      "key": "boxed_drink__aigen_12",
+      "category": "boxed_drink",
+      "instance": "boxed_drink_12",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/boxed_drink/boxed_drink_12/model.xml",
+      "bbox_half": [
+        0.01977,
+        0.01991,
+        0.05304
+      ]
+    },
+    {
+      "key": "boxed_drink__aigen_10",
+      "category": "boxed_drink",
+      "instance": "boxed_drink_10",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/boxed_drink/boxed_drink_10/model.xml",
+      "bbox_half": [
+        0.02013,
+        0.01957,
+        0.05304
+      ]
+    },
+    {
+      "key": "boxed_drink__aigen_2",
+      "category": "boxed_drink",
+      "instance": "boxed_drink_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "drink",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/boxed_drink/boxed_drink_2/model.xml",
+      "bbox_half": [
+        0.02149,
+        0.0214,
+        0.05304
+      ]
+    },
+    {
+      "key": "steak__objaverse_14",
+      "category": "steak",
+      "instance": "steak_14",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/steak/steak_14/model.xml",
+      "bbox_half": [
+        0.02709,
+        0.05546,
+        0.05632
+      ]
+    },
+    {
+      "key": "steak__objaverse_8",
+      "category": "steak",
+      "instance": "steak_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/steak/steak_8/model.xml",
+      "bbox_half": [
+        0.047,
+        0.05841,
+        0.0247
+      ]
+    },
+    {
+      "key": "steak__objaverse_5",
+      "category": "steak",
+      "instance": "steak_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/steak/steak_5/model.xml",
+      "bbox_half": [
+        0.04251,
+        0.06117,
+        0.0145
+      ]
+    },
+    {
+      "key": "steak__objaverse_2",
+      "category": "steak",
+      "instance": "steak_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/steak/steak_2/model.xml",
+      "bbox_half": [
+        0.04387,
+        0.06163,
+        0.0182
+      ]
+    },
+    {
+      "key": "steak__objaverse_11",
+      "category": "steak",
+      "instance": "steak_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/steak/steak_11/model.xml",
+      "bbox_half": [
+        0.05232,
+        0.06193,
+        0.02671
+      ]
+    },
+    {
+      "key": "steak__aigen_7",
+      "category": "steak",
+      "instance": "steak_7",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/steak/steak_7/model.xml",
+      "bbox_half": [
+        0.04038,
+        0.03865,
+        0.08519
+      ]
+    },
+    {
+      "key": "steak__aigen_5",
+      "category": "steak",
+      "instance": "steak_5",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/steak/steak_5/model.xml",
+      "bbox_half": [
+        0.04061,
+        0.03861,
+        0.02182
+      ]
+    },
+    {
+      "key": "steak__aigen_6",
+      "category": "steak",
+      "instance": "steak_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/steak/steak_6/model.xml",
+      "bbox_half": [
+        0.04061,
+        0.03669,
+        0.03394
+      ]
+    },
+    {
+      "key": "jug__objaverse_2",
+      "category": "jug",
+      "instance": "jug_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jug/jug_2/model.xml",
+      "bbox_half": [
+        0.06037,
+        0.05065,
+        0.09099
+      ]
+    },
+    {
+      "key": "jug__objaverse_0",
+      "category": "jug",
+      "instance": "jug_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jug/jug_0/model.xml",
+      "bbox_half": [
+        0.05425,
+        0.06491,
+        0.09064
+      ]
+    },
+    {
+      "key": "jug__objaverse_8",
+      "category": "jug",
+      "instance": "jug_8",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jug/jug_8/model.xml",
+      "bbox_half": [
+        0.06742,
+        0.05529,
+        0.075
+      ]
+    },
+    {
+      "key": "jug__objaverse_6",
+      "category": "jug",
+      "instance": "jug_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jug/jug_6/model.xml",
+      "bbox_half": [
+        0.06961,
+        0.06382,
+        0.07575
+      ]
+    },
+    {
+      "key": "jug__objaverse_4",
+      "category": "jug",
+      "instance": "jug_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/jug/jug_4/model.xml",
+      "bbox_half": [
+        0.07039,
+        0.05423,
+        0.07577
+      ]
+    },
+    {
+      "key": "jug__aigen_4",
+      "category": "jug",
+      "instance": "jug_4",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/jug/jug_4/model.xml",
+      "bbox_half": [
+        0.05085,
+        0.0482,
+        0.07614
+      ]
+    },
+    {
+      "key": "jug__aigen_5",
+      "category": "jug",
+      "instance": "jug_5",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/jug/jug_5/model.xml",
+      "bbox_half": [
+        0.05243,
+        0.05229,
+        0.07614
+      ]
+    },
+    {
+      "key": "jug__aigen_1",
+      "category": "jug",
+      "instance": "jug_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "receptacle",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/jug/jug_1/model.xml",
+      "bbox_half": [
+        0.05412,
+        0.05204,
+        0.07614
+      ]
+    },
+    {
+      "key": "soap_dispenser__objaverse_2",
+      "category": "soap_dispenser",
+      "instance": "soap_dispenser_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/soap_dispenser/soap_dispenser_2/model.xml",
+      "bbox_half": [
+        0.02225,
+        0.02218,
+        0.07835
+      ]
+    },
+    {
+      "key": "soap_dispenser__objaverse_0",
+      "category": "soap_dispenser",
+      "instance": "soap_dispenser_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/soap_dispenser/soap_dispenser_0/model.xml",
+      "bbox_half": [
+        0.02787,
+        0.02787,
+        0.06824
+      ]
+    },
+    {
+      "key": "soap_dispenser__objaverse_1",
+      "category": "soap_dispenser",
+      "instance": "soap_dispenser_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/soap_dispenser/soap_dispenser_1/model.xml",
+      "bbox_half": [
+        0.02787,
+        0.02787,
+        0.06824
+      ]
+    },
+    {
+      "key": "soap_dispenser__objaverse_6",
+      "category": "soap_dispenser",
+      "instance": "soap_dispenser_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/soap_dispenser/soap_dispenser_6/model.xml",
+      "bbox_half": [
+        0.02764,
+        0.02959,
+        0.06824
+      ]
+    },
+    {
+      "key": "soap_dispenser__objaverse_3",
+      "category": "soap_dispenser",
+      "instance": "soap_dispenser_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/soap_dispenser/soap_dispenser_3/model.xml",
+      "bbox_half": [
+        0.03119,
+        0.03119,
+        0.06318
+      ]
+    },
+    {
+      "key": "soap_dispenser__aigen_3",
+      "category": "soap_dispenser",
+      "instance": "soap_dispenser_3",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/soap_dispenser/soap_dispenser_3/model.xml",
+      "bbox_half": [
+        0.021,
+        0.02529,
+        0.08629
+      ]
+    },
+    {
+      "key": "soap_dispenser__aigen_9",
+      "category": "soap_dispenser",
+      "instance": "soap_dispenser_9",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/soap_dispenser/soap_dispenser_9/model.xml",
+      "bbox_half": [
+        0.01837,
+        0.02645,
+        0.08629
+      ]
+    },
+    {
+      "key": "soap_dispenser__aigen_6",
+      "category": "soap_dispenser",
+      "instance": "soap_dispenser_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "cleaner",
+      "applied_scale": 1.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/soap_dispenser/soap_dispenser_6/model.xml",
+      "bbox_half": [
+        0.02151,
+        0.02804,
+        0.08629
+      ]
+    },
+    {
+      "key": "cupcake__objaverse_17",
+      "category": "cupcake",
+      "instance": "cupcake_17",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cupcake/cupcake_17/model.xml",
+      "bbox_half": [
+        0.02823,
+        0.02823,
+        0.03526
+      ]
+    },
+    {
+      "key": "cupcake__objaverse_14",
+      "category": "cupcake",
+      "instance": "cupcake_14",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cupcake/cupcake_14/model.xml",
+      "bbox_half": [
+        0.02832,
+        0.0278,
+        0.03777
+      ]
+    },
+    {
+      "key": "cupcake__objaverse_20",
+      "category": "cupcake",
+      "instance": "cupcake_20",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cupcake/cupcake_20/model.xml",
+      "bbox_half": [
+        0.03146,
+        0.03168,
+        0.03278
+      ]
+    },
+    {
+      "key": "cupcake__objaverse_12",
+      "category": "cupcake",
+      "instance": "cupcake_12",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cupcake/cupcake_12/model.xml",
+      "bbox_half": [
+        0.03241,
+        0.03238,
+        0.04783
+      ]
+    },
+    {
+      "key": "cupcake__objaverse_15",
+      "category": "cupcake",
+      "instance": "cupcake_15",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cupcake/cupcake_15/model.xml",
+      "bbox_half": [
+        0.03271,
+        0.03276,
+        0.03232
+      ]
+    },
+    {
+      "key": "cupcake__aigen_0",
+      "category": "cupcake",
+      "instance": "cupcake_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cupcake/cupcake_0/model.xml",
+      "bbox_half": [
+        0.02827,
+        0.02775,
+        0.04111
+      ]
+    },
+    {
+      "key": "cupcake__aigen_7",
+      "category": "cupcake",
+      "instance": "cupcake_7",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cupcake/cupcake_7/model.xml",
+      "bbox_half": [
+        0.03065,
+        0.03085,
+        0.04111
+      ]
+    },
+    {
+      "key": "cupcake__aigen_1",
+      "category": "cupcake",
+      "instance": "cupcake_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/cupcake/cupcake_1/model.xml",
+      "bbox_half": [
+        0.03192,
+        0.03199,
+        0.04111
+      ]
+    },
+    {
+      "key": "tangerine__objaverse_5",
+      "category": "tangerine",
+      "instance": "tangerine_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/tangerine/tangerine_5/model.xml",
+      "bbox_half": [
+        0.02942,
+        0.02721,
+        0.02871
+      ]
+    },
+    {
+      "key": "tangerine__objaverse_1",
+      "category": "tangerine",
+      "instance": "tangerine_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/tangerine/tangerine_1/model.xml",
+      "bbox_half": [
+        0.02948,
+        0.02934,
+        0.02545
+      ]
+    },
+    {
+      "key": "tangerine__objaverse_2",
+      "category": "tangerine",
+      "instance": "tangerine_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/tangerine/tangerine_2/model.xml",
+      "bbox_half": [
+        0.02948,
+        0.02834,
+        0.01952
+      ]
+    },
+    {
+      "key": "tangerine__objaverse_6",
+      "category": "tangerine",
+      "instance": "tangerine_6",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/tangerine/tangerine_6/model.xml",
+      "bbox_half": [
+        0.02954,
+        0.0294,
+        0.02161
+      ]
+    },
+    {
+      "key": "tangerine__objaverse_3",
+      "category": "tangerine",
+      "instance": "tangerine_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/tangerine/tangerine_3/model.xml",
+      "bbox_half": [
+        0.02852,
+        0.02955,
+        0.02627
+      ]
+    },
+    {
+      "key": "tangerine__aigen_6",
+      "category": "tangerine",
+      "instance": "tangerine_6",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/tangerine/tangerine_6/model.xml",
+      "bbox_half": [
+        0.02875,
+        0.02853,
+        0.03045
+      ]
+    },
+    {
+      "key": "tangerine__aigen_1",
+      "category": "tangerine",
+      "instance": "tangerine_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/tangerine/tangerine_1/model.xml",
+      "bbox_half": [
+        0.03045,
+        0.03017,
+        0.02773
+      ]
+    },
+    {
+      "key": "tangerine__aigen_10",
+      "category": "tangerine",
+      "instance": "tangerine_10",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/tangerine/tangerine_10/model.xml",
+      "bbox_half": [
+        0.03045,
+        0.03038,
+        0.02636
+      ]
+    },
+    {
+      "key": "bar__objaverse_4",
+      "category": "bar",
+      "instance": "bar_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": [
+        0.75,
+        0.75,
+        1.2
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bar/bar_4/model.xml",
+      "bbox_half": [
+        0.02177,
+        0.05543,
+        0.01589
+      ]
+    },
+    {
+      "key": "bar__objaverse_11",
+      "category": "bar",
+      "instance": "bar_11",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": [
+        0.75,
+        0.75,
+        1.2
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bar/bar_11/model.xml",
+      "bbox_half": [
+        0.0259,
+        0.06,
+        0.01583
+      ]
+    },
+    {
+      "key": "bar__objaverse_2",
+      "category": "bar",
+      "instance": "bar_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": [
+        0.75,
+        0.75,
+        1.2
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bar/bar_2/model.xml",
+      "bbox_half": [
+        0.02213,
+        0.06029,
+        0.04879
+      ]
+    },
+    {
+      "key": "bar__objaverse_3",
+      "category": "bar",
+      "instance": "bar_3",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": [
+        0.75,
+        0.75,
+        1.2
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bar/bar_3/model.xml",
+      "bbox_half": [
+        0.0274,
+        0.06355,
+        0.01682
+      ]
+    },
+    {
+      "key": "bar__objaverse_7",
+      "category": "bar",
+      "instance": "bar_7",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": [
+        0.75,
+        0.75,
+        1.2
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bar/bar_7/model.xml",
+      "bbox_half": [
+        0.02452,
+        0.06736,
+        0.011
+      ]
+    },
+    {
+      "key": "bar__aigen_0",
+      "category": "bar",
+      "instance": "bar_0",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": [
+        1.25,
+        1.25,
+        1.75
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bar/bar_0/model.xml",
+      "bbox_half": [
+        0.01656,
+        0.06027,
+        0.01637
+      ]
+    },
+    {
+      "key": "bar__aigen_1",
+      "category": "bar",
+      "instance": "bar_1",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": [
+        1.25,
+        1.25,
+        1.75
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bar/bar_1/model.xml",
+      "bbox_half": [
+        0.01358,
+        0.06027,
+        0.01259
+      ]
+    },
+    {
+      "key": "bar__aigen_2",
+      "category": "bar",
+      "instance": "bar_2",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "packaged_food",
+      "applied_scale": [
+        1.25,
+        1.25,
+        1.75
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/bar/bar_2/model.xml",
+      "bbox_half": [
+        0.01961,
+        0.06027,
+        0.02267
+      ]
+    },
+    {
+      "key": "baguette__objaverse_5",
+      "category": "baguette",
+      "instance": "baguette_5",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/baguette/baguette_5/model.xml",
+      "bbox_half": [
+        0.03093,
+        0.07883,
+        0.00898
+      ]
+    },
+    {
+      "key": "baguette__objaverse_4",
+      "category": "baguette",
+      "instance": "baguette_4",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/baguette/baguette_4/model.xml",
+      "bbox_half": [
+        0.0313,
+        0.09594,
+        0.02188
+      ]
+    },
+    {
+      "key": "baguette__objaverse_2",
+      "category": "baguette",
+      "instance": "baguette_2",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/baguette/baguette_2/model.xml",
+      "bbox_half": [
+        0.0316,
+        0.105,
+        0.01835
+      ]
+    },
+    {
+      "key": "baguette__objaverse_0",
+      "category": "baguette",
+      "instance": "baguette_0",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/baguette/baguette_0/model.xml",
+      "bbox_half": [
+        0.04983,
+        0.10954,
+        0.03593
+      ]
+    },
+    {
+      "key": "baguette__objaverse_1",
+      "category": "baguette",
+      "instance": "baguette_1",
+      "source": "objaverse",
+      "role_candidate": "prime",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/baguette/baguette_1/model.xml",
+      "bbox_half": [
+        0.02336,
+        0.11214,
+        0.01678
+      ]
+    },
+    {
+      "key": "baguette__aigen_9",
+      "category": "baguette",
+      "instance": "baguette_9",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/baguette/baguette_9/model.xml",
+      "bbox_half": [
+        0.03945,
+        0.08223,
+        0.02209
+      ]
+    },
+    {
+      "key": "baguette__aigen_13",
+      "category": "baguette",
+      "instance": "baguette_13",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/baguette/baguette_13/model.xml",
+      "bbox_half": [
+        0.01976,
+        0.09593,
+        0.01718
+      ]
+    },
+    {
+      "key": "baguette__aigen_5",
+      "category": "baguette",
+      "instance": "baguette_5",
+      "source": "aigen",
+      "role_candidate": "tier_a",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/baguette/baguette_5/model.xml",
+      "bbox_half": [
+        0.02341,
+        0.09593,
+        0.0272
+      ]
+    },
+    {
+      "key": "apple__objaverse_15",
+      "category": "apple",
+      "instance": "apple_15",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/apple/apple_15/model.xml",
+      "bbox_half": [
+        0.02736,
+        0.02716,
+        0.0315
+      ]
+    },
+    {
+      "key": "apple__objaverse_20",
+      "category": "apple",
+      "instance": "apple_20",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/apple/apple_20/model.xml",
+      "bbox_half": [
+        0.02784,
+        0.0276,
+        0.03169
+      ]
+    },
+    {
+      "key": "apple__objaverse_3",
+      "category": "apple",
+      "instance": "apple_3",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/apple/apple_3/model.xml",
+      "bbox_half": [
+        0.02775,
+        0.02852,
+        0.03624
+      ]
+    },
+    {
+      "key": "apricot__aigen_2",
+      "category": "apricot",
+      "instance": "apricot_2",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/apricot/apricot_2/model.xml",
+      "bbox_half": [
+        0.0173,
+        0.01807,
+        0.02665
+      ]
+    },
+    {
+      "key": "apricot__aigen_4",
+      "category": "apricot",
+      "instance": "apricot_4",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/apricot/apricot_4/model.xml",
+      "bbox_half": [
+        0.0253,
+        0.02654,
+        0.02665
+      ]
+    },
+    {
+      "key": "apricot__aigen_0",
+      "category": "apricot",
+      "instance": "apricot_0",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.7,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/apricot/apricot_0/model.xml",
+      "bbox_half": [
+        0.02544,
+        0.02665,
+        0.02426
+      ]
+    },
+    {
+      "key": "asparagus__aigen_11",
+      "category": "asparagus",
+      "instance": "asparagus_11",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/asparagus/asparagus_11/model.xml",
+      "bbox_half": [
+        0.02179,
+        0.07537,
+        0.0135
+      ]
+    },
+    {
+      "key": "asparagus__aigen_12",
+      "category": "asparagus",
+      "instance": "asparagus_12",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/asparagus/asparagus_12/model.xml",
+      "bbox_half": [
+        0.01377,
+        0.07537,
+        0.01013
+      ]
+    },
+    {
+      "key": "asparagus__aigen_4",
+      "category": "asparagus",
+      "instance": "asparagus_4",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/asparagus/asparagus_4/model.xml",
+      "bbox_half": [
+        0.02603,
+        0.07537,
+        0.02625
+      ]
+    },
+    {
+      "key": "avocado__objaverse_8",
+      "category": "avocado",
+      "instance": "avocado_8",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/avocado/avocado_8/model.xml",
+      "bbox_half": [
+        0.03217,
+        0.02962,
+        0.05441
+      ]
+    },
+    {
+      "key": "avocado__objaverse_2",
+      "category": "avocado",
+      "instance": "avocado_2",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/avocado/avocado_2/model.xml",
+      "bbox_half": [
+        0.02643,
+        0.0405,
+        0.02616
+      ]
+    },
+    {
+      "key": "avocado__objaverse_1",
+      "category": "avocado",
+      "instance": "avocado_1",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.9,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/avocado/avocado_1/model.xml",
+      "bbox_half": [
+        0.02941,
+        0.045,
+        0.02909
+      ]
+    },
+    {
+      "key": "banana__objaverse_1",
+      "category": "banana",
+      "instance": "banana_1",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/banana/banana_1/model.xml",
+      "bbox_half": [
+        0.0594,
+        0.06433,
+        0.01526
+      ]
+    },
+    {
+      "key": "banana__objaverse_14",
+      "category": "banana",
+      "instance": "banana_14",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/banana/banana_14/model.xml",
+      "bbox_half": [
+        0.06011,
+        0.07123,
+        0.02228
+      ]
+    },
+    {
+      "key": "banana__objaverse_24",
+      "category": "banana",
+      "instance": "banana_24",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/banana/banana_24/model.xml",
+      "bbox_half": [
+        0.03727,
+        0.0753,
+        0.01553
+      ]
+    },
+    {
+      "key": "beet__aigen_6",
+      "category": "beet",
+      "instance": "beet_6",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/beet/beet_6/model.xml",
+      "bbox_half": [
+        0.02286,
+        0.04568,
+        0.02318
+      ]
+    },
+    {
+      "key": "beet__aigen_9",
+      "category": "beet",
+      "instance": "beet_9",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/beet/beet_9/model.xml",
+      "bbox_half": [
+        0.02079,
+        0.04568,
+        0.02318
+      ]
+    },
+    {
+      "key": "bell_pepper__objaverse_1",
+      "category": "bell_pepper",
+      "instance": "bell_pepper_1",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.75,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bell_pepper/bell_pepper_1/model.xml",
+      "bbox_half": [
+        0.03073,
+        0.03375,
+        0.03218
+      ]
+    },
+    {
+      "key": "bell_pepper__objaverse_2",
+      "category": "bell_pepper",
+      "instance": "bell_pepper_2",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.75,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bell_pepper/bell_pepper_2/model.xml",
+      "bbox_half": [
+        0.02863,
+        0.0375,
+        0.0277
+      ]
+    },
+    {
+      "key": "bell_pepper__objaverse_0",
+      "category": "bell_pepper",
+      "instance": "bell_pepper_0",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.75,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bell_pepper/bell_pepper_0/model.xml",
+      "bbox_half": [
+        0.03151,
+        0.04125,
+        0.0278
+      ]
+    },
+    {
+      "key": "bread_flat__objaverse_bread_18",
+      "category": "bread_flat",
+      "instance": "bread_18",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.7,
+        0.7,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bread/bread_18/model.xml",
+      "bbox_half": [
+        0.04303,
+        0.04301,
+        0.01384
+      ]
+    },
+    {
+      "key": "bread_flat__objaverse_bread_13",
+      "category": "bread_flat",
+      "instance": "bread_13",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.7,
+        0.7,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bread/bread_13/model.xml",
+      "bbox_half": [
+        0.04491,
+        0.04319,
+        0.02093
+      ]
+    },
+    {
+      "key": "bread_flat__objaverse_bread_3",
+      "category": "bread_flat",
+      "instance": "bread_3",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "bread_food",
+      "applied_scale": [
+        0.7,
+        0.7,
+        1.0
+      ],
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/bread/bread_3/model.xml",
+      "bbox_half": [
+        0.02922,
+        0.04834,
+        0.01001
+      ]
+    },
+    {
+      "key": "broccoli__objaverse_0",
+      "category": "broccoli",
+      "instance": "broccoli_0",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/broccoli/broccoli_0/model.xml",
+      "bbox_half": [
+        0.03938,
+        0.046,
+        0.03879
+      ]
+    },
+    {
+      "key": "broccoli__objaverse_1",
+      "category": "broccoli",
+      "instance": "broccoli_1",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/broccoli/broccoli_1/model.xml",
+      "bbox_half": [
+        0.03358,
+        0.0464,
+        0.03551
+      ]
+    },
+    {
+      "key": "broccoli__objaverse_3",
+      "category": "broccoli",
+      "instance": "broccoli_3",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/broccoli/broccoli_3/model.xml",
+      "bbox_half": [
+        0.0468,
+        0.04363,
+        0.03729
+      ]
+    },
+    {
+      "key": "brussel_sprout__aigen_1",
+      "category": "brussel_sprout",
+      "instance": "brussel_sprout_1",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/brussel_sprout/brussel_sprout_1/model.xml",
+      "bbox_half": [
+        0.02489,
+        0.02614,
+        0.03045
+      ]
+    },
+    {
+      "key": "brussel_sprout__aigen_2",
+      "category": "brussel_sprout",
+      "instance": "brussel_sprout_2",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/brussel_sprout/brussel_sprout_2/model.xml",
+      "bbox_half": [
+        0.02579,
+        0.02641,
+        0.03045
+      ]
+    },
+    {
+      "key": "brussel_sprout__aigen_0",
+      "category": "brussel_sprout",
+      "instance": "brussel_sprout_0",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/brussel_sprout/brussel_sprout_0/model.xml",
+      "bbox_half": [
+        0.02893,
+        0.02846,
+        0.03045
+      ]
+    },
+    {
+      "key": "burrito__aigen_0",
+      "category": "burrito",
+      "instance": "burrito_0",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/burrito/burrito_0/model.xml",
+      "bbox_half": [
+        0.03302,
+        0.06852,
+        0.02455
+      ]
+    },
+    {
+      "key": "burrito__aigen_1",
+      "category": "burrito",
+      "instance": "burrito_1",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/burrito/burrito_1/model.xml",
+      "bbox_half": [
+        0.03249,
+        0.06852,
+        0.01739
+      ]
+    },
+    {
+      "key": "burrito__aigen_10",
+      "category": "burrito",
+      "instance": "burrito_10",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/burrito/burrito_10/model.xml",
+      "bbox_half": [
+        0.03629,
+        0.06852,
+        0.02761
+      ]
+    },
+    {
+      "key": "cake__objaverse_0",
+      "category": "cake",
+      "instance": "cake_0",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 0.8,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cake/cake_0/model.xml",
+      "bbox_half": [
+        0.02775,
+        0.02707,
+        0.01466
+      ]
+    },
+    {
+      "key": "cake__objaverse_6",
+      "category": "cake",
+      "instance": "cake_6",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 0.8,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cake/cake_6/model.xml",
+      "bbox_half": [
+        0.03146,
+        0.03112,
+        0.0272
+      ]
+    },
+    {
+      "key": "cake__objaverse_7",
+      "category": "cake",
+      "instance": "cake_7",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 0.8,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cake/cake_7/model.xml",
+      "bbox_half": [
+        0.03281,
+        0.03269,
+        0.0234
+      ]
+    },
+    {
+      "key": "candy__aigen_1",
+      "category": "candy",
+      "instance": "candy_1",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/candy/candy_1/model.xml",
+      "bbox_half": [
+        0.02293,
+        0.02362,
+        0.02538
+      ]
+    },
+    {
+      "key": "candy__aigen_3",
+      "category": "candy",
+      "instance": "candy_3",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/candy/candy_3/model.xml",
+      "bbox_half": [
+        0.02414,
+        0.02477,
+        0.02538
+      ]
+    },
+    {
+      "key": "candy__aigen_0",
+      "category": "candy",
+      "instance": "candy_0",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/candy/candy_0/model.xml",
+      "bbox_half": [
+        0.02485,
+        0.02513,
+        0.02538
+      ]
+    },
+    {
+      "key": "carrot__objaverse_6",
+      "category": "carrot",
+      "instance": "carrot_6",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/carrot/carrot_6/model.xml",
+      "bbox_half": [
+        0.01625,
+        0.07,
+        0.01509
+      ]
+    },
+    {
+      "key": "carrot__objaverse_0",
+      "category": "carrot",
+      "instance": "carrot_0",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/carrot/carrot_0/model.xml",
+      "bbox_half": [
+        0.01981,
+        0.07191,
+        0.02088
+      ]
+    },
+    {
+      "key": "carrot__objaverse_2",
+      "category": "carrot",
+      "instance": "carrot_2",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/carrot/carrot_2/model.xml",
+      "bbox_half": [
+        0.02032,
+        0.07218,
+        0.02037
+      ]
+    },
+    {
+      "key": "celery__aigen_8",
+      "category": "celery",
+      "instance": "celery_8",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 2.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/celery/celery_8/model.xml",
+      "bbox_half": [
+        0.03739,
+        0.07099,
+        0.04225
+      ]
+    },
+    {
+      "key": "celery__aigen_3",
+      "category": "celery",
+      "instance": "celery_3",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 2.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/celery/celery_3/model.xml",
+      "bbox_half": [
+        0.03729,
+        0.07973,
+        0.03394
+      ]
+    },
+    {
+      "key": "celery__aigen_2",
+      "category": "celery",
+      "instance": "celery_2",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 2.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/celery/celery_2/model.xml",
+      "bbox_half": [
+        0.02906,
+        0.08121,
+        0.0303
+      ]
+    },
+    {
+      "key": "cheese__objaverse_6",
+      "category": "cheese",
+      "instance": "cheese_6",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.85,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cheese/cheese_6/model.xml",
+      "bbox_half": [
+        0.03415,
+        0.0377,
+        0.03104
+      ]
+    },
+    {
+      "key": "cheese__objaverse_4",
+      "category": "cheese",
+      "instance": "cheese_4",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.85,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cheese/cheese_4/model.xml",
+      "bbox_half": [
+        0.04167,
+        0.02765,
+        0.02869
+      ]
+    },
+    {
+      "key": "cheese__objaverse_0",
+      "category": "cheese",
+      "instance": "cheese_0",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "dairy",
+      "applied_scale": 0.85,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cheese/cheese_0/model.xml",
+      "bbox_half": [
+        0.03691,
+        0.04598,
+        0.02259
+      ]
+    },
+    {
+      "key": "chicken_breast__aigen_4",
+      "category": "chicken_breast",
+      "instance": "chicken_breast_4",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/chicken_breast/chicken_breast_4/model.xml",
+      "bbox_half": [
+        0.03318,
+        0.04111,
+        0.03927
+      ]
+    },
+    {
+      "key": "chicken_breast__aigen_10",
+      "category": "chicken_breast",
+      "instance": "chicken_breast_10",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/chicken_breast/chicken_breast_10/model.xml",
+      "bbox_half": [
+        0.04454,
+        0.04664,
+        0.03144
+      ]
+    },
+    {
+      "key": "chicken_breast__aigen_1",
+      "category": "chicken_breast",
+      "instance": "chicken_breast_1",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/chicken_breast/chicken_breast_1/model.xml",
+      "bbox_half": [
+        0.04374,
+        0.04797,
+        0.03293
+      ]
+    },
+    {
+      "key": "chili_pepper__aigen_1",
+      "category": "chili_pepper",
+      "instance": "chili_pepper_1",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/chili_pepper/chili_pepper_1/model.xml",
+      "bbox_half": [
+        0.01323,
+        0.04467,
+        0.01333
+      ]
+    },
+    {
+      "key": "chili_pepper__aigen_3",
+      "category": "chili_pepper",
+      "instance": "chili_pepper_3",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/chili_pepper/chili_pepper_3/model.xml",
+      "bbox_half": [
+        0.02266,
+        0.04467,
+        0.01533
+      ]
+    },
+    {
+      "key": "chili_pepper__aigen_4",
+      "category": "chili_pepper",
+      "instance": "chili_pepper_4",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.1,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/chili_pepper/chili_pepper_4/model.xml",
+      "bbox_half": [
+        0.01728,
+        0.04467,
+        0.01267
+      ]
+    },
+    {
+      "key": "cucumber__objaverse_3",
+      "category": "cucumber",
+      "instance": "cucumber_3",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cucumber/cucumber_3/model.xml",
+      "bbox_half": [
+        0.02459,
+        0.075,
+        0.02694
+      ]
+    },
+    {
+      "key": "cucumber__objaverse_5",
+      "category": "cucumber",
+      "instance": "cucumber_5",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cucumber/cucumber_5/model.xml",
+      "bbox_half": [
+        0.02796,
+        0.075,
+        0.02691
+      ]
+    },
+    {
+      "key": "cucumber__objaverse_1",
+      "category": "cucumber",
+      "instance": "cucumber_1",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.0,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/cucumber/cucumber_1/model.xml",
+      "bbox_half": [
+        0.02649,
+        0.085,
+        0.02276
+      ]
+    },
+    {
+      "key": "dumpling__aigen_0",
+      "category": "dumpling",
+      "instance": "dumpling_0",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/dumpling/dumpling_0/model.xml",
+      "bbox_half": [
+        0.0342,
+        0.03502,
+        0.02405
+      ]
+    },
+    {
+      "key": "dumpling__aigen_10",
+      "category": "dumpling",
+      "instance": "dumpling_10",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/dumpling/dumpling_10/model.xml",
+      "bbox_half": [
+        0.0347,
+        0.03502,
+        0.02352
+      ]
+    },
+    {
+      "key": "dumpling__aigen_12",
+      "category": "dumpling",
+      "instance": "dumpling_12",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "meat",
+      "applied_scale": 1.15,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/dumpling/dumpling_12/model.xml",
+      "bbox_half": [
+        0.03381,
+        0.03502,
+        0.02718
+      ]
+    },
+    {
+      "key": "eggplant__objaverse_0",
+      "category": "eggplant",
+      "instance": "eggplant_0",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/eggplant/eggplant_0/model.xml",
+      "bbox_half": [
+        0.02748,
+        0.05006,
+        0.05629
+      ]
+    },
+    {
+      "key": "eggplant__objaverse_3",
+      "category": "eggplant",
+      "instance": "eggplant_3",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/eggplant/eggplant_3/model.xml",
+      "bbox_half": [
+        0.03155,
+        0.06553,
+        0.03177
+      ]
+    },
+    {
+      "key": "eggplant__objaverse_1",
+      "category": "eggplant",
+      "instance": "eggplant_1",
+      "source": "objaverse",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 0.95,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/objaverse/eggplant/eggplant_1/model.xml",
+      "bbox_half": [
+        0.02491,
+        0.07052,
+        0.02788
+      ]
+    },
+    {
+      "key": "ginger__aigen_2",
+      "category": "ginger",
+      "instance": "ginger_2",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ginger/ginger_2/model.xml",
+      "bbox_half": [
+        0.03426,
+        0.03359,
+        0.02915
+      ]
+    },
+    {
+      "key": "ginger__aigen_3",
+      "category": "ginger",
+      "instance": "ginger_3",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ginger/ginger_3/model.xml",
+      "bbox_half": [
+        0.03426,
+        0.03403,
+        0.0317
+      ]
+    },
+    {
+      "key": "ginger__aigen_0",
+      "category": "ginger",
+      "instance": "ginger_0",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "vegetable",
+      "applied_scale": 1.35,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ginger/ginger_0/model.xml",
+      "bbox_half": [
+        0.03979,
+        0.04111,
+        0.03007
+      ]
+    },
+    {
+      "key": "grapes__aigen_10",
+      "category": "grapes",
+      "instance": "grapes_10",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/grapes/grapes_10/model.xml",
+      "bbox_half": [
+        0.03716,
+        0.06091,
+        0.04273
+      ]
+    },
+    {
+      "key": "grapes__aigen_6",
+      "category": "grapes",
+      "instance": "grapes_6",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/grapes/grapes_6/model.xml",
+      "bbox_half": [
+        0.05351,
+        0.06091,
+        0.03818
+      ]
+    },
+    {
+      "key": "grapes__aigen_9",
+      "category": "grapes",
+      "instance": "grapes_9",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "fruit",
+      "applied_scale": 1.5,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/grapes/grapes_9/model.xml",
+      "bbox_half": [
+        0.03804,
+        0.06091,
+        0.02818
+      ]
+    },
+    {
+      "key": "ice_cream__aigen_2",
+      "category": "ice_cream",
+      "instance": "ice_cream_2",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ice_cream/ice_cream_2/model.xml",
+      "bbox_half": [
+        0.03795,
+        0.05292,
+        0.03449
+      ]
+    },
+    {
+      "key": "ice_cream__aigen_12",
+      "category": "ice_cream",
+      "instance": "ice_cream_12",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ice_cream/ice_cream_12/model.xml",
+      "bbox_half": [
+        0.03359,
+        0.0571,
+        0.03324
+      ]
+    },
+    {
+      "key": "ice_cream__aigen_0",
+      "category": "ice_cream",
+      "instance": "ice_cream_0",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "sweets",
+      "applied_scale": 1.25,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/ice_cream/ice_cream_0/model.xml",
+      "bbox_half": [
+        0.0246,
+        0.06345,
+        0.02557
+      ]
+    },
+    {
+      "key": "kebabs__aigen_14",
+      "category": "kebabs",
+      "instance": "kebabs_14",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.65,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/kebabs/kebabs_14/model.xml",
+      "bbox_half": [
+        0.0287,
+        0.09213,
+        0.033
+      ]
+    },
+    {
+      "key": "kebabs__aigen_0",
+      "category": "kebabs",
+      "instance": "kebabs_0",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.65,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/kebabs/kebabs_0/model.xml",
+      "bbox_half": [
+        0.01807,
+        0.1005,
+        0.018
+      ]
+    },
+    {
+      "key": "kebabs__aigen_1",
+      "category": "kebabs",
+      "instance": "kebabs_1",
+      "source": "aigen",
+      "role_candidate": "tier_b",
+      "is_overlap": false,
+      "group": "cooked_food",
+      "applied_scale": 1.65,
+      "model_xml": "/tmp2/leocheng/forks/robocasa/robocasa/models/assets/objects/aigen_objs/kebabs/kebabs_1/model.xml",
+      "bbox_half": [
+        0.01998,
+        0.1005,
+        0.0165
+      ]
+    }
+  ]
+}

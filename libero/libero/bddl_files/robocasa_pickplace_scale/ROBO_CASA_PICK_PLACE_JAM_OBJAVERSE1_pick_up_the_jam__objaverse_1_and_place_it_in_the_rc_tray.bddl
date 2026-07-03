@@ -1,0 +1,55 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language pick up the jam  objaverse 1 and place it in the rc tray)
+    (:regions
+      (jam__objaverse_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.025 -0.125 0.025 -0.07500000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (rc_tray_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.03 0.12 0.03 0.18)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (contain_region
+          (:target rc_tray_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+  )
+
+  (:objects
+    jam__objaverse_1_1 - jam__objaverse_1
+    rc_tray_1 - rc_tray
+  )
+
+  (:obj_of_interest
+    jam__objaverse_1_1
+    rc_tray_1
+  )
+
+  (:init
+    (On jam__objaverse_1_1 kitchen_table_jam__objaverse_1_init_region)
+    (On rc_tray_1 kitchen_table_rc_tray_init_region)
+  )
+
+  (:goal
+    (And (In jam__objaverse_1_1 rc_tray_1_contain_region))
+  )
+
+)

@@ -20,6 +20,18 @@ from libero.libero import get_libero_path
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--demo-file", default="demo.hdf5")
+    parser.add_argument(
+        "--output-root",
+        type=str,
+        default=None,
+        help="write the rendered <task>_demo.hdf5 under this root instead of "
+             "get_libero_path('datasets') (e.g. a /tmp2 scratch dir with more free space)",
+    )
+    parser.add_argument(
+        "--compress",
+        action="store_true",
+        help="gzip-compress the RGB/depth image datasets (~3x smaller on disk)",
+    )
 
     parser.add_argument(
         "--use-actions",
@@ -65,9 +77,10 @@ def main():
     bddl_file_name = f["data"].attrs["bddl_file_name"]
 
     bddl_file_dir = os.path.dirname(bddl_file_name)
-    replace_bddl_prefix = "/".join(bddl_file_dir.split("bddl_files/")[:-1] + "bddl_files")
+    replace_bddl_prefix = "/".join(bddl_file_dir.split("bddl_files/")[:-1] + ["bddl_files"])
 
-    hdf5_path = os.path.join(get_libero_path("datasets"), bddl_file_dir.split("bddl_files/")[-1].replace(".bddl", "_demo.hdf5"))
+    _dataset_root = args.output_root if args.output_root else get_libero_path("datasets")
+    hdf5_path = os.path.join(_dataset_root, bddl_file_name.split("bddl_files/")[-1].replace(".bddl", "_demo.hdf5"))
 
     output_parent_dir = Path(hdf5_path).parent
     output_parent_dir.mkdir(parents=True, exist_ok=True)
@@ -245,16 +258,17 @@ def main():
             obs_grp.create_dataset("ee_pos", data=np.stack(ee_states, axis=0)[:, :3])
             obs_grp.create_dataset("ee_ori", data=np.stack(ee_states, axis=0)[:, 3:])
 
-        obs_grp.create_dataset("agentview_rgb", data=np.stack(agentview_images, axis=0))
+        _img_kw = {"compression": "gzip", "compression_opts": 4} if args.compress else {}
+        obs_grp.create_dataset("agentview_rgb", data=np.stack(agentview_images, axis=0), **_img_kw)
         obs_grp.create_dataset(
-            "eye_in_hand_rgb", data=np.stack(eye_in_hand_images, axis=0)
+            "eye_in_hand_rgb", data=np.stack(eye_in_hand_images, axis=0), **_img_kw
         )
         if args.use_depth:
             obs_grp.create_dataset(
-                "agentview_depth", data=np.stack(agentview_depths, axis=0)
+                "agentview_depth", data=np.stack(agentview_depths, axis=0), **_img_kw
             )
             obs_grp.create_dataset(
-                "eye_in_hand_depth", data=np.stack(eye_in_hand_depths, axis=0)
+                "eye_in_hand_depth", data=np.stack(eye_in_hand_depths, axis=0), **_img_kw
             )
 
         ep_data_grp.create_dataset("actions", data=actions)
