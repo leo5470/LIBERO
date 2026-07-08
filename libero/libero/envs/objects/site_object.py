@@ -25,8 +25,10 @@ class SiteObject:
         self.name = name
         self.parent_name = parent_name
         self.joints = joints
-        self.site_pos = string_to_array(site_pos)
-        self.site_quat = string_to_array(site_quat)
+        # MJCF sites may omit pos/quat (MuJoCo defaults them); callers pass the raw
+        # attribute, so None means "attribute absent", not an error
+        self.site_pos = string_to_array(site_pos if site_pos is not None else "0 0 0")
+        self.site_quat = string_to_array(site_quat if site_quat is not None else "1 0 0 0")
         self.size = size if type(size) is not str else string_to_array(size)
         self.rgba = rgba
         self.site_type = site_type

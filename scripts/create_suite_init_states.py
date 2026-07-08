@@ -16,7 +16,6 @@ Example:
 import argparse
 import json
 import os
-import sys
 
 import numpy as np
 import torch
@@ -76,6 +75,8 @@ def main():
     ap.add_argument("--max-tries-per-state", type=int, default=20)
     ap.add_argument("--overwrite", action="store_true",
                     help="regenerate files that already exist")
+    ap.add_argument("--shard", nargs=2, type=int, default=(0, 1), metavar=("I", "N"),
+                    help="process only manifest tasks with index %% N == I (parallel workers)")
     args = ap.parse_args()
 
     with open(args.manifest) as f:
@@ -85,35 +86,49 @@ def main():
         repo, "libero/libero/init_files", manifest["suite"])
     os.makedirs(out_dir, exist_ok=True)
 
+    shard_i, shard_n = args.shard
+    tasks = [t for idx, t in enumerate(manifest["tasks"]) if idx % shard_n == shard_i]
+
+    # A task that cannot produce init states (e.g. an oversize object whose placement
+    # sampling never converges) is an expected outcome for the ungated full pool: record
+    # it for the exclusion flow and keep going -- never kill the shard.
     failures = []
-    for i, task in enumerate(manifest["tasks"], 1):
+    for i, task in enumerate(tasks, 1):
         out_file = os.path.join(out_dir, task["name"] + ".pruned_init")
         if os.path.isfile(out_file) and not args.overwrite:
-            print(f"[{i}/{len(manifest['tasks'])}] {task['name']}: exists, skipping")
+            print(f"[{i}/{len(tasks)}] {task['name']}: exists, skipping")
             continue
-        env = build_env(os.path.join(bddl_dir, task["name"] + ".bddl"))
+        env = None
         try:
+            env = build_env(os.path.join(bddl_dir, task["name"] + ".bddl"))
             np.random.seed(args.seed)
             states, tries = collect_states(
                 env, args.num_states, args.num_states * args.max_tries_per_state)
             if len(states) < args.num_states:
-                failures.append((task["name"], len(states), tries))
-                print(f"[{i}/{len(manifest['tasks'])}] {task['name']}: FAIL "
+                failures.append({"name": task["name"], "n_states": len(states),
+                                 "tries": tries, "error": "too_few_states"})
+                print(f"[{i}/{len(tasks)}] {task['name']}: FAIL "
                       f"({len(states)}/{args.num_states} states in {tries} tries)",
                       flush=True)
                 continue
             arr = np.stack(states).astype(np.float64)
             torch.save(arr, out_file)
-            print(f"[{i}/{len(manifest['tasks'])}] {task['name']}: "
+            print(f"[{i}/{len(tasks)}] {task['name']}: "
                   f"{arr.shape} in {tries} resets -> {out_file}", flush=True)
+        except Exception as e:  # noqa: BLE001 - env build/reset crash = task infeasible
+            failures.append({"name": task["name"], "n_states": 0, "tries": 0,
+                             "error": f"{type(e).__name__}: {e}"})
+            print(f"[{i}/{len(tasks)}] {task['name']}: CRASH ({type(e).__name__}: {e})",
+                  flush=True)
         finally:
-            env.close()
+            if env is not None:
+                env.close()
 
-    if failures:
-        print(f"[error] {len(failures)} task(s) could not produce "
-              f"{args.num_states} states: {failures}")
-        sys.exit(1)
-    print(f"[done] init states in {out_dir}")
+    fail_file = os.path.join(out_dir, f"init_failures_shard{shard_i}of{shard_n}.json")
+    with open(fail_file, "w") as f:
+        json.dump(failures, f, indent=2)
+    print(f"[done] shard {shard_i}/{shard_n}: {len(tasks) - len(failures)}/{len(tasks)} ok; "
+          f"failures -> {fail_file}")
 
 
 if __name__ == "__main__":

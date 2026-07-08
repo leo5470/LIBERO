@@ -83,8 +83,11 @@ def check_task(task, bddl_dir, init_dir, args):
     checks = {}
     bddl_file = os.path.join(bddl_dir, task["name"] + ".bddl")
     target_name = task["target_key"] + "_1"
-    env = build_env(bddl_file)
+    env = None
     try:
+        # inside the try: for the ungated pool a construction failure (placement never
+        # converges, broken MJCF) is a per-task verdict, not a fatal error
+        env = build_env(bddl_file)
         np.random.seed(args.seed)
 
         # placement + goal-false-at-reset
@@ -115,7 +118,10 @@ def check_task(task, bddl_dir, init_dir, args):
         # init-state round trip (only once the .pruned_init exists)
         init_file = os.path.join(init_dir, task["name"] + ".pruned_init")
         if os.path.isfile(init_file):
-            states = torch.load(init_file)
+            try:
+                states = torch.load(init_file, weights_only=False)
+            except TypeError:  # torch<1.13 has no weights_only kwarg
+                states = torch.load(init_file)
             for k in {0, len(states) - 1}:
                 env.sim.set_state_from_flattened(states[k])
                 env.sim.forward()
@@ -133,7 +139,8 @@ def check_task(task, bddl_dir, init_dir, args):
             "traceback": traceback.format_exc(limit=3),
         }
     finally:
-        env.close()
+        if env is not None:
+            env.close()
 
 
 def main():
@@ -151,6 +158,8 @@ def main():
     ap.add_argument("--max-reset-tries", type=int, default=25)
     ap.add_argument("--settle-steps", type=int, default=30)
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--shard", nargs=2, type=int, default=(0, 1), metavar=("I", "N"),
+                    help="process only manifest tasks with index %% N == I (parallel workers)")
     args = ap.parse_args()
 
     with open(args.manifest) as f:
@@ -164,6 +173,10 @@ def main():
     if args.tasks:
         tasks = [t for t in tasks if t["name"] in set(args.tasks)]
         assert tasks, "no manifest tasks match --tasks"
+    shard_i, shard_n = args.shard
+    if shard_n > 1:
+        tasks = [t for idx, t in enumerate(tasks) if idx % shard_n == shard_i]
+        report_path = report_path.replace(".json", f"_shard{shard_i}of{shard_n}.json")
 
     results = []
     for i, task in enumerate(tasks, 1):

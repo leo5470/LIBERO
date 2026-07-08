@@ -180,6 +180,11 @@ def main():
                     help="categories to drop from targets (still distractor-eligible)")
     ap.add_argument("--targets", nargs="+",
                     help="explicit target registry keys (overrides --target-tiers)")
+    ap.add_argument("--targets-file",
+                    help="file with one target registry key per line (same effect as --targets)")
+    ap.add_argument("--key-meta",
+                    help="full_pool_meta.json (make_full_pool_manifest.py): per-key tags "
+                         "(libero_overlap, prior_status) merged into each manifest task")
     ap.add_argument("--distractor-pool", nargs="+",
                     help="explicit distractor-pool registry keys (overrides --distractor-tiers)")
     ap.add_argument("--max-xy-half", type=float, default=None,
@@ -206,12 +211,21 @@ def main():
                   f"{max(entries[k]['bbox_half'][:2]):.3f} > {args.max_xy_half}")
         return kept
 
+    key_meta = {}
+    if args.key_meta:
+        with open(args.key_meta) as f:
+            key_meta = json.load(f)["keys"]
+
     if args.targets:
         targets = list(args.targets)
+    elif args.targets_file:
+        with open(args.targets_file) as f:
+            targets = [line.strip() for line in f if line.strip()]
     elif args.target_tiers:
         targets = [k for k, t in tier_of.items() if t in args.target_tiers]
     else:
-        raise SystemExit("[error] need --targets or (--tier-split + --target-tiers)")
+        raise SystemExit("[error] need --targets, --targets-file, "
+                         "or (--tier-split + --target-tiers)")
     targets = [t for t in gate(targets)
                if category_of(t) not in args.exclude_target_categories]
 
@@ -250,7 +264,7 @@ def main():
             objects_of_interest=[f"{target}_1", f"{RECEPTACLE}_1"],
             goal_states=[("In", f"{target}_1", f"{RECEPTACLE}_1_contain_region")],
         )
-        tasks.append({
+        task = {
             "name": f"pick_up_the_{target}_and_place_it_in_the_basket",
             "language": language,
             "target_key": target,
@@ -259,7 +273,11 @@ def main():
             "distractors": distractors,
             "layout_variant": variant_idx,
             "scene_key": scene_key,
-        })
+        }
+        if target in key_meta:
+            task["libero_overlap"] = key_meta[target].get("libero_overlap")
+            task["prior_status"] = key_meta[target].get("prior_status")
+        tasks.append(task)
 
     bddl_files, failures = generate_bddl_from_task_info(folder=args.out_dir)
     if failures:
@@ -288,6 +306,7 @@ def main():
         "seed": args.seed,
         "num_distractors": args.num_distractors,
         "source_tier_split": os.path.abspath(args.tier_split) if args.tier_split else None,
+        "source_key_meta": os.path.abspath(args.key_meta) if args.key_meta else None,
         "tasks": tasks,
     }
     with open(os.path.join(args.out_dir, "manifest.json"), "w") as f:
