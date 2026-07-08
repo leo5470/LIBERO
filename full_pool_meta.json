@@ -1,0 +1,7838 @@
+{
+ "keys": {
+  "apple__objaverse_0": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_1": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_10": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_11": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_12": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_13": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_14": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_15": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "apple__objaverse_17": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_18": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_19": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_2": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_20": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "apple__objaverse_21": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_22": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_3": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "apple__objaverse_4": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_5": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_6": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_7": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_8": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apple__objaverse_9": {
+   "category": "apple",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__objaverse_1": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "avocado__objaverse_2": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "avocado__objaverse_4": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__objaverse_5": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__objaverse_6": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__objaverse_8": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "avocado__aigen_0": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_1": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_10": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_2": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_3": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_4": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_5": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_6": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_7": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_8": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "avocado__aigen_9": {
+   "category": "avocado",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__objaverse_0": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "baguette__objaverse_1": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "baguette__objaverse_2": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "baguette__objaverse_4": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "baguette__objaverse_5": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "baguette__objaverse_6": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_0": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_1": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_10": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_11": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_12": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_13": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "baguette__aigen_14": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_15": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_16": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_17": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_2": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_3": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_4": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_5": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "baguette__aigen_6": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_7": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_8": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "baguette__aigen_9": {
+   "category": "baguette",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "banana__objaverse_1": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "banana__objaverse_10": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_11": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_12": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_14": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "banana__objaverse_15": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_16": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_18": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_19": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_2": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_20": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_21": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_22": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_23": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_24": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "banana__objaverse_3": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_4": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_5": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_6": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_7": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_8": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "banana__objaverse_9": {
+   "category": "banana",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__objaverse_0": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__objaverse_10": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__objaverse_11": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bar__objaverse_2": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bar__objaverse_3": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bar__objaverse_4": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bar__objaverse_6": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__objaverse_7": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bar__objaverse_8": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__objaverse_9": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__aigen_0": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bar__aigen_1": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bar__aigen_2": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bar__aigen_3": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__aigen_4": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__aigen_5": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar__aigen_6": {
+   "category": "bar",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__objaverse_0": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__objaverse_1": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__objaverse_3": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__objaverse_4": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__aigen_0": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__aigen_1": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__aigen_2": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__aigen_3": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__aigen_4": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__aigen_5": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__aigen_6": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bar_soap__aigen_7": {
+   "category": "bar_soap",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_0": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_1": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_10": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_11": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_12": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_13": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_15": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_16": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_18": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_19": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_2": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_5": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_6": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_7": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_8": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__objaverse_9": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_0": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_1": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_2": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_3": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_4": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_5": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_6": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_7": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beer__aigen_8": {
+   "category": "beer",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bell_pepper__objaverse_0": {
+   "category": "bell_pepper",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "bell_pepper__objaverse_1": {
+   "category": "bell_pepper",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "bell_pepper__objaverse_2": {
+   "category": "bell_pepper",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "bell_pepper__objaverse_3": {
+   "category": "bell_pepper",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__objaverse_0": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__objaverse_1": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__objaverse_2": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__objaverse_4": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__objaverse_5": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_0": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_1": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_10": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_11": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_12": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_13": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_2": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_3": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_4": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_5": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_6": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_7": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_8": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_drink__aigen_9": {
+   "category": "bottled_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_1": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_10": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_11": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bottled_water__objaverse_12": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_13": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_14": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_16": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bottled_water__objaverse_17": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bottled_water__objaverse_2": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_3": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bottled_water__objaverse_4": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_6": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__objaverse_8": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bottled_water__aigen_0": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "bottled_water__aigen_1": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_10": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_11": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_12": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_13": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_14": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_2": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_3": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_4": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_5": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_6": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "bottled_water__aigen_7": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "bottled_water__aigen_8": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bottled_water__aigen_9": {
+   "category": "bottled_water",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__objaverse_0": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__objaverse_1": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "boxed_drink__objaverse_2": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "boxed_drink__objaverse_3": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__objaverse_4": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "boxed_drink__objaverse_5": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "boxed_drink__objaverse_7": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "boxed_drink__aigen_0": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_1": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_10": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "boxed_drink__aigen_11": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_12": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "boxed_drink__aigen_13": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_14": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_2": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "boxed_drink__aigen_3": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_4": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_5": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_6": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_7": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_8": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "boxed_drink__aigen_9": {
+   "category": "boxed_drink",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__objaverse_0": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bread__objaverse_1": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__objaverse_11": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__objaverse_14": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__objaverse_17": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__objaverse_19": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bread__objaverse_2": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bread__objaverse_20": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__objaverse_21": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bread__objaverse_4": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "bread__objaverse_5": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__objaverse_7": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__objaverse_8": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_0": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bread__aigen_1": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_10": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_11": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_2": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_3": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_4": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_5": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "bread__aigen_6": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_7": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread__aigen_8": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "bread__aigen_9": {
+   "category": "bread",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__objaverse_bread_13": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "bread_flat__objaverse_bread_18": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bread_flat__objaverse_bread_3": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "bread_flat__objaverse_bread_9": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_0": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_1": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_10": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_11": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_2": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_3": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_4": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_5": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_6": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_7": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_8": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bread_flat__aigen_bread_9": {
+   "category": "bread_flat",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "broccoli__objaverse_0": {
+   "category": "broccoli",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "broccoli__objaverse_1": {
+   "category": "broccoli",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "broccoli__objaverse_3": {
+   "category": "broccoli",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "cake__objaverse_0": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "cake__objaverse_1": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__objaverse_3": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__objaverse_4": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__objaverse_5": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__objaverse_6": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "cake__objaverse_7": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "cake__objaverse_8": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__objaverse_9": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__aigen_0": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__aigen_1": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__aigen_2": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__aigen_3": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__aigen_4": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__aigen_5": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cake__aigen_6": {
+   "category": "cake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_0": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_1": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_10": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "candle__objaverse_12": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "candle__objaverse_13": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_14": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_15": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_2": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_3": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_4": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "candle__objaverse_5": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_6": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "candle__objaverse_7": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__objaverse_8": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "candle__objaverse_9": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__aigen_0": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__aigen_1": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__aigen_2": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "candle__aigen_3": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__aigen_4": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "candle__aigen_5": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__aigen_6": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__aigen_7": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__aigen_8": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candle__aigen_9": {
+   "category": "candle",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "carrot__objaverse_0": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "carrot__objaverse_1": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__objaverse_2": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "carrot__objaverse_3": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__objaverse_4": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__objaverse_6": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "carrot__objaverse_7": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_0": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_1": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_2": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_3": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_4": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_5": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_6": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_7": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "carrot__aigen_8": {
+   "category": "carrot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_0": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_1": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_10": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_11": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_12": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_13": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_2": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_3": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_4": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_5": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_6": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_7": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_8": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__objaverse_9": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_0": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_1": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_2": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_3": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_4": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_5": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_6": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_7": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cereal__aigen_8": {
+   "category": "cereal",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__objaverse_0": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "cheese__objaverse_1": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__objaverse_2": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__objaverse_3": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__objaverse_4": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "cheese__objaverse_5": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__objaverse_6": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "cheese__objaverse_7": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__objaverse_8": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_0": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_1": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_10": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_11": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_12": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_2": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_3": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_4": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_5": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_6": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_7": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_8": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese__aigen_9": {
+   "category": "cheese",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__objaverse_0": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__objaverse_1": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "croissant__objaverse_10": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "croissant__objaverse_2": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__objaverse_3": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__objaverse_4": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "croissant__objaverse_5": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__objaverse_6": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__objaverse_8": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "croissant__objaverse_9": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "croissant__aigen_0": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__aigen_1": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "croissant__aigen_2": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__aigen_3": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "croissant__aigen_4": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__aigen_5": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "croissant__aigen_6": {
+   "category": "croissant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "cucumber__objaverse_0": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__objaverse_1": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "cucumber__objaverse_2": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__objaverse_3": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "cucumber__objaverse_4": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__objaverse_5": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "cucumber__aigen_0": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_1": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_10": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_11": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_2": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_3": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_4": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_5": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_6": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_7": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_8": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cucumber__aigen_9": {
+   "category": "cucumber",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_11": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_12": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cupcake__objaverse_14": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cupcake__objaverse_15": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cupcake__objaverse_16": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_17": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cupcake__objaverse_18": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_19": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_2": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_20": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cupcake__objaverse_3": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_4": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_5": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_6": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_7": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__objaverse_9": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_0": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cupcake__aigen_1": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cupcake__aigen_10": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_11": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_12": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_13": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_14": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_2": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_3": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_4": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_5": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_6": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_7": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cupcake__aigen_8": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cupcake__aigen_9": {
+   "category": "cupcake",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_0": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_1": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_10": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_11": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_12": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "donut__objaverse_14": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_15": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_2": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "donut__objaverse_3": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_4": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_5": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "donut__objaverse_6": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_7": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__objaverse_8": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "donut__objaverse_9": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "donut__aigen_0": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "donut__aigen_1": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "donut__aigen_2": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__aigen_3": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "donut__aigen_4": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__aigen_5": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__aigen_6": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "donut__aigen_7": {
+   "category": "donut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__objaverse_0": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__objaverse_1": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__objaverse_10": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__objaverse_11": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__objaverse_12": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__objaverse_13": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "egg__objaverse_3": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__objaverse_4": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "egg__objaverse_5": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "egg__objaverse_6": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__objaverse_7": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "egg__objaverse_8": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "egg__objaverse_9": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_0": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "egg__aigen_1": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "egg__aigen_10": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "egg__aigen_11": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_12": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_13": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_14": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_2": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_3": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_4": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_5": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_6": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_7": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_8": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "egg__aigen_9": {
+   "category": "egg",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__objaverse_0": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "eggplant__objaverse_1": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "eggplant__objaverse_2": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__objaverse_3": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "eggplant__objaverse_4": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__aigen_0": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__aigen_1": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__aigen_2": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__aigen_3": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__aigen_4": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__aigen_5": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "eggplant__aigen_6": {
+   "category": "eggplant",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__objaverse_0": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "fish__objaverse_1": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "fish__objaverse_10": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__objaverse_11": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__objaverse_2": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "fish__objaverse_3": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "fish__objaverse_4": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "fish__objaverse_5": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__objaverse_6": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__objaverse_7": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__objaverse_8": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__objaverse_9": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__aigen_0": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "fish__aigen_1": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "fish__aigen_2": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "fish__aigen_3": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__aigen_4": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__aigen_5": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__aigen_6": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "fish__aigen_7": {
+   "category": "fish",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__objaverse_0": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "garlic__objaverse_1": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "garlic__objaverse_2": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "garlic__objaverse_4": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "garlic__objaverse_5": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "garlic__aigen_0": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_1": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "garlic__aigen_10": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_11": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_12": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "garlic__aigen_2": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_3": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_4": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_5": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_6": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "garlic__aigen_7": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_8": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "garlic__aigen_9": {
+   "category": "garlic",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__objaverse_0": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "hot_dog__objaverse_1": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__objaverse_2": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "hot_dog__objaverse_3": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__objaverse_4": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "hot_dog__objaverse_5": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "hot_dog__objaverse_6": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "hot_dog__aigen_0": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "hot_dog__aigen_1": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "hot_dog__aigen_10": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "hot_dog__aigen_2": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__aigen_3": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__aigen_4": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__aigen_5": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__aigen_6": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__aigen_7": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__aigen_8": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "hot_dog__aigen_9": {
+   "category": "hot_dog",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__objaverse_0": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "jam__objaverse_1": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "jam__objaverse_2": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "jam__objaverse_3": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__objaverse_4": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__objaverse_5": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "jam__objaverse_6": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "jam__aigen_0": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_1": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_10": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_11": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_12": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "jam__aigen_13": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_14": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "jam__aigen_15": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "jam__aigen_16": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_17": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_18": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_2": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_3": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_4": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_5": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_6": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_7": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_8": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jam__aigen_9": {
+   "category": "jam",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__objaverse_0": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "jug__objaverse_1": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__objaverse_2": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "jug__objaverse_3": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__objaverse_4": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "jug__objaverse_5": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__objaverse_6": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "jug__objaverse_7": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__objaverse_8": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "collect_crashed"
+  },
+  "jug__aigen_0": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__aigen_1": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "jug__aigen_2": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__aigen_3": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__aigen_4": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "jug__aigen_5": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "jug__aigen_6": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug__aigen_7": {
+   "category": "jug",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug_wide_opening__objaverse_jug_1": {
+   "category": "jug_wide_opening",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug_wide_opening__objaverse_jug_3": {
+   "category": "jug_wide_opening",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug_wide_opening__objaverse_jug_4": {
+   "category": "jug_wide_opening",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug_wide_opening__objaverse_jug_6": {
+   "category": "jug_wide_opening",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jug_wide_opening__objaverse_jug_8": {
+   "category": "jug_wide_opening",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_1": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_10": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_11": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_14": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_16": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_18": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_19": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_2": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_20": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_21": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_22": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_23": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_28": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_3": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_4": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_5": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_6": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__objaverse_kettle_8": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__aigen_kettle_1": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__aigen_kettle_11": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__aigen_kettle_3": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__aigen_kettle_4": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__aigen_kettle_5": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__aigen_kettle_7": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kettle_non_electric__aigen_kettle_8": {
+   "category": "kettle_non_electric",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__objaverse_0": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__objaverse_1": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__objaverse_2": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__objaverse_5": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__objaverse_6": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__objaverse_7": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_0": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_1": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_10": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_2": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_3": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_4": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_5": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_6": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_7": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_8": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kiwi__aigen_9": {
+   "category": "kiwi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ladle__objaverse_0": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ladle__objaverse_1": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ladle__objaverse_2": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ladle__objaverse_3": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ladle__objaverse_4": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ladle__aigen_0": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ladle__aigen_1": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ladle__aigen_2": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ladle__aigen_3": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ladle__aigen_4": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ladle__aigen_5": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ladle__aigen_6": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "ladle__aigen_7": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ladle__aigen_8": {
+   "category": "ladle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_0": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_1": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_10": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_11": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_12": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_13": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_14": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_15": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_16": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_17": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_2": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_3": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_4": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_5": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_6": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_7": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_8": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__objaverse_9": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_0": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_1": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_10": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_11": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_2": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_3": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_4": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_5": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_6": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_7": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_8": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemon__aigen_9": {
+   "category": "lemon",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lime__objaverse_0": {
+   "category": "lime",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lime__objaverse_1": {
+   "category": "lime",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lime__objaverse_2": {
+   "category": "lime",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lime__objaverse_3": {
+   "category": "lime",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_0": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_1": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_10": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_11": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_13": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_14": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_2": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_4": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_5": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_7": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "liquor__objaverse_alcohol_9": {
+   "category": "liquor",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_1": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_10": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_11": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_12": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_13": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_14": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_15": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_16": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_18": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_4": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_5": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_7": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_8": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__objaverse_9": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__aigen_0": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__aigen_1": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__aigen_2": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__aigen_3": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__aigen_4": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__aigen_5": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__aigen_6": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mango__aigen_7": {
+   "category": "mango",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_0": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_1": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_10": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_11": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_12": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_14": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_15": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_2": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_3": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_4": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_5": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_6": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_8": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__objaverse_9": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_0": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_1": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_2": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_3": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_4": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_5": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_6": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_7": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "mushroom__aigen_8": {
+   "category": "mushroom",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_0": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_1": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_10": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_2": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_3": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_6": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_7": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_8": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "onion__objaverse_9": {
+   "category": "onion",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_0": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_1": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_10": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_11": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_12": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_13": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_2": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_3": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_4": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_5": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__objaverse_8": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__aigen_0": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__aigen_1": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__aigen_2": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__aigen_3": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__aigen_4": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__aigen_5": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "orange__aigen_6": {
+   "category": "orange",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pot__aigen_0": {
+   "category": "pot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__objaverse_0": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__objaverse_1": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__objaverse_2": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__objaverse_3": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__objaverse_4": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__objaverse_5": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__objaverse_6": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_0": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_1": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_10": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_2": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_3": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_4": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_5": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_6": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_7": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_8": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peach__aigen_9": {
+   "category": "peach",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__objaverse_1": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__objaverse_11": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__objaverse_12": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "pear__objaverse_13": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__objaverse_15": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "pear__objaverse_16": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__objaverse_17": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "pear__objaverse_18": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__objaverse_19": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__objaverse_2": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__objaverse_6": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "pear__objaverse_8": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "pear__aigen_0": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "pear__aigen_1": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "pear__aigen_10": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "pear__aigen_11": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_12": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_13": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_2": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_3": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_4": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_5": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_6": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_7": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_8": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pear__aigen_9": {
+   "category": "pear",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_1": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_10": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_11": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_12": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_13": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_14": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_16": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_17": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_18": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_19": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_2": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_3": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_4": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_5": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_6": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_7": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_8": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__objaverse_9": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_0": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_1": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_10": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_11": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_12": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_13": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_2": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_3": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_4": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_5": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_6": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_7": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_8": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "potato__aigen_9": {
+   "category": "potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "rolling_pin__objaverse_0": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "rolling_pin__objaverse_1": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "rolling_pin__objaverse_2": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "rolling_pin__objaverse_3": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "rolling_pin__objaverse_4": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "rolling_pin__objaverse_5": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "rolling_pin__aigen_0": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "rolling_pin__aigen_1": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "rolling_pin__aigen_2": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "rolling_pin__aigen_3": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "rolling_pin__aigen_4": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "rolling_pin__aigen_5": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "rolling_pin__aigen_6": {
+   "category": "rolling_pin",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shaker__objaverse_0": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "shaker__objaverse_1": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "shaker__objaverse_2": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "shaker__objaverse_3": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "shaker__aigen_0": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shaker__aigen_1": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shaker__aigen_2": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shaker__aigen_3": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "shaker__aigen_4": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "shaker__aigen_5": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "shaker__aigen_6": {
+   "category": "shaker",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__objaverse_0": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "soap_dispenser__objaverse_1": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "soap_dispenser__objaverse_2": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "soap_dispenser__objaverse_3": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "soap_dispenser__objaverse_4": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__objaverse_6": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "soap_dispenser__aigen_0": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__aigen_1": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__aigen_10": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__aigen_2": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__aigen_3": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "soap_dispenser__aigen_4": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__aigen_5": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__aigen_6": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "soap_dispenser__aigen_7": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__aigen_8": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "soap_dispenser__aigen_9": {
+   "category": "soap_dispenser",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "sponge__objaverse_0": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__objaverse_1": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__objaverse_2": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "sponge__objaverse_3": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "sponge__objaverse_4": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "sponge__objaverse_5": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "sponge__objaverse_6": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__objaverse_8": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "sponge__aigen_0": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "sponge__aigen_1": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__aigen_2": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "sponge__aigen_3": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "sponge__aigen_4": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__aigen_5": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__aigen_6": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__aigen_7": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__aigen_8": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sponge__aigen_9": {
+   "category": "sponge",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__objaverse_0": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__objaverse_1": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__objaverse_2": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_0": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_1": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_10": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_11": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_12": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_2": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_3": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_4": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_5": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_6": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_7": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_8": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "spray__aigen_9": {
+   "category": "spray",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "squash__objaverse_0": {
+   "category": "squash",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "squash__objaverse_1": {
+   "category": "squash",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "squash__objaverse_13": {
+   "category": "squash",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "squash__objaverse_15": {
+   "category": "squash",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "squash__objaverse_16": {
+   "category": "squash",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "squash__objaverse_3": {
+   "category": "squash",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "squash__objaverse_5": {
+   "category": "squash",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "squash__objaverse_7": {
+   "category": "squash",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "steak__objaverse_10": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__objaverse_11": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "steak__objaverse_14": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "steak__objaverse_15": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__objaverse_2": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "steak__objaverse_3": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__objaverse_4": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__objaverse_5": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "steak__objaverse_6": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__objaverse_8": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "steak__objaverse_9": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__aigen_0": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__aigen_1": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__aigen_2": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__aigen_3": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__aigen_4": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__aigen_5": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "steak__aigen_6": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "steak__aigen_7": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "steak__aigen_8": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "steak__aigen_9": {
+   "category": "steak",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__objaverse_1": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__objaverse_2": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__objaverse_3": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_0": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_1": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_10": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_11": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_2": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_3": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_4": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_5": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_6": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_7": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_8": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sweet_potato__aigen_9": {
+   "category": "sweet_potato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__objaverse_0": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__objaverse_1": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "tangerine__objaverse_2": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "tangerine__objaverse_3": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "tangerine__objaverse_4": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__objaverse_5": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "tangerine__objaverse_6": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "tangerine__aigen_0": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_1": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "tangerine__aigen_10": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "tangerine__aigen_11": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_12": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_2": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_3": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_4": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_5": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_6": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "tangerine__aigen_7": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_8": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tangerine__aigen_9": {
+   "category": "tangerine",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__objaverse_0": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__objaverse_10": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__objaverse_11": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__objaverse_13": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "teapot__objaverse_14": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__objaverse_15": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "teapot__objaverse_3": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__objaverse_4": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "teapot__objaverse_5": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "teapot__objaverse_6": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "teapot__objaverse_7": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__aigen_0": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__aigen_1": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "teapot__aigen_2": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "teapot__aigen_3": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__aigen_4": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "teapot__aigen_5": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "teapot__aigen_6": {
+   "category": "teapot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__objaverse_0": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__objaverse_1": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__objaverse_2": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__objaverse_3": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__objaverse_5": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__objaverse_6": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__objaverse_7": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__objaverse_8": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_0": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_1": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_2": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_3": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_4": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_5": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_6": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_7": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tomato__aigen_8": {
+   "category": "tomato",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_0": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_1": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_10": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_12": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_13": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_15": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_16": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_17": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_18": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_19": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_2": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_20": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_21": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_22": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_23": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_3": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_4": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_5": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_6": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_7": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "water_bottle__objaverse_8": {
+   "category": "water_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "yogurt__objaverse_1": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "yogurt__objaverse_2": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "yogurt__objaverse_3": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_seen"
+  },
+  "yogurt__aigen_0": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "yogurt__aigen_1": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "yogurt__aigen_2": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "yogurt__aigen_3": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "yogurt__aigen_4": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "yogurt__aigen_5": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "yogurt__aigen_6": {
+   "category": "yogurt",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemonade__aigen_0": {
+   "category": "lemonade",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemonade__aigen_1": {
+   "category": "lemonade",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemonade__aigen_2": {
+   "category": "lemonade",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemonade__aigen_3": {
+   "category": "lemonade",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemonade__aigen_4": {
+   "category": "lemonade",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lemonade__aigen_5": {
+   "category": "lemonade",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "walnut__aigen_0": {
+   "category": "walnut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "walnut__aigen_1": {
+   "category": "walnut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "walnut__aigen_2": {
+   "category": "walnut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "walnut__aigen_3": {
+   "category": "walnut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "walnut__aigen_4": {
+   "category": "walnut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "walnut__aigen_5": {
+   "category": "walnut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "walnut__aigen_6": {
+   "category": "walnut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "walnut__aigen_7": {
+   "category": "walnut",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_0": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_1": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_2": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_3": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_4": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_5": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_6": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_7": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "cheese_grater__aigen_8": {
+   "category": "cheese_grater",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_0": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_1": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_10": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_11": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_12": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_2": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_3": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_4": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_5": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_6": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_7": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_8": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "syrup_bottle__aigen_9": {
+   "category": "syrup_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_0": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_1": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_10": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_11": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_12": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_13": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_14": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_15": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_2": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_3": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_4": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_5": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_6": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_7": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_8": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "scallops__aigen_9": {
+   "category": "scallops",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candy__aigen_0": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "candy__aigen_1": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "candy__aigen_10": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candy__aigen_2": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candy__aigen_3": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "candy__aigen_4": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candy__aigen_5": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candy__aigen_6": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candy__aigen_7": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candy__aigen_8": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "candy__aigen_9": {
+   "category": "candy",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_0": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_1": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_2": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_3": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_4": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_5": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_6": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_7": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "whisk__aigen_8": {
+   "category": "whisk",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_0": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_1": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_10": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_11": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_12": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_2": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_3": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_4": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_5": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_6": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_7": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_8": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pitcher__aigen_9": {
+   "category": "pitcher",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_0": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ice_cream__aigen_1": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_10": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_11": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_12": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ice_cream__aigen_2": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "ice_cream__aigen_3": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_4": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_5": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_6": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_7": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_8": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ice_cream__aigen_9": {
+   "category": "ice_cream",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_0": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_1": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_10": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_11": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_12": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_2": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_3": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_4": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_5": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_6": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_7": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_8": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "peanut_butter__aigen_jar_9": {
+   "category": "peanut_butter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_0": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_1": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_10": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_11": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_12": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_2": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_3": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_4": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_5": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_6": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_7": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_8": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "thermos__aigen_9": {
+   "category": "thermos",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_0": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "dumpling__aigen_1": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_10": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "dumpling__aigen_11": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_12": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "dumpling__aigen_13": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_14": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_15": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_16": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_17": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_18": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_19": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_2": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_20": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_21": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_3": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_4": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_5": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_6": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_7": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_8": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "dumpling__aigen_9": {
+   "category": "dumpling",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tongs__aigen_0": {
+   "category": "tongs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tongs__aigen_1": {
+   "category": "tongs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tongs__aigen_2": {
+   "category": "tongs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tongs__aigen_3": {
+   "category": "tongs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tongs__aigen_4": {
+   "category": "tongs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tongs__aigen_5": {
+   "category": "tongs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "tongs__aigen_6": {
+   "category": "tongs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ginger__aigen_0": {
+   "category": "ginger",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "ginger__aigen_1": {
+   "category": "ginger",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ginger__aigen_2": {
+   "category": "ginger",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "ginger__aigen_3": {
+   "category": "ginger",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "ginger__aigen_4": {
+   "category": "ginger",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ginger__aigen_5": {
+   "category": "ginger",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "ginger__aigen_6": {
+   "category": "ginger",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_0": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_1": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_2": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_3": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_4": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_5": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_6": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_7": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "shrimp__aigen_8": {
+   "category": "shrimp",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_0": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_1": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_10": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_11": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_12": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_13": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_14": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_15": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_2": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_3": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_4": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_5": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_6": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_7": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_8": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "honey_bottle__aigen_9": {
+   "category": "honey_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_0": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_1": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_10": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "grapes__aigen_11": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_12": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_13": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_2": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_3": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_4": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_5": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_6": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "grapes__aigen_7": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_8": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "grapes__aigen_9": {
+   "category": "grapes",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "chili_pepper__aigen_0": {
+   "category": "chili_pepper",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chili_pepper__aigen_1": {
+   "category": "chili_pepper",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "chili_pepper__aigen_2": {
+   "category": "chili_pepper",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chili_pepper__aigen_3": {
+   "category": "chili_pepper",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "chili_pepper__aigen_4": {
+   "category": "chili_pepper",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "chili_pepper__aigen_5": {
+   "category": "chili_pepper",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chili_pepper__aigen_6": {
+   "category": "chili_pepper",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chili_pepper__aigen_7": {
+   "category": "chili_pepper",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "celery__aigen_0": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "celery__aigen_1": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "celery__aigen_2": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "celery__aigen_3": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "celery__aigen_4": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "celery__aigen_5": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "celery__aigen_6": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "celery__aigen_7": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "celery__aigen_8": {
+   "category": "celery",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "burrito__aigen_0": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "burrito__aigen_1": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "burrito__aigen_10": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "burrito__aigen_11": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "burrito__aigen_2": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "burrito__aigen_3": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "burrito__aigen_4": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "burrito__aigen_5": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "burrito__aigen_6": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "burrito__aigen_7": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "burrito__aigen_8": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "burrito__aigen_9": {
+   "category": "burrito",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_0": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_1": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_10": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_11": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_12": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_13": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_14": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_2": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_3": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_4": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_5": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_6": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_7": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_8": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "olive_oil_bottle__aigen_9": {
+   "category": "olive_oil_bottle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_0": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "kebabs__aigen_1": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "kebabs__aigen_10": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_11": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_12": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_13": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_14": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "kebabs__aigen_2": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_3": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_4": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_5": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_6": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_7": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_8": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "kebabs__aigen_9": {
+   "category": "kebabs",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_0": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_1": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "chicken_breast__aigen_10": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "chicken_breast__aigen_11": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_2": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_3": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_4": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "chicken_breast__aigen_5": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_6": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_7": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_8": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "chicken_breast__aigen_9": {
+   "category": "chicken_breast",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_0": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_1": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_2": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_3": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_4": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_5": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_6": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_7": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "jello_cup__aigen_8": {
+   "category": "jello_cup",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_0": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_1": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_10": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_2": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_3": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_4": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_5": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_6": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_7": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_8": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lobster__aigen_9": {
+   "category": "lobster",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_0": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "brussel_sprout__aigen_1": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "brussel_sprout__aigen_10": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_11": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_12": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_13": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_2": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "brussel_sprout__aigen_3": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_4": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_5": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_6": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_7": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_8": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "brussel_sprout__aigen_9": {
+   "category": "brussel_sprout",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_0": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_1": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_10": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_11": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_12": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_2": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_3": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_4": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_5": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_6": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_7": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_8": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "sushi__aigen_9": {
+   "category": "sushi",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "wine_glass__aigen_0": {
+   "category": "wine_glass",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "wine_glass__aigen_1": {
+   "category": "wine_glass",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "wine_glass__aigen_2": {
+   "category": "wine_glass",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "wine_glass__aigen_3": {
+   "category": "wine_glass",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "wine_glass__aigen_4": {
+   "category": "wine_glass",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "wine_glass__aigen_5": {
+   "category": "wine_glass",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "wine_glass__aigen_6": {
+   "category": "wine_glass",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_0": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_1": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_10": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_11": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "asparagus__aigen_12": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "asparagus__aigen_2": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_3": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_4": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "asparagus__aigen_5": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_6": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_7": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_8": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "asparagus__aigen_9": {
+   "category": "asparagus",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lamb_chop__aigen_0": {
+   "category": "lamb_chop",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lamb_chop__aigen_1": {
+   "category": "lamb_chop",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lamb_chop__aigen_2": {
+   "category": "lamb_chop",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lamb_chop__aigen_3": {
+   "category": "lamb_chop",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lamb_chop__aigen_4": {
+   "category": "lamb_chop",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lamb_chop__aigen_5": {
+   "category": "lamb_chop",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lamb_chop__aigen_6": {
+   "category": "lamb_chop",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "lamb_chop__aigen_7": {
+   "category": "lamb_chop",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pickle__aigen_0": {
+   "category": "pickle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pickle__aigen_1": {
+   "category": "pickle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pickle__aigen_2": {
+   "category": "pickle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pickle__aigen_3": {
+   "category": "pickle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pickle__aigen_4": {
+   "category": "pickle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pickle__aigen_5": {
+   "category": "pickle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pickle__aigen_6": {
+   "category": "pickle",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_0": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_1": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_10": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_11": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_12": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_13": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_2": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_3": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_4": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_5": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_6": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_7": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_8": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "canola_oil__aigen_9": {
+   "category": "canola_oil",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_0": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_1": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_2": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_3": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_4": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_5": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_6": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_7": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_8": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "strawberry__aigen_9": {
+   "category": "strawberry",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_0": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_1": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_2": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_3": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_4": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_5": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_6": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_7": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pizza_cutter__aigen_8": {
+   "category": "pizza_cutter",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pomegranate__aigen_0": {
+   "category": "pomegranate",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pomegranate__aigen_1": {
+   "category": "pomegranate",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pomegranate__aigen_2": {
+   "category": "pomegranate",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pomegranate__aigen_3": {
+   "category": "pomegranate",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pomegranate__aigen_4": {
+   "category": "pomegranate",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pomegranate__aigen_5": {
+   "category": "pomegranate",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "pomegranate__aigen_6": {
+   "category": "pomegranate",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apricot__aigen_0": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "apricot__aigen_1": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apricot__aigen_2": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "apricot__aigen_3": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apricot__aigen_4": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "apricot__aigen_5": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apricot__aigen_6": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apricot__aigen_7": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "apricot__aigen_8": {
+   "category": "apricot",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "beet__aigen_6": {
+   "category": "beet",
+   "libero_overlap": false,
+   "prior_status": "gate_dropped"
+  },
+  "beet__aigen_9": {
+   "category": "beet",
+   "libero_overlap": false,
+   "prior_status": "gate_survivor_tier_b"
+  },
+  "saucepan__objaverse_pan_0": {
+   "category": "saucepan",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "saucepan__objaverse_pan_17": {
+   "category": "saucepan",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "saucepan__objaverse_pan_22": {
+   "category": "saucepan",
+   "libero_overlap": false,
+   "prior_status": "unattempted"
+  },
+  "bowl__aigen_1": {
+   "category": "bowl",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "bowl__aigen_5": {
+   "category": "bowl",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "bowl__aigen_7": {
+   "category": "bowl",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "bowl__objaverse_1": {
+   "category": "bowl",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "bowl__objaverse_14": {
+   "category": "bowl",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "bowl__objaverse_19": {
+   "category": "bowl",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "bowl__objaverse_2": {
+   "category": "bowl",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "bowl__objaverse_5": {
+   "category": "bowl",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "boxed_food__aigen_2": {
+   "category": "boxed_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "boxed_food__aigen_4": {
+   "category": "boxed_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "boxed_food__aigen_5": {
+   "category": "boxed_food",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "boxed_food__objaverse_0": {
+   "category": "boxed_food",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "boxed_food__objaverse_1": {
+   "category": "boxed_food",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "boxed_food__objaverse_11": {
+   "category": "boxed_food",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "boxed_food__objaverse_2": {
+   "category": "boxed_food",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "boxed_food__objaverse_4": {
+   "category": "boxed_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "can__aigen_2": {
+   "category": "can",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "can__aigen_3": {
+   "category": "can",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "can__aigen_6": {
+   "category": "can",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "can__objaverse_11": {
+   "category": "can",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "can__objaverse_15": {
+   "category": "can",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "can__objaverse_16": {
+   "category": "can",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "can__objaverse_18": {
+   "category": "can",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "can__objaverse_6": {
+   "category": "can",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "canned_food__aigen_2": {
+   "category": "canned_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "canned_food__aigen_4": {
+   "category": "canned_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "canned_food__aigen_6": {
+   "category": "canned_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "canned_food__objaverse_0": {
+   "category": "canned_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "canned_food__objaverse_11": {
+   "category": "canned_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "canned_food__objaverse_18": {
+   "category": "canned_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "canned_food__objaverse_3": {
+   "category": "canned_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "canned_food__objaverse_4": {
+   "category": "canned_food",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cherry__aigen_0": {
+   "category": "cherry",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cherry__aigen_1": {
+   "category": "cherry",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cherry__aigen_2": {
+   "category": "cherry",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cherry__aigen_3": {
+   "category": "cherry",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cherry__aigen_4": {
+   "category": "cherry",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cherry__aigen_7": {
+   "category": "cherry",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cherry__aigen_8": {
+   "category": "cherry",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cherry__aigen_9": {
+   "category": "cherry",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "coffee_cup__aigen_2": {
+   "category": "coffee_cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "coffee_cup__aigen_3": {
+   "category": "coffee_cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "coffee_cup__aigen_4": {
+   "category": "coffee_cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "coffee_cup__objaverse_16": {
+   "category": "coffee_cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "coffee_cup__objaverse_17": {
+   "category": "coffee_cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "coffee_cup__objaverse_3": {
+   "category": "coffee_cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "coffee_cup__objaverse_7": {
+   "category": "coffee_cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "coffee_cup__objaverse_9": {
+   "category": "coffee_cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "condiment_bottle__objaverse_condiment_0": {
+   "category": "condiment_bottle",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "condiment_bottle__objaverse_condiment_2": {
+   "category": "condiment_bottle",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "condiment_bottle__objaverse_condiment_3": {
+   "category": "condiment_bottle",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "corn__aigen_0": {
+   "category": "corn",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "corn__aigen_1": {
+   "category": "corn",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "corn__aigen_2": {
+   "category": "corn",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "corn__objaverse_0": {
+   "category": "corn",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "corn__objaverse_1": {
+   "category": "corn",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "corn__objaverse_3": {
+   "category": "corn",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "corn__objaverse_4": {
+   "category": "corn",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "cup__aigen_13": {
+   "category": "cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cup__aigen_17": {
+   "category": "cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cup__aigen_3": {
+   "category": "cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "cup__objaverse_2": {
+   "category": "cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cup__objaverse_3": {
+   "category": "cup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "cup__objaverse_4": {
+   "category": "cup",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "cup__objaverse_5": {
+   "category": "cup",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "ketchup__aigen_4": {
+   "category": "ketchup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "ketchup__aigen_6": {
+   "category": "ketchup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "ketchup__aigen_9": {
+   "category": "ketchup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "ketchup__objaverse_10": {
+   "category": "ketchup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "ketchup__objaverse_11": {
+   "category": "ketchup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "ketchup__objaverse_2": {
+   "category": "ketchup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "ketchup__objaverse_7": {
+   "category": "ketchup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "ketchup__objaverse_8": {
+   "category": "ketchup",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "milk__aigen_4": {
+   "category": "milk",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "milk__aigen_6": {
+   "category": "milk",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "milk__aigen_7": {
+   "category": "milk",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "milk__objaverse_0": {
+   "category": "milk",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "milk__objaverse_1": {
+   "category": "milk",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "milk__objaverse_10": {
+   "category": "milk",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "milk__objaverse_4": {
+   "category": "milk",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "milk__objaverse_5": {
+   "category": "milk",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "mug__objaverse_11": {
+   "category": "mug",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "mug__objaverse_13": {
+   "category": "mug",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "mug__objaverse_14": {
+   "category": "mug",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "mug__objaverse_16": {
+   "category": "mug",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "mug__objaverse_17": {
+   "category": "mug",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_tier_a"
+  },
+  "mug__objaverse_18": {
+   "category": "mug",
+   "libero_overlap": true,
+   "prior_status": "gate_survivor_seen"
+  },
+  "mug__objaverse_2": {
+   "category": "mug",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "mug__objaverse_4": {
+   "category": "mug",
+   "libero_overlap": true,
+   "prior_status": "collect_crashed"
+  },
+  "pan__aigen_2": {
+   "category": "pan",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "pan__aigen_3": {
+   "category": "pan",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "pan__aigen_4": {
+   "category": "pan",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "pan__objaverse_11": {
+   "category": "pan",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "pan__objaverse_14": {
+   "category": "pan",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "pan__objaverse_2": {
+   "category": "pan",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "pan__objaverse_21": {
+   "category": "pan",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "pan__objaverse_7": {
+   "category": "pan",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "wine__aigen_3": {
+   "category": "wine",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "wine__aigen_4": {
+   "category": "wine",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "wine__aigen_5": {
+   "category": "wine",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "wine__objaverse_1": {
+   "category": "wine",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "wine__objaverse_12": {
+   "category": "wine",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "wine__objaverse_2": {
+   "category": "wine",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "wine__objaverse_4": {
+   "category": "wine",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  },
+  "wine__objaverse_6": {
+   "category": "wine",
+   "libero_overlap": true,
+   "prior_status": "gate_dropped"
+  }
+ },
+ "strict_categories_no_eligible_instances": [
+  "aluminum_foil",
+  "artichoke",
+  "blender_jug",
+  "chicken_drumstick",
+  "cinnamon",
+  "cookie_dough_ball",
+  "dish_brush",
+  "hamburger",
+  "hotdog_bun",
+  "ice_cube",
+  "jar",
+  "kebab_skewer",
+  "lemon_wedge",
+  "marshmallow",
+  "measuring_cup",
+  "mustard",
+  "oil_and_vinegar_bottle",
+  "paprika",
+  "peeler",
+  "pork_chop",
+  "pork_loin",
+  "radish",
+  "reamer",
+  "salami",
+  "salsa",
+  "salt_and_pepper_shaker",
+  "saucepan_lid",
+  "saucepan_with_lid",
+  "sausage",
+  "scone",
+  "skewers",
+  "straw",
+  "sugar_cube",
+  "tacos",
+  "tofu",
+  "turmeric",
+  "vinegar",
+  "wooden_spoon",
+  "zucchini"
+ ],
+ "bare_pilot_keys_skipped": [
+  "apple",
+  "bell_pepper",
+  "lemon",
+  "lime",
+  "orange",
+  "rc_tray"
+ ]
+}

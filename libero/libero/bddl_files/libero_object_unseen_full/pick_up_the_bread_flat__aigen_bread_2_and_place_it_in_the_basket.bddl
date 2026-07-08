@@ -1,0 +1,120 @@
+(define (problem LIBERO_Floor_Manipulation)
+  (:domain robosuite)
+  (:language pick up the bread flat and place it in the basket)
+    (:regions
+      (bin_region
+          (:target floor)
+          (:ranges (
+              (-0.01 0.25 0.01 0.27)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (target_object_region
+          (:target floor)
+          (:ranges (
+              (0.025 -0.125 0.07500000000000001 -0.07500000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (other_object_region_0
+          (:target floor)
+          (:ranges (
+              (-0.145 -0.265 -0.095 -0.215)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (other_object_region_1
+          (:target floor)
+          (:ranges (
+              (-0.175 0.034999999999999996 -0.125 0.08499999999999999)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (other_object_region_2
+          (:target floor)
+          (:ranges (
+              (0.07500000000000001 -0.225 0.125 -0.17500000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (other_object_region_3
+          (:target floor)
+          (:ranges (
+              (0.125 0.0049999999999999975 0.175 0.055)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (other_object_region_4
+          (:target floor)
+          (:ranges (
+              (-0.225 -0.10500000000000001 -0.17500000000000002 -0.055)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (contain_region
+          (:target basket_1)
+      )
+    )
+
+  (:fixtures
+    floor - floor
+  )
+
+  (:objects
+    bread_flat__aigen_bread_2_1 - bread_flat__aigen_bread_2
+    steak__aigen_7_1 - steak__aigen_7
+    grapes__aigen_7_1 - grapes__aigen_7
+    donut__objaverse_8_1 - donut__objaverse_8
+    saucepan__objaverse_pan_0_1 - saucepan__objaverse_pan_0
+    kebabs__aigen_7_1 - kebabs__aigen_7
+    basket_1 - basket
+  )
+
+  (:obj_of_interest
+    bread_flat__aigen_bread_2_1
+    basket_1
+  )
+
+  (:init
+    (On bread_flat__aigen_bread_2_1 floor_target_object_region)
+    (On steak__aigen_7_1 floor_other_object_region_0)
+    (On grapes__aigen_7_1 floor_other_object_region_1)
+    (On donut__objaverse_8_1 floor_other_object_region_2)
+    (On saucepan__objaverse_pan_0_1 floor_other_object_region_3)
+    (On kebabs__aigen_7_1 floor_other_object_region_4)
+    (On basket_1 floor_bin_region)
+  )
+
+  (:goal
+    (And (In bread_flat__aigen_bread_2_1 basket_1_contain_region))
+  )
+
+)

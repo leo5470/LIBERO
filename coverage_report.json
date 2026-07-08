@@ -1,0 +1,2378 @@
+{
+ "strict_bucket_counts": {
+  "evaluated": 96,
+  "no_eligible_instances": 39
+ },
+ "strict_categories": {
+  "apple": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 22
+   }
+  },
+  "banana": {
+   "bucket": "evaluated",
+   "instances": {
+    "physics_excluded": 2,
+    "evaluated": 20
+   }
+  },
+  "kiwi": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 17
+   }
+  },
+  "lemon": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 30
+   }
+  },
+  "lemon_wedge": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "lime": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 4
+   }
+  },
+  "mango": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 22
+   }
+  },
+  "orange": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 18
+   }
+  },
+  "peach": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 18
+   }
+  },
+  "pear": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 26
+   }
+  },
+  "tangerine": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 20
+   }
+  },
+  "grapes": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 13,
+    "physics_excluded": 1
+   }
+  },
+  "strawberry": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 10
+   }
+  },
+  "pomegranate": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 7
+   }
+  },
+  "apricot": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 9
+   }
+  },
+  "walnut": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 8
+   }
+  },
+  "avocado": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 17
+   }
+  },
+  "bell_pepper": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 4
+   }
+  },
+  "broccoli": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 3
+   }
+  },
+  "carrot": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 15,
+    "physics_excluded": 1
+   }
+  },
+  "cucumber": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 18
+   }
+  },
+  "eggplant": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 12
+   }
+  },
+  "garlic": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 18
+   }
+  },
+  "mushroom": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 23
+   }
+  },
+  "onion": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 9
+   }
+  },
+  "potato": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 32
+   }
+  },
+  "squash": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 8
+   }
+  },
+  "sweet_potato": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 15
+   }
+  },
+  "tomato": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 17
+   }
+  },
+  "ginger": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 7
+   }
+  },
+  "chili_pepper": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 8
+   }
+  },
+  "celery": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 7,
+    "physics_excluded": 2
+   }
+  },
+  "brussel_sprout": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 14
+   }
+  },
+  "asparagus": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 11,
+    "physics_excluded": 2
+   }
+  },
+  "zucchini": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "beet": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 2
+   }
+  },
+  "radish": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "artichoke": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "tofu": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "pickle": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 7
+   }
+  },
+  "egg": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 28
+   }
+  },
+  "fish": {
+   "bucket": "evaluated",
+   "instances": {
+    "physics_excluded": 7,
+    "evaluated": 13
+   }
+  },
+  "steak": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 21
+   }
+  },
+  "shrimp": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 9
+   }
+  },
+  "chicken_breast": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 12
+   }
+  },
+  "lobster": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 10,
+    "physics_excluded": 1
+   }
+  },
+  "lamb_chop": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 8
+   }
+  },
+  "pork_loin": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "pork_chop": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "sausage": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "salami": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "scallops": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 16
+   }
+  },
+  "chicken_drumstick": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "baguette": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 19,
+    "physics_excluded": 5
+   }
+  },
+  "bread": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 25
+   }
+  },
+  "bread_flat": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 16
+   }
+  },
+  "croissant": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 17
+   }
+  },
+  "cake": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 16
+   }
+  },
+  "cupcake": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 31
+   }
+  },
+  "donut": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 23
+   }
+  },
+  "scone": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "hotdog_bun": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "hot_dog": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 18
+   }
+  },
+  "burrito": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 12
+   }
+  },
+  "sushi": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 13
+   }
+  },
+  "kebabs": {
+   "bucket": "evaluated",
+   "instances": {
+    "physics_excluded": 4,
+    "evaluated": 11
+   }
+  },
+  "hamburger": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "tacos": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "dumpling": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 22
+   }
+  },
+  "candy": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 11
+   }
+  },
+  "ice_cream": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 13
+   }
+  },
+  "jello_cup": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 9
+   }
+  },
+  "sugar_cube": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "cookie_dough_ball": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "marshmallow": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "cinnamon": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "paprika": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "turmeric": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "beer": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 22,
+    "physics_excluded": 3
+   }
+  },
+  "bottled_drink": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 19
+   }
+  },
+  "bottled_water": {
+   "bucket": "evaluated",
+   "instances": {
+    "physics_excluded": 1,
+    "evaluated": 27
+   }
+  },
+  "boxed_drink": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 22
+   }
+  },
+  "liquor": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 11
+   }
+  },
+  "lemonade": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 6
+   }
+  },
+  "water_bottle": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 18,
+    "physics_excluded": 3
+   }
+  },
+  "thermos": {
+   "bucket": "evaluated",
+   "instances": {
+    "physics_excluded": 11,
+    "evaluated": 2
+   }
+  },
+  "straw": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "jam": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 26
+   }
+  },
+  "peanut_butter": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 13
+   }
+  },
+  "syrup_bottle": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 12,
+    "physics_excluded": 1
+   }
+  },
+  "honey_bottle": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 16
+   }
+  },
+  "olive_oil_bottle": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 7,
+    "physics_excluded": 8
+   }
+  },
+  "canola_oil": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 11,
+    "physics_excluded": 3
+   }
+  },
+  "oil_and_vinegar_bottle": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "vinegar": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "salsa": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "mustard": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "pot": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 1
+   }
+  },
+  "saucepan": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 1,
+    "physics_excluded": 2
+   }
+  },
+  "saucepan_with_lid": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "saucepan_lid": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "kettle_non_electric": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 24,
+    "physics_excluded": 1
+   }
+  },
+  "teapot": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 13,
+    "physics_excluded": 5
+   }
+  },
+  "jug": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 14,
+    "physics_excluded": 3
+   }
+  },
+  "jug_wide_opening": {
+   "bucket": "evaluated",
+   "instances": {
+    "physics_excluded": 2,
+    "evaluated": 3
+   }
+  },
+  "pitcher": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 8,
+    "physics_excluded": 5
+   }
+  },
+  "jar": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "measuring_cup": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "wine_glass": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 6,
+    "physics_excluded": 1
+   }
+  },
+  "shaker": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 11
+   }
+  },
+  "salt_and_pepper_shaker": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "blender_jug": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "aluminum_foil": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "ice_cube": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "skewers": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "kebab_skewer": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "ladle": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 8,
+    "physics_excluded": 6
+   }
+  },
+  "whisk": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 9
+   }
+  },
+  "tongs": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 4,
+    "physics_excluded": 3
+   }
+  },
+  "wooden_spoon": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "rolling_pin": {
+   "bucket": "evaluated",
+   "instances": {
+    "physics_excluded": 7,
+    "evaluated": 6
+   }
+  },
+  "cheese_grater": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 7,
+    "physics_excluded": 2
+   }
+  },
+  "pizza_cutter": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 8,
+    "physics_excluded": 1
+   }
+  },
+  "reamer": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "peeler": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "sponge": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 18
+   }
+  },
+  "soap_dispenser": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 6,
+    "physics_excluded": 11
+   }
+  },
+  "bar_soap": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 12
+   }
+  },
+  "spray": {
+   "bucket": "evaluated",
+   "instances": {
+    "physics_excluded": 12,
+    "evaluated": 4
+   }
+  },
+  "dish_brush": {
+   "bucket": "no_eligible_instances",
+   "instances": {}
+  },
+  "candle": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 24,
+    "physics_excluded": 1
+   }
+  },
+  "cheese": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 22
+   }
+  },
+  "yogurt": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 10
+   }
+  },
+  "bar": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 17
+   }
+  },
+  "cereal": {
+   "bucket": "evaluated",
+   "instances": {
+    "evaluated": 23
+   }
+  }
+ },
+ "libero_overlap_categories": {
+  "bowl": {
+   "physics_excluded": 7,
+   "evaluated": 1
+  },
+  "boxed_food": {
+   "evaluated": 8
+  },
+  "can": {
+   "evaluated": 8
+  },
+  "canned_food": {
+   "evaluated": 8
+  },
+  "cherry": {
+   "evaluated": 8
+  },
+  "coffee_cup": {
+   "evaluated": 8
+  },
+  "condiment_bottle": {
+   "evaluated": 3
+  },
+  "corn": {
+   "evaluated": 4,
+   "physics_excluded": 3
+  },
+  "cup": {
+   "evaluated": 7
+  },
+  "ketchup": {
+   "evaluated": 8
+  },
+  "milk": {
+   "evaluated": 8
+  },
+  "mug": {
+   "evaluated": 8
+  },
+  "pan": {
+   "physics_excluded": 5,
+   "evaluated": 3
+  },
+  "wine": {
+   "evaluated": 4,
+   "physics_excluded": 4
+  }
+ },
+ "per_key": {
+  "apple__objaverse_0": "evaluated",
+  "apple__objaverse_1": "evaluated",
+  "apple__objaverse_10": "evaluated",
+  "apple__objaverse_11": "evaluated",
+  "apple__objaverse_12": "evaluated",
+  "apple__objaverse_13": "evaluated",
+  "apple__objaverse_14": "evaluated",
+  "apple__objaverse_15": "evaluated",
+  "apple__objaverse_17": "evaluated",
+  "apple__objaverse_18": "evaluated",
+  "apple__objaverse_19": "evaluated",
+  "apple__objaverse_2": "evaluated",
+  "apple__objaverse_20": "evaluated",
+  "apple__objaverse_21": "evaluated",
+  "apple__objaverse_22": "evaluated",
+  "apple__objaverse_3": "evaluated",
+  "apple__objaverse_4": "evaluated",
+  "apple__objaverse_5": "evaluated",
+  "apple__objaverse_6": "evaluated",
+  "apple__objaverse_7": "evaluated",
+  "apple__objaverse_8": "evaluated",
+  "apple__objaverse_9": "evaluated",
+  "avocado__objaverse_1": "evaluated",
+  "avocado__objaverse_2": "evaluated",
+  "avocado__objaverse_4": "evaluated",
+  "avocado__objaverse_5": "evaluated",
+  "avocado__objaverse_6": "evaluated",
+  "avocado__objaverse_8": "evaluated",
+  "avocado__aigen_0": "evaluated",
+  "avocado__aigen_1": "evaluated",
+  "avocado__aigen_10": "evaluated",
+  "avocado__aigen_2": "evaluated",
+  "avocado__aigen_3": "evaluated",
+  "avocado__aigen_4": "evaluated",
+  "avocado__aigen_5": "evaluated",
+  "avocado__aigen_6": "evaluated",
+  "avocado__aigen_7": "evaluated",
+  "avocado__aigen_8": "evaluated",
+  "avocado__aigen_9": "evaluated",
+  "baguette__objaverse_0": "evaluated",
+  "baguette__objaverse_1": "evaluated",
+  "baguette__objaverse_2": "physics_excluded",
+  "baguette__objaverse_4": "evaluated",
+  "baguette__objaverse_5": "evaluated",
+  "baguette__objaverse_6": "evaluated",
+  "baguette__aigen_0": "evaluated",
+  "baguette__aigen_1": "evaluated",
+  "baguette__aigen_10": "evaluated",
+  "baguette__aigen_11": "evaluated",
+  "baguette__aigen_12": "evaluated",
+  "baguette__aigen_13": "physics_excluded",
+  "baguette__aigen_14": "evaluated",
+  "baguette__aigen_15": "evaluated",
+  "baguette__aigen_16": "evaluated",
+  "baguette__aigen_17": "evaluated",
+  "baguette__aigen_2": "evaluated",
+  "baguette__aigen_3": "evaluated",
+  "baguette__aigen_4": "physics_excluded",
+  "baguette__aigen_5": "physics_excluded",
+  "baguette__aigen_6": "evaluated",
+  "baguette__aigen_7": "evaluated",
+  "baguette__aigen_8": "evaluated",
+  "baguette__aigen_9": "physics_excluded",
+  "banana__objaverse_1": "physics_excluded",
+  "banana__objaverse_10": "physics_excluded",
+  "banana__objaverse_11": "evaluated",
+  "banana__objaverse_12": "evaluated",
+  "banana__objaverse_14": "evaluated",
+  "banana__objaverse_15": "evaluated",
+  "banana__objaverse_16": "evaluated",
+  "banana__objaverse_18": "evaluated",
+  "banana__objaverse_19": "evaluated",
+  "banana__objaverse_2": "evaluated",
+  "banana__objaverse_20": "evaluated",
+  "banana__objaverse_21": "evaluated",
+  "banana__objaverse_22": "evaluated",
+  "banana__objaverse_23": "evaluated",
+  "banana__objaverse_24": "evaluated",
+  "banana__objaverse_3": "evaluated",
+  "banana__objaverse_4": "evaluated",
+  "banana__objaverse_5": "evaluated",
+  "banana__objaverse_6": "evaluated",
+  "banana__objaverse_7": "evaluated",
+  "banana__objaverse_8": "evaluated",
+  "banana__objaverse_9": "evaluated",
+  "bar__objaverse_0": "evaluated",
+  "bar__objaverse_10": "evaluated",
+  "bar__objaverse_11": "evaluated",
+  "bar__objaverse_2": "evaluated",
+  "bar__objaverse_3": "evaluated",
+  "bar__objaverse_4": "evaluated",
+  "bar__objaverse_6": "evaluated",
+  "bar__objaverse_7": "evaluated",
+  "bar__objaverse_8": "evaluated",
+  "bar__objaverse_9": "evaluated",
+  "bar__aigen_0": "evaluated",
+  "bar__aigen_1": "evaluated",
+  "bar__aigen_2": "evaluated",
+  "bar__aigen_3": "evaluated",
+  "bar__aigen_4": "evaluated",
+  "bar__aigen_5": "evaluated",
+  "bar__aigen_6": "evaluated",
+  "bar_soap__objaverse_0": "evaluated",
+  "bar_soap__objaverse_1": "evaluated",
+  "bar_soap__objaverse_3": "evaluated",
+  "bar_soap__objaverse_4": "evaluated",
+  "bar_soap__aigen_0": "evaluated",
+  "bar_soap__aigen_1": "evaluated",
+  "bar_soap__aigen_2": "evaluated",
+  "bar_soap__aigen_3": "evaluated",
+  "bar_soap__aigen_4": "evaluated",
+  "bar_soap__aigen_5": "evaluated",
+  "bar_soap__aigen_6": "evaluated",
+  "bar_soap__aigen_7": "evaluated",
+  "beer__objaverse_0": "evaluated",
+  "beer__objaverse_1": "evaluated",
+  "beer__objaverse_10": "evaluated",
+  "beer__objaverse_11": "evaluated",
+  "beer__objaverse_12": "evaluated",
+  "beer__objaverse_13": "evaluated",
+  "beer__objaverse_15": "physics_excluded",
+  "beer__objaverse_16": "physics_excluded",
+  "beer__objaverse_18": "evaluated",
+  "beer__objaverse_19": "evaluated",
+  "beer__objaverse_2": "evaluated",
+  "beer__objaverse_5": "evaluated",
+  "beer__objaverse_6": "evaluated",
+  "beer__objaverse_7": "physics_excluded",
+  "beer__objaverse_8": "evaluated",
+  "beer__objaverse_9": "evaluated",
+  "beer__aigen_0": "evaluated",
+  "beer__aigen_1": "evaluated",
+  "beer__aigen_2": "evaluated",
+  "beer__aigen_3": "evaluated",
+  "beer__aigen_4": "evaluated",
+  "beer__aigen_5": "evaluated",
+  "beer__aigen_6": "evaluated",
+  "beer__aigen_7": "evaluated",
+  "beer__aigen_8": "evaluated",
+  "bell_pepper__objaverse_0": "evaluated",
+  "bell_pepper__objaverse_1": "evaluated",
+  "bell_pepper__objaverse_2": "evaluated",
+  "bell_pepper__objaverse_3": "evaluated",
+  "bottled_drink__objaverse_0": "evaluated",
+  "bottled_drink__objaverse_1": "evaluated",
+  "bottled_drink__objaverse_2": "evaluated",
+  "bottled_drink__objaverse_4": "evaluated",
+  "bottled_drink__objaverse_5": "evaluated",
+  "bottled_drink__aigen_0": "evaluated",
+  "bottled_drink__aigen_1": "evaluated",
+  "bottled_drink__aigen_10": "evaluated",
+  "bottled_drink__aigen_11": "evaluated",
+  "bottled_drink__aigen_12": "evaluated",
+  "bottled_drink__aigen_13": "evaluated",
+  "bottled_drink__aigen_2": "evaluated",
+  "bottled_drink__aigen_3": "evaluated",
+  "bottled_drink__aigen_4": "evaluated",
+  "bottled_drink__aigen_5": "evaluated",
+  "bottled_drink__aigen_6": "evaluated",
+  "bottled_drink__aigen_7": "evaluated",
+  "bottled_drink__aigen_8": "evaluated",
+  "bottled_drink__aigen_9": "evaluated",
+  "bottled_water__objaverse_1": "physics_excluded",
+  "bottled_water__objaverse_10": "evaluated",
+  "bottled_water__objaverse_11": "evaluated",
+  "bottled_water__objaverse_12": "evaluated",
+  "bottled_water__objaverse_13": "evaluated",
+  "bottled_water__objaverse_14": "evaluated",
+  "bottled_water__objaverse_16": "evaluated",
+  "bottled_water__objaverse_17": "evaluated",
+  "bottled_water__objaverse_2": "evaluated",
+  "bottled_water__objaverse_3": "evaluated",
+  "bottled_water__objaverse_4": "evaluated",
+  "bottled_water__objaverse_6": "evaluated",
+  "bottled_water__objaverse_8": "evaluated",
+  "bottled_water__aigen_0": "evaluated",
+  "bottled_water__aigen_1": "evaluated",
+  "bottled_water__aigen_10": "evaluated",
+  "bottled_water__aigen_11": "evaluated",
+  "bottled_water__aigen_12": "evaluated",
+  "bottled_water__aigen_13": "evaluated",
+  "bottled_water__aigen_14": "evaluated",
+  "bottled_water__aigen_2": "evaluated",
+  "bottled_water__aigen_3": "evaluated",
+  "bottled_water__aigen_4": "evaluated",
+  "bottled_water__aigen_5": "evaluated",
+  "bottled_water__aigen_6": "evaluated",
+  "bottled_water__aigen_7": "evaluated",
+  "bottled_water__aigen_8": "evaluated",
+  "bottled_water__aigen_9": "evaluated",
+  "boxed_drink__objaverse_0": "evaluated",
+  "boxed_drink__objaverse_1": "evaluated",
+  "boxed_drink__objaverse_2": "evaluated",
+  "boxed_drink__objaverse_3": "evaluated",
+  "boxed_drink__objaverse_4": "evaluated",
+  "boxed_drink__objaverse_5": "evaluated",
+  "boxed_drink__objaverse_7": "evaluated",
+  "boxed_drink__aigen_0": "evaluated",
+  "boxed_drink__aigen_1": "evaluated",
+  "boxed_drink__aigen_10": "evaluated",
+  "boxed_drink__aigen_11": "evaluated",
+  "boxed_drink__aigen_12": "evaluated",
+  "boxed_drink__aigen_13": "evaluated",
+  "boxed_drink__aigen_14": "evaluated",
+  "boxed_drink__aigen_2": "evaluated",
+  "boxed_drink__aigen_3": "evaluated",
+  "boxed_drink__aigen_4": "evaluated",
+  "boxed_drink__aigen_5": "evaluated",
+  "boxed_drink__aigen_6": "evaluated",
+  "boxed_drink__aigen_7": "evaluated",
+  "boxed_drink__aigen_8": "evaluated",
+  "boxed_drink__aigen_9": "evaluated",
+  "bread__objaverse_0": "evaluated",
+  "bread__objaverse_1": "evaluated",
+  "bread__objaverse_11": "evaluated",
+  "bread__objaverse_14": "evaluated",
+  "bread__objaverse_17": "evaluated",
+  "bread__objaverse_19": "evaluated",
+  "bread__objaverse_2": "evaluated",
+  "bread__objaverse_20": "evaluated",
+  "bread__objaverse_21": "evaluated",
+  "bread__objaverse_4": "evaluated",
+  "bread__objaverse_5": "evaluated",
+  "bread__objaverse_7": "evaluated",
+  "bread__objaverse_8": "evaluated",
+  "bread__aigen_0": "evaluated",
+  "bread__aigen_1": "evaluated",
+  "bread__aigen_10": "evaluated",
+  "bread__aigen_11": "evaluated",
+  "bread__aigen_2": "evaluated",
+  "bread__aigen_3": "evaluated",
+  "bread__aigen_4": "evaluated",
+  "bread__aigen_5": "evaluated",
+  "bread__aigen_6": "evaluated",
+  "bread__aigen_7": "evaluated",
+  "bread__aigen_8": "evaluated",
+  "bread__aigen_9": "evaluated",
+  "bread_flat__objaverse_bread_13": "evaluated",
+  "bread_flat__objaverse_bread_18": "evaluated",
+  "bread_flat__objaverse_bread_3": "evaluated",
+  "bread_flat__objaverse_bread_9": "evaluated",
+  "bread_flat__aigen_bread_0": "evaluated",
+  "bread_flat__aigen_bread_1": "evaluated",
+  "bread_flat__aigen_bread_10": "evaluated",
+  "bread_flat__aigen_bread_11": "evaluated",
+  "bread_flat__aigen_bread_2": "evaluated",
+  "bread_flat__aigen_bread_3": "evaluated",
+  "bread_flat__aigen_bread_4": "evaluated",
+  "bread_flat__aigen_bread_5": "evaluated",
+  "bread_flat__aigen_bread_6": "evaluated",
+  "bread_flat__aigen_bread_7": "evaluated",
+  "bread_flat__aigen_bread_8": "evaluated",
+  "bread_flat__aigen_bread_9": "evaluated",
+  "broccoli__objaverse_0": "evaluated",
+  "broccoli__objaverse_1": "evaluated",
+  "broccoli__objaverse_3": "evaluated",
+  "cake__objaverse_0": "evaluated",
+  "cake__objaverse_1": "evaluated",
+  "cake__objaverse_3": "evaluated",
+  "cake__objaverse_4": "evaluated",
+  "cake__objaverse_5": "evaluated",
+  "cake__objaverse_6": "evaluated",
+  "cake__objaverse_7": "evaluated",
+  "cake__objaverse_8": "evaluated",
+  "cake__objaverse_9": "evaluated",
+  "cake__aigen_0": "evaluated",
+  "cake__aigen_1": "evaluated",
+  "cake__aigen_2": "evaluated",
+  "cake__aigen_3": "evaluated",
+  "cake__aigen_4": "evaluated",
+  "cake__aigen_5": "evaluated",
+  "cake__aigen_6": "evaluated",
+  "candle__objaverse_0": "evaluated",
+  "candle__objaverse_1": "evaluated",
+  "candle__objaverse_10": "evaluated",
+  "candle__objaverse_12": "evaluated",
+  "candle__objaverse_13": "evaluated",
+  "candle__objaverse_14": "evaluated",
+  "candle__objaverse_15": "evaluated",
+  "candle__objaverse_2": "evaluated",
+  "candle__objaverse_3": "evaluated",
+  "candle__objaverse_4": "evaluated",
+  "candle__objaverse_5": "evaluated",
+  "candle__objaverse_6": "evaluated",
+  "candle__objaverse_7": "evaluated",
+  "candle__objaverse_8": "evaluated",
+  "candle__objaverse_9": "evaluated",
+  "candle__aigen_0": "evaluated",
+  "candle__aigen_1": "evaluated",
+  "candle__aigen_2": "evaluated",
+  "candle__aigen_3": "evaluated",
+  "candle__aigen_4": "evaluated",
+  "candle__aigen_5": "evaluated",
+  "candle__aigen_6": "evaluated",
+  "candle__aigen_7": "evaluated",
+  "candle__aigen_8": "physics_excluded",
+  "candle__aigen_9": "evaluated",
+  "carrot__objaverse_0": "evaluated",
+  "carrot__objaverse_1": "physics_excluded",
+  "carrot__objaverse_2": "evaluated",
+  "carrot__objaverse_3": "evaluated",
+  "carrot__objaverse_4": "evaluated",
+  "carrot__objaverse_6": "evaluated",
+  "carrot__objaverse_7": "evaluated",
+  "carrot__aigen_0": "evaluated",
+  "carrot__aigen_1": "evaluated",
+  "carrot__aigen_2": "evaluated",
+  "carrot__aigen_3": "evaluated",
+  "carrot__aigen_4": "evaluated",
+  "carrot__aigen_5": "evaluated",
+  "carrot__aigen_6": "evaluated",
+  "carrot__aigen_7": "evaluated",
+  "carrot__aigen_8": "evaluated",
+  "cereal__objaverse_0": "evaluated",
+  "cereal__objaverse_1": "evaluated",
+  "cereal__objaverse_10": "evaluated",
+  "cereal__objaverse_11": "evaluated",
+  "cereal__objaverse_12": "evaluated",
+  "cereal__objaverse_13": "evaluated",
+  "cereal__objaverse_2": "evaluated",
+  "cereal__objaverse_3": "evaluated",
+  "cereal__objaverse_4": "evaluated",
+  "cereal__objaverse_5": "evaluated",
+  "cereal__objaverse_6": "evaluated",
+  "cereal__objaverse_7": "evaluated",
+  "cereal__objaverse_8": "evaluated",
+  "cereal__objaverse_9": "evaluated",
+  "cereal__aigen_0": "evaluated",
+  "cereal__aigen_1": "evaluated",
+  "cereal__aigen_2": "evaluated",
+  "cereal__aigen_3": "evaluated",
+  "cereal__aigen_4": "evaluated",
+  "cereal__aigen_5": "evaluated",
+  "cereal__aigen_6": "evaluated",
+  "cereal__aigen_7": "evaluated",
+  "cereal__aigen_8": "evaluated",
+  "cheese__objaverse_0": "evaluated",
+  "cheese__objaverse_1": "evaluated",
+  "cheese__objaverse_2": "evaluated",
+  "cheese__objaverse_3": "evaluated",
+  "cheese__objaverse_4": "evaluated",
+  "cheese__objaverse_5": "evaluated",
+  "cheese__objaverse_6": "evaluated",
+  "cheese__objaverse_7": "evaluated",
+  "cheese__objaverse_8": "evaluated",
+  "cheese__aigen_0": "evaluated",
+  "cheese__aigen_1": "evaluated",
+  "cheese__aigen_10": "evaluated",
+  "cheese__aigen_11": "evaluated",
+  "cheese__aigen_12": "evaluated",
+  "cheese__aigen_2": "evaluated",
+  "cheese__aigen_3": "evaluated",
+  "cheese__aigen_4": "evaluated",
+  "cheese__aigen_5": "evaluated",
+  "cheese__aigen_6": "evaluated",
+  "cheese__aigen_7": "evaluated",
+  "cheese__aigen_8": "evaluated",
+  "cheese__aigen_9": "evaluated",
+  "croissant__objaverse_0": "evaluated",
+  "croissant__objaverse_1": "evaluated",
+  "croissant__objaverse_10": "evaluated",
+  "croissant__objaverse_2": "evaluated",
+  "croissant__objaverse_3": "evaluated",
+  "croissant__objaverse_4": "evaluated",
+  "croissant__objaverse_5": "evaluated",
+  "croissant__objaverse_6": "evaluated",
+  "croissant__objaverse_8": "evaluated",
+  "croissant__objaverse_9": "evaluated",
+  "croissant__aigen_0": "evaluated",
+  "croissant__aigen_1": "evaluated",
+  "croissant__aigen_2": "evaluated",
+  "croissant__aigen_3": "evaluated",
+  "croissant__aigen_4": "evaluated",
+  "croissant__aigen_5": "evaluated",
+  "croissant__aigen_6": "evaluated",
+  "cucumber__objaverse_0": "evaluated",
+  "cucumber__objaverse_1": "evaluated",
+  "cucumber__objaverse_2": "evaluated",
+  "cucumber__objaverse_3": "evaluated",
+  "cucumber__objaverse_4": "evaluated",
+  "cucumber__objaverse_5": "evaluated",
+  "cucumber__aigen_0": "evaluated",
+  "cucumber__aigen_1": "evaluated",
+  "cucumber__aigen_10": "evaluated",
+  "cucumber__aigen_11": "evaluated",
+  "cucumber__aigen_2": "evaluated",
+  "cucumber__aigen_3": "evaluated",
+  "cucumber__aigen_4": "evaluated",
+  "cucumber__aigen_5": "evaluated",
+  "cucumber__aigen_6": "evaluated",
+  "cucumber__aigen_7": "evaluated",
+  "cucumber__aigen_8": "evaluated",
+  "cucumber__aigen_9": "evaluated",
+  "cupcake__objaverse_11": "evaluated",
+  "cupcake__objaverse_12": "evaluated",
+  "cupcake__objaverse_14": "evaluated",
+  "cupcake__objaverse_15": "evaluated",
+  "cupcake__objaverse_16": "evaluated",
+  "cupcake__objaverse_17": "evaluated",
+  "cupcake__objaverse_18": "evaluated",
+  "cupcake__objaverse_19": "evaluated",
+  "cupcake__objaverse_2": "evaluated",
+  "cupcake__objaverse_20": "evaluated",
+  "cupcake__objaverse_3": "evaluated",
+  "cupcake__objaverse_4": "evaluated",
+  "cupcake__objaverse_5": "evaluated",
+  "cupcake__objaverse_6": "evaluated",
+  "cupcake__objaverse_7": "evaluated",
+  "cupcake__objaverse_9": "evaluated",
+  "cupcake__aigen_0": "evaluated",
+  "cupcake__aigen_1": "evaluated",
+  "cupcake__aigen_10": "evaluated",
+  "cupcake__aigen_11": "evaluated",
+  "cupcake__aigen_12": "evaluated",
+  "cupcake__aigen_13": "evaluated",
+  "cupcake__aigen_14": "evaluated",
+  "cupcake__aigen_2": "evaluated",
+  "cupcake__aigen_3": "evaluated",
+  "cupcake__aigen_4": "evaluated",
+  "cupcake__aigen_5": "evaluated",
+  "cupcake__aigen_6": "evaluated",
+  "cupcake__aigen_7": "evaluated",
+  "cupcake__aigen_8": "evaluated",
+  "cupcake__aigen_9": "evaluated",
+  "donut__objaverse_0": "evaluated",
+  "donut__objaverse_1": "evaluated",
+  "donut__objaverse_10": "evaluated",
+  "donut__objaverse_11": "evaluated",
+  "donut__objaverse_12": "evaluated",
+  "donut__objaverse_14": "evaluated",
+  "donut__objaverse_15": "evaluated",
+  "donut__objaverse_2": "evaluated",
+  "donut__objaverse_3": "evaluated",
+  "donut__objaverse_4": "evaluated",
+  "donut__objaverse_5": "evaluated",
+  "donut__objaverse_6": "evaluated",
+  "donut__objaverse_7": "evaluated",
+  "donut__objaverse_8": "evaluated",
+  "donut__objaverse_9": "evaluated",
+  "donut__aigen_0": "evaluated",
+  "donut__aigen_1": "evaluated",
+  "donut__aigen_2": "evaluated",
+  "donut__aigen_3": "evaluated",
+  "donut__aigen_4": "evaluated",
+  "donut__aigen_5": "evaluated",
+  "donut__aigen_6": "evaluated",
+  "donut__aigen_7": "evaluated",
+  "egg__objaverse_0": "evaluated",
+  "egg__objaverse_1": "evaluated",
+  "egg__objaverse_10": "evaluated",
+  "egg__objaverse_11": "evaluated",
+  "egg__objaverse_12": "evaluated",
+  "egg__objaverse_13": "evaluated",
+  "egg__objaverse_3": "evaluated",
+  "egg__objaverse_4": "evaluated",
+  "egg__objaverse_5": "evaluated",
+  "egg__objaverse_6": "evaluated",
+  "egg__objaverse_7": "evaluated",
+  "egg__objaverse_8": "evaluated",
+  "egg__objaverse_9": "evaluated",
+  "egg__aigen_0": "evaluated",
+  "egg__aigen_1": "evaluated",
+  "egg__aigen_10": "evaluated",
+  "egg__aigen_11": "evaluated",
+  "egg__aigen_12": "evaluated",
+  "egg__aigen_13": "evaluated",
+  "egg__aigen_14": "evaluated",
+  "egg__aigen_2": "evaluated",
+  "egg__aigen_3": "evaluated",
+  "egg__aigen_4": "evaluated",
+  "egg__aigen_5": "evaluated",
+  "egg__aigen_6": "evaluated",
+  "egg__aigen_7": "evaluated",
+  "egg__aigen_8": "evaluated",
+  "egg__aigen_9": "evaluated",
+  "eggplant__objaverse_0": "evaluated",
+  "eggplant__objaverse_1": "evaluated",
+  "eggplant__objaverse_2": "evaluated",
+  "eggplant__objaverse_3": "evaluated",
+  "eggplant__objaverse_4": "evaluated",
+  "eggplant__aigen_0": "evaluated",
+  "eggplant__aigen_1": "evaluated",
+  "eggplant__aigen_2": "evaluated",
+  "eggplant__aigen_3": "evaluated",
+  "eggplant__aigen_4": "evaluated",
+  "eggplant__aigen_5": "evaluated",
+  "eggplant__aigen_6": "evaluated",
+  "fish__objaverse_0": "physics_excluded",
+  "fish__objaverse_1": "evaluated",
+  "fish__objaverse_10": "evaluated",
+  "fish__objaverse_11": "evaluated",
+  "fish__objaverse_2": "evaluated",
+  "fish__objaverse_3": "physics_excluded",
+  "fish__objaverse_4": "evaluated",
+  "fish__objaverse_5": "evaluated",
+  "fish__objaverse_6": "evaluated",
+  "fish__objaverse_7": "evaluated",
+  "fish__objaverse_8": "evaluated",
+  "fish__objaverse_9": "evaluated",
+  "fish__aigen_0": "physics_excluded",
+  "fish__aigen_1": "physics_excluded",
+  "fish__aigen_2": "physics_excluded",
+  "fish__aigen_3": "evaluated",
+  "fish__aigen_4": "evaluated",
+  "fish__aigen_5": "physics_excluded",
+  "fish__aigen_6": "physics_excluded",
+  "fish__aigen_7": "evaluated",
+  "garlic__objaverse_0": "evaluated",
+  "garlic__objaverse_1": "evaluated",
+  "garlic__objaverse_2": "evaluated",
+  "garlic__objaverse_4": "evaluated",
+  "garlic__objaverse_5": "evaluated",
+  "garlic__aigen_0": "evaluated",
+  "garlic__aigen_1": "evaluated",
+  "garlic__aigen_10": "evaluated",
+  "garlic__aigen_11": "evaluated",
+  "garlic__aigen_12": "evaluated",
+  "garlic__aigen_2": "evaluated",
+  "garlic__aigen_3": "evaluated",
+  "garlic__aigen_4": "evaluated",
+  "garlic__aigen_5": "evaluated",
+  "garlic__aigen_6": "evaluated",
+  "garlic__aigen_7": "evaluated",
+  "garlic__aigen_8": "evaluated",
+  "garlic__aigen_9": "evaluated",
+  "hot_dog__objaverse_0": "evaluated",
+  "hot_dog__objaverse_1": "evaluated",
+  "hot_dog__objaverse_2": "evaluated",
+  "hot_dog__objaverse_3": "evaluated",
+  "hot_dog__objaverse_4": "evaluated",
+  "hot_dog__objaverse_5": "evaluated",
+  "hot_dog__objaverse_6": "evaluated",
+  "hot_dog__aigen_0": "evaluated",
+  "hot_dog__aigen_1": "evaluated",
+  "hot_dog__aigen_10": "evaluated",
+  "hot_dog__aigen_2": "evaluated",
+  "hot_dog__aigen_3": "evaluated",
+  "hot_dog__aigen_4": "evaluated",
+  "hot_dog__aigen_5": "evaluated",
+  "hot_dog__aigen_6": "evaluated",
+  "hot_dog__aigen_7": "evaluated",
+  "hot_dog__aigen_8": "evaluated",
+  "hot_dog__aigen_9": "evaluated",
+  "jam__objaverse_0": "evaluated",
+  "jam__objaverse_1": "evaluated",
+  "jam__objaverse_2": "evaluated",
+  "jam__objaverse_3": "evaluated",
+  "jam__objaverse_4": "evaluated",
+  "jam__objaverse_5": "evaluated",
+  "jam__objaverse_6": "evaluated",
+  "jam__aigen_0": "evaluated",
+  "jam__aigen_1": "evaluated",
+  "jam__aigen_10": "evaluated",
+  "jam__aigen_11": "evaluated",
+  "jam__aigen_12": "evaluated",
+  "jam__aigen_13": "evaluated",
+  "jam__aigen_14": "evaluated",
+  "jam__aigen_15": "evaluated",
+  "jam__aigen_16": "evaluated",
+  "jam__aigen_17": "evaluated",
+  "jam__aigen_18": "evaluated",
+  "jam__aigen_2": "evaluated",
+  "jam__aigen_3": "evaluated",
+  "jam__aigen_4": "evaluated",
+  "jam__aigen_5": "evaluated",
+  "jam__aigen_6": "evaluated",
+  "jam__aigen_7": "evaluated",
+  "jam__aigen_8": "evaluated",
+  "jam__aigen_9": "evaluated",
+  "jug__objaverse_0": "evaluated",
+  "jug__objaverse_1": "physics_excluded",
+  "jug__objaverse_2": "evaluated",
+  "jug__objaverse_3": "evaluated",
+  "jug__objaverse_4": "physics_excluded",
+  "jug__objaverse_5": "physics_excluded",
+  "jug__objaverse_6": "evaluated",
+  "jug__objaverse_7": "evaluated",
+  "jug__objaverse_8": "evaluated",
+  "jug__aigen_0": "evaluated",
+  "jug__aigen_1": "evaluated",
+  "jug__aigen_2": "evaluated",
+  "jug__aigen_3": "evaluated",
+  "jug__aigen_4": "evaluated",
+  "jug__aigen_5": "evaluated",
+  "jug__aigen_6": "evaluated",
+  "jug__aigen_7": "evaluated",
+  "jug_wide_opening__objaverse_jug_1": "physics_excluded",
+  "jug_wide_opening__objaverse_jug_3": "evaluated",
+  "jug_wide_opening__objaverse_jug_4": "physics_excluded",
+  "jug_wide_opening__objaverse_jug_6": "evaluated",
+  "jug_wide_opening__objaverse_jug_8": "evaluated",
+  "kettle_non_electric__objaverse_kettle_1": "evaluated",
+  "kettle_non_electric__objaverse_kettle_10": "evaluated",
+  "kettle_non_electric__objaverse_kettle_11": "evaluated",
+  "kettle_non_electric__objaverse_kettle_14": "evaluated",
+  "kettle_non_electric__objaverse_kettle_16": "evaluated",
+  "kettle_non_electric__objaverse_kettle_18": "evaluated",
+  "kettle_non_electric__objaverse_kettle_19": "evaluated",
+  "kettle_non_electric__objaverse_kettle_2": "evaluated",
+  "kettle_non_electric__objaverse_kettle_20": "evaluated",
+  "kettle_non_electric__objaverse_kettle_21": "physics_excluded",
+  "kettle_non_electric__objaverse_kettle_22": "evaluated",
+  "kettle_non_electric__objaverse_kettle_23": "evaluated",
+  "kettle_non_electric__objaverse_kettle_28": "evaluated",
+  "kettle_non_electric__objaverse_kettle_3": "evaluated",
+  "kettle_non_electric__objaverse_kettle_4": "evaluated",
+  "kettle_non_electric__objaverse_kettle_5": "evaluated",
+  "kettle_non_electric__objaverse_kettle_6": "evaluated",
+  "kettle_non_electric__objaverse_kettle_8": "evaluated",
+  "kettle_non_electric__aigen_kettle_1": "evaluated",
+  "kettle_non_electric__aigen_kettle_11": "evaluated",
+  "kettle_non_electric__aigen_kettle_3": "evaluated",
+  "kettle_non_electric__aigen_kettle_4": "evaluated",
+  "kettle_non_electric__aigen_kettle_5": "evaluated",
+  "kettle_non_electric__aigen_kettle_7": "evaluated",
+  "kettle_non_electric__aigen_kettle_8": "evaluated",
+  "kiwi__objaverse_0": "evaluated",
+  "kiwi__objaverse_1": "evaluated",
+  "kiwi__objaverse_2": "evaluated",
+  "kiwi__objaverse_5": "evaluated",
+  "kiwi__objaverse_6": "evaluated",
+  "kiwi__objaverse_7": "evaluated",
+  "kiwi__aigen_0": "evaluated",
+  "kiwi__aigen_1": "evaluated",
+  "kiwi__aigen_10": "evaluated",
+  "kiwi__aigen_2": "evaluated",
+  "kiwi__aigen_3": "evaluated",
+  "kiwi__aigen_4": "evaluated",
+  "kiwi__aigen_5": "evaluated",
+  "kiwi__aigen_6": "evaluated",
+  "kiwi__aigen_7": "evaluated",
+  "kiwi__aigen_8": "evaluated",
+  "kiwi__aigen_9": "evaluated",
+  "ladle__objaverse_0": "evaluated",
+  "ladle__objaverse_1": "physics_excluded",
+  "ladle__objaverse_2": "evaluated",
+  "ladle__objaverse_3": "evaluated",
+  "ladle__objaverse_4": "evaluated",
+  "ladle__aigen_0": "physics_excluded",
+  "ladle__aigen_1": "physics_excluded",
+  "ladle__aigen_2": "evaluated",
+  "ladle__aigen_3": "physics_excluded",
+  "ladle__aigen_4": "evaluated",
+  "ladle__aigen_5": "physics_excluded",
+  "ladle__aigen_6": "evaluated",
+  "ladle__aigen_7": "evaluated",
+  "ladle__aigen_8": "physics_excluded",
+  "lemon__objaverse_0": "evaluated",
+  "lemon__objaverse_1": "evaluated",
+  "lemon__objaverse_10": "evaluated",
+  "lemon__objaverse_11": "evaluated",
+  "lemon__objaverse_12": "evaluated",
+  "lemon__objaverse_13": "evaluated",
+  "lemon__objaverse_14": "evaluated",
+  "lemon__objaverse_15": "evaluated",
+  "lemon__objaverse_16": "evaluated",
+  "lemon__objaverse_17": "evaluated",
+  "lemon__objaverse_2": "evaluated",
+  "lemon__objaverse_3": "evaluated",
+  "lemon__objaverse_4": "evaluated",
+  "lemon__objaverse_5": "evaluated",
+  "lemon__objaverse_6": "evaluated",
+  "lemon__objaverse_7": "evaluated",
+  "lemon__objaverse_8": "evaluated",
+  "lemon__objaverse_9": "evaluated",
+  "lemon__aigen_0": "evaluated",
+  "lemon__aigen_1": "evaluated",
+  "lemon__aigen_10": "evaluated",
+  "lemon__aigen_11": "evaluated",
+  "lemon__aigen_2": "evaluated",
+  "lemon__aigen_3": "evaluated",
+  "lemon__aigen_4": "evaluated",
+  "lemon__aigen_5": "evaluated",
+  "lemon__aigen_6": "evaluated",
+  "lemon__aigen_7": "evaluated",
+  "lemon__aigen_8": "evaluated",
+  "lemon__aigen_9": "evaluated",
+  "lime__objaverse_0": "evaluated",
+  "lime__objaverse_1": "evaluated",
+  "lime__objaverse_2": "evaluated",
+  "lime__objaverse_3": "evaluated",
+  "liquor__objaverse_alcohol_0": "evaluated",
+  "liquor__objaverse_alcohol_1": "evaluated",
+  "liquor__objaverse_alcohol_10": "evaluated",
+  "liquor__objaverse_alcohol_11": "evaluated",
+  "liquor__objaverse_alcohol_13": "evaluated",
+  "liquor__objaverse_alcohol_14": "evaluated",
+  "liquor__objaverse_alcohol_2": "evaluated",
+  "liquor__objaverse_alcohol_4": "evaluated",
+  "liquor__objaverse_alcohol_5": "evaluated",
+  "liquor__objaverse_alcohol_7": "evaluated",
+  "liquor__objaverse_alcohol_9": "evaluated",
+  "mango__objaverse_1": "evaluated",
+  "mango__objaverse_10": "evaluated",
+  "mango__objaverse_11": "evaluated",
+  "mango__objaverse_12": "evaluated",
+  "mango__objaverse_13": "evaluated",
+  "mango__objaverse_14": "evaluated",
+  "mango__objaverse_15": "evaluated",
+  "mango__objaverse_16": "evaluated",
+  "mango__objaverse_18": "evaluated",
+  "mango__objaverse_4": "evaluated",
+  "mango__objaverse_5": "evaluated",
+  "mango__objaverse_7": "evaluated",
+  "mango__objaverse_8": "evaluated",
+  "mango__objaverse_9": "evaluated",
+  "mango__aigen_0": "evaluated",
+  "mango__aigen_1": "evaluated",
+  "mango__aigen_2": "evaluated",
+  "mango__aigen_3": "evaluated",
+  "mango__aigen_4": "evaluated",
+  "mango__aigen_5": "evaluated",
+  "mango__aigen_6": "evaluated",
+  "mango__aigen_7": "evaluated",
+  "mushroom__objaverse_0": "evaluated",
+  "mushroom__objaverse_1": "evaluated",
+  "mushroom__objaverse_10": "evaluated",
+  "mushroom__objaverse_11": "evaluated",
+  "mushroom__objaverse_12": "evaluated",
+  "mushroom__objaverse_14": "evaluated",
+  "mushroom__objaverse_15": "evaluated",
+  "mushroom__objaverse_2": "evaluated",
+  "mushroom__objaverse_3": "evaluated",
+  "mushroom__objaverse_4": "evaluated",
+  "mushroom__objaverse_5": "evaluated",
+  "mushroom__objaverse_6": "evaluated",
+  "mushroom__objaverse_8": "evaluated",
+  "mushroom__objaverse_9": "evaluated",
+  "mushroom__aigen_0": "evaluated",
+  "mushroom__aigen_1": "evaluated",
+  "mushroom__aigen_2": "evaluated",
+  "mushroom__aigen_3": "evaluated",
+  "mushroom__aigen_4": "evaluated",
+  "mushroom__aigen_5": "evaluated",
+  "mushroom__aigen_6": "evaluated",
+  "mushroom__aigen_7": "evaluated",
+  "mushroom__aigen_8": "evaluated",
+  "onion__objaverse_0": "evaluated",
+  "onion__objaverse_1": "evaluated",
+  "onion__objaverse_10": "evaluated",
+  "onion__objaverse_2": "evaluated",
+  "onion__objaverse_3": "evaluated",
+  "onion__objaverse_6": "evaluated",
+  "onion__objaverse_7": "evaluated",
+  "onion__objaverse_8": "evaluated",
+  "onion__objaverse_9": "evaluated",
+  "orange__objaverse_0": "evaluated",
+  "orange__objaverse_1": "evaluated",
+  "orange__objaverse_10": "evaluated",
+  "orange__objaverse_11": "evaluated",
+  "orange__objaverse_12": "evaluated",
+  "orange__objaverse_13": "evaluated",
+  "orange__objaverse_2": "evaluated",
+  "orange__objaverse_3": "evaluated",
+  "orange__objaverse_4": "evaluated",
+  "orange__objaverse_5": "evaluated",
+  "orange__objaverse_8": "evaluated",
+  "orange__aigen_0": "evaluated",
+  "orange__aigen_1": "evaluated",
+  "orange__aigen_2": "evaluated",
+  "orange__aigen_3": "evaluated",
+  "orange__aigen_4": "evaluated",
+  "orange__aigen_5": "evaluated",
+  "orange__aigen_6": "evaluated",
+  "pot__aigen_0": "evaluated",
+  "peach__objaverse_0": "evaluated",
+  "peach__objaverse_1": "evaluated",
+  "peach__objaverse_2": "evaluated",
+  "peach__objaverse_3": "evaluated",
+  "peach__objaverse_4": "evaluated",
+  "peach__objaverse_5": "evaluated",
+  "peach__objaverse_6": "evaluated",
+  "peach__aigen_0": "evaluated",
+  "peach__aigen_1": "evaluated",
+  "peach__aigen_10": "evaluated",
+  "peach__aigen_2": "evaluated",
+  "peach__aigen_3": "evaluated",
+  "peach__aigen_4": "evaluated",
+  "peach__aigen_5": "evaluated",
+  "peach__aigen_6": "evaluated",
+  "peach__aigen_7": "evaluated",
+  "peach__aigen_8": "evaluated",
+  "peach__aigen_9": "evaluated",
+  "pear__objaverse_1": "evaluated",
+  "pear__objaverse_11": "evaluated",
+  "pear__objaverse_12": "evaluated",
+  "pear__objaverse_13": "evaluated",
+  "pear__objaverse_15": "evaluated",
+  "pear__objaverse_16": "evaluated",
+  "pear__objaverse_17": "evaluated",
+  "pear__objaverse_18": "evaluated",
+  "pear__objaverse_19": "evaluated",
+  "pear__objaverse_2": "evaluated",
+  "pear__objaverse_6": "evaluated",
+  "pear__objaverse_8": "evaluated",
+  "pear__aigen_0": "evaluated",
+  "pear__aigen_1": "evaluated",
+  "pear__aigen_10": "evaluated",
+  "pear__aigen_11": "evaluated",
+  "pear__aigen_12": "evaluated",
+  "pear__aigen_13": "evaluated",
+  "pear__aigen_2": "evaluated",
+  "pear__aigen_3": "evaluated",
+  "pear__aigen_4": "evaluated",
+  "pear__aigen_5": "evaluated",
+  "pear__aigen_6": "evaluated",
+  "pear__aigen_7": "evaluated",
+  "pear__aigen_8": "evaluated",
+  "pear__aigen_9": "evaluated",
+  "potato__objaverse_1": "evaluated",
+  "potato__objaverse_10": "evaluated",
+  "potato__objaverse_11": "evaluated",
+  "potato__objaverse_12": "evaluated",
+  "potato__objaverse_13": "evaluated",
+  "potato__objaverse_14": "evaluated",
+  "potato__objaverse_16": "evaluated",
+  "potato__objaverse_17": "evaluated",
+  "potato__objaverse_18": "evaluated",
+  "potato__objaverse_19": "evaluated",
+  "potato__objaverse_2": "evaluated",
+  "potato__objaverse_3": "evaluated",
+  "potato__objaverse_4": "evaluated",
+  "potato__objaverse_5": "evaluated",
+  "potato__objaverse_6": "evaluated",
+  "potato__objaverse_7": "evaluated",
+  "potato__objaverse_8": "evaluated",
+  "potato__objaverse_9": "evaluated",
+  "potato__aigen_0": "evaluated",
+  "potato__aigen_1": "evaluated",
+  "potato__aigen_10": "evaluated",
+  "potato__aigen_11": "evaluated",
+  "potato__aigen_12": "evaluated",
+  "potato__aigen_13": "evaluated",
+  "potato__aigen_2": "evaluated",
+  "potato__aigen_3": "evaluated",
+  "potato__aigen_4": "evaluated",
+  "potato__aigen_5": "evaluated",
+  "potato__aigen_6": "evaluated",
+  "potato__aigen_7": "evaluated",
+  "potato__aigen_8": "evaluated",
+  "potato__aigen_9": "evaluated",
+  "rolling_pin__objaverse_0": "physics_excluded",
+  "rolling_pin__objaverse_1": "physics_excluded",
+  "rolling_pin__objaverse_2": "evaluated",
+  "rolling_pin__objaverse_3": "physics_excluded",
+  "rolling_pin__objaverse_4": "physics_excluded",
+  "rolling_pin__objaverse_5": "physics_excluded",
+  "rolling_pin__aigen_0": "physics_excluded",
+  "rolling_pin__aigen_1": "physics_excluded",
+  "rolling_pin__aigen_2": "evaluated",
+  "rolling_pin__aigen_3": "evaluated",
+  "rolling_pin__aigen_4": "evaluated",
+  "rolling_pin__aigen_5": "evaluated",
+  "rolling_pin__aigen_6": "evaluated",
+  "shaker__objaverse_0": "evaluated",
+  "shaker__objaverse_1": "evaluated",
+  "shaker__objaverse_2": "evaluated",
+  "shaker__objaverse_3": "evaluated",
+  "shaker__aigen_0": "evaluated",
+  "shaker__aigen_1": "evaluated",
+  "shaker__aigen_2": "evaluated",
+  "shaker__aigen_3": "evaluated",
+  "shaker__aigen_4": "evaluated",
+  "shaker__aigen_5": "evaluated",
+  "shaker__aigen_6": "evaluated",
+  "soap_dispenser__objaverse_0": "evaluated",
+  "soap_dispenser__objaverse_1": "evaluated",
+  "soap_dispenser__objaverse_2": "evaluated",
+  "soap_dispenser__objaverse_3": "evaluated",
+  "soap_dispenser__objaverse_4": "evaluated",
+  "soap_dispenser__objaverse_6": "evaluated",
+  "soap_dispenser__aigen_0": "physics_excluded",
+  "soap_dispenser__aigen_1": "physics_excluded",
+  "soap_dispenser__aigen_10": "physics_excluded",
+  "soap_dispenser__aigen_2": "physics_excluded",
+  "soap_dispenser__aigen_3": "physics_excluded",
+  "soap_dispenser__aigen_4": "physics_excluded",
+  "soap_dispenser__aigen_5": "physics_excluded",
+  "soap_dispenser__aigen_6": "physics_excluded",
+  "soap_dispenser__aigen_7": "physics_excluded",
+  "soap_dispenser__aigen_8": "physics_excluded",
+  "soap_dispenser__aigen_9": "physics_excluded",
+  "sponge__objaverse_0": "evaluated",
+  "sponge__objaverse_1": "evaluated",
+  "sponge__objaverse_2": "evaluated",
+  "sponge__objaverse_3": "evaluated",
+  "sponge__objaverse_4": "evaluated",
+  "sponge__objaverse_5": "evaluated",
+  "sponge__objaverse_6": "evaluated",
+  "sponge__objaverse_8": "evaluated",
+  "sponge__aigen_0": "evaluated",
+  "sponge__aigen_1": "evaluated",
+  "sponge__aigen_2": "evaluated",
+  "sponge__aigen_3": "evaluated",
+  "sponge__aigen_4": "evaluated",
+  "sponge__aigen_5": "evaluated",
+  "sponge__aigen_6": "evaluated",
+  "sponge__aigen_7": "evaluated",
+  "sponge__aigen_8": "evaluated",
+  "sponge__aigen_9": "evaluated",
+  "spray__objaverse_0": "physics_excluded",
+  "spray__objaverse_1": "evaluated",
+  "spray__objaverse_2": "evaluated",
+  "spray__aigen_0": "physics_excluded",
+  "spray__aigen_1": "physics_excluded",
+  "spray__aigen_10": "evaluated",
+  "spray__aigen_11": "physics_excluded",
+  "spray__aigen_12": "physics_excluded",
+  "spray__aigen_2": "physics_excluded",
+  "spray__aigen_3": "physics_excluded",
+  "spray__aigen_4": "physics_excluded",
+  "spray__aigen_5": "physics_excluded",
+  "spray__aigen_6": "physics_excluded",
+  "spray__aigen_7": "evaluated",
+  "spray__aigen_8": "physics_excluded",
+  "spray__aigen_9": "physics_excluded",
+  "squash__objaverse_0": "evaluated",
+  "squash__objaverse_1": "evaluated",
+  "squash__objaverse_13": "evaluated",
+  "squash__objaverse_15": "evaluated",
+  "squash__objaverse_16": "evaluated",
+  "squash__objaverse_3": "evaluated",
+  "squash__objaverse_5": "evaluated",
+  "squash__objaverse_7": "evaluated",
+  "steak__objaverse_10": "evaluated",
+  "steak__objaverse_11": "evaluated",
+  "steak__objaverse_14": "evaluated",
+  "steak__objaverse_15": "evaluated",
+  "steak__objaverse_2": "evaluated",
+  "steak__objaverse_3": "evaluated",
+  "steak__objaverse_4": "evaluated",
+  "steak__objaverse_5": "evaluated",
+  "steak__objaverse_6": "evaluated",
+  "steak__objaverse_8": "evaluated",
+  "steak__objaverse_9": "evaluated",
+  "steak__aigen_0": "evaluated",
+  "steak__aigen_1": "evaluated",
+  "steak__aigen_2": "evaluated",
+  "steak__aigen_3": "evaluated",
+  "steak__aigen_4": "evaluated",
+  "steak__aigen_5": "evaluated",
+  "steak__aigen_6": "evaluated",
+  "steak__aigen_7": "evaluated",
+  "steak__aigen_8": "evaluated",
+  "steak__aigen_9": "evaluated",
+  "sweet_potato__objaverse_1": "evaluated",
+  "sweet_potato__objaverse_2": "evaluated",
+  "sweet_potato__objaverse_3": "evaluated",
+  "sweet_potato__aigen_0": "evaluated",
+  "sweet_potato__aigen_1": "evaluated",
+  "sweet_potato__aigen_10": "evaluated",
+  "sweet_potato__aigen_11": "evaluated",
+  "sweet_potato__aigen_2": "evaluated",
+  "sweet_potato__aigen_3": "evaluated",
+  "sweet_potato__aigen_4": "evaluated",
+  "sweet_potato__aigen_5": "evaluated",
+  "sweet_potato__aigen_6": "evaluated",
+  "sweet_potato__aigen_7": "evaluated",
+  "sweet_potato__aigen_8": "evaluated",
+  "sweet_potato__aigen_9": "evaluated",
+  "tangerine__objaverse_0": "evaluated",
+  "tangerine__objaverse_1": "evaluated",
+  "tangerine__objaverse_2": "evaluated",
+  "tangerine__objaverse_3": "evaluated",
+  "tangerine__objaverse_4": "evaluated",
+  "tangerine__objaverse_5": "evaluated",
+  "tangerine__objaverse_6": "evaluated",
+  "tangerine__aigen_0": "evaluated",
+  "tangerine__aigen_1": "evaluated",
+  "tangerine__aigen_10": "evaluated",
+  "tangerine__aigen_11": "evaluated",
+  "tangerine__aigen_12": "evaluated",
+  "tangerine__aigen_2": "evaluated",
+  "tangerine__aigen_3": "evaluated",
+  "tangerine__aigen_4": "evaluated",
+  "tangerine__aigen_5": "evaluated",
+  "tangerine__aigen_6": "evaluated",
+  "tangerine__aigen_7": "evaluated",
+  "tangerine__aigen_8": "evaluated",
+  "tangerine__aigen_9": "evaluated",
+  "teapot__objaverse_0": "evaluated",
+  "teapot__objaverse_10": "evaluated",
+  "teapot__objaverse_11": "evaluated",
+  "teapot__objaverse_13": "evaluated",
+  "teapot__objaverse_14": "evaluated",
+  "teapot__objaverse_15": "evaluated",
+  "teapot__objaverse_3": "evaluated",
+  "teapot__objaverse_4": "evaluated",
+  "teapot__objaverse_5": "physics_excluded",
+  "teapot__objaverse_6": "physics_excluded",
+  "teapot__objaverse_7": "evaluated",
+  "teapot__aigen_0": "evaluated",
+  "teapot__aigen_1": "physics_excluded",
+  "teapot__aigen_2": "evaluated",
+  "teapot__aigen_3": "physics_excluded",
+  "teapot__aigen_4": "physics_excluded",
+  "teapot__aigen_5": "evaluated",
+  "teapot__aigen_6": "evaluated",
+  "tomato__objaverse_0": "evaluated",
+  "tomato__objaverse_1": "evaluated",
+  "tomato__objaverse_2": "evaluated",
+  "tomato__objaverse_3": "evaluated",
+  "tomato__objaverse_5": "evaluated",
+  "tomato__objaverse_6": "evaluated",
+  "tomato__objaverse_7": "evaluated",
+  "tomato__objaverse_8": "evaluated",
+  "tomato__aigen_0": "evaluated",
+  "tomato__aigen_1": "evaluated",
+  "tomato__aigen_2": "evaluated",
+  "tomato__aigen_3": "evaluated",
+  "tomato__aigen_4": "evaluated",
+  "tomato__aigen_5": "evaluated",
+  "tomato__aigen_6": "evaluated",
+  "tomato__aigen_7": "evaluated",
+  "tomato__aigen_8": "evaluated",
+  "water_bottle__objaverse_0": "evaluated",
+  "water_bottle__objaverse_1": "evaluated",
+  "water_bottle__objaverse_10": "evaluated",
+  "water_bottle__objaverse_12": "evaluated",
+  "water_bottle__objaverse_13": "evaluated",
+  "water_bottle__objaverse_15": "evaluated",
+  "water_bottle__objaverse_16": "evaluated",
+  "water_bottle__objaverse_17": "evaluated",
+  "water_bottle__objaverse_18": "evaluated",
+  "water_bottle__objaverse_19": "physics_excluded",
+  "water_bottle__objaverse_2": "evaluated",
+  "water_bottle__objaverse_20": "evaluated",
+  "water_bottle__objaverse_21": "physics_excluded",
+  "water_bottle__objaverse_22": "evaluated",
+  "water_bottle__objaverse_23": "evaluated",
+  "water_bottle__objaverse_3": "physics_excluded",
+  "water_bottle__objaverse_4": "evaluated",
+  "water_bottle__objaverse_5": "evaluated",
+  "water_bottle__objaverse_6": "evaluated",
+  "water_bottle__objaverse_7": "evaluated",
+  "water_bottle__objaverse_8": "evaluated",
+  "yogurt__objaverse_1": "evaluated",
+  "yogurt__objaverse_2": "evaluated",
+  "yogurt__objaverse_3": "evaluated",
+  "yogurt__aigen_0": "evaluated",
+  "yogurt__aigen_1": "evaluated",
+  "yogurt__aigen_2": "evaluated",
+  "yogurt__aigen_3": "evaluated",
+  "yogurt__aigen_4": "evaluated",
+  "yogurt__aigen_5": "evaluated",
+  "yogurt__aigen_6": "evaluated",
+  "lemonade__aigen_0": "evaluated",
+  "lemonade__aigen_1": "evaluated",
+  "lemonade__aigen_2": "evaluated",
+  "lemonade__aigen_3": "evaluated",
+  "lemonade__aigen_4": "evaluated",
+  "lemonade__aigen_5": "evaluated",
+  "walnut__aigen_0": "evaluated",
+  "walnut__aigen_1": "evaluated",
+  "walnut__aigen_2": "evaluated",
+  "walnut__aigen_3": "evaluated",
+  "walnut__aigen_4": "evaluated",
+  "walnut__aigen_5": "evaluated",
+  "walnut__aigen_6": "evaluated",
+  "walnut__aigen_7": "evaluated",
+  "cheese_grater__aigen_0": "evaluated",
+  "cheese_grater__aigen_1": "physics_excluded",
+  "cheese_grater__aigen_2": "evaluated",
+  "cheese_grater__aigen_3": "evaluated",
+  "cheese_grater__aigen_4": "evaluated",
+  "cheese_grater__aigen_5": "evaluated",
+  "cheese_grater__aigen_6": "evaluated",
+  "cheese_grater__aigen_7": "physics_excluded",
+  "cheese_grater__aigen_8": "evaluated",
+  "syrup_bottle__aigen_0": "evaluated",
+  "syrup_bottle__aigen_1": "evaluated",
+  "syrup_bottle__aigen_10": "evaluated",
+  "syrup_bottle__aigen_11": "evaluated",
+  "syrup_bottle__aigen_12": "physics_excluded",
+  "syrup_bottle__aigen_2": "evaluated",
+  "syrup_bottle__aigen_3": "evaluated",
+  "syrup_bottle__aigen_4": "evaluated",
+  "syrup_bottle__aigen_5": "evaluated",
+  "syrup_bottle__aigen_6": "evaluated",
+  "syrup_bottle__aigen_7": "evaluated",
+  "syrup_bottle__aigen_8": "evaluated",
+  "syrup_bottle__aigen_9": "evaluated",
+  "scallops__aigen_0": "evaluated",
+  "scallops__aigen_1": "evaluated",
+  "scallops__aigen_10": "evaluated",
+  "scallops__aigen_11": "evaluated",
+  "scallops__aigen_12": "evaluated",
+  "scallops__aigen_13": "evaluated",
+  "scallops__aigen_14": "evaluated",
+  "scallops__aigen_15": "evaluated",
+  "scallops__aigen_2": "evaluated",
+  "scallops__aigen_3": "evaluated",
+  "scallops__aigen_4": "evaluated",
+  "scallops__aigen_5": "evaluated",
+  "scallops__aigen_6": "evaluated",
+  "scallops__aigen_7": "evaluated",
+  "scallops__aigen_8": "evaluated",
+  "scallops__aigen_9": "evaluated",
+  "candy__aigen_0": "evaluated",
+  "candy__aigen_1": "evaluated",
+  "candy__aigen_10": "evaluated",
+  "candy__aigen_2": "evaluated",
+  "candy__aigen_3": "evaluated",
+  "candy__aigen_4": "evaluated",
+  "candy__aigen_5": "evaluated",
+  "candy__aigen_6": "evaluated",
+  "candy__aigen_7": "evaluated",
+  "candy__aigen_8": "evaluated",
+  "candy__aigen_9": "evaluated",
+  "whisk__aigen_0": "evaluated",
+  "whisk__aigen_1": "evaluated",
+  "whisk__aigen_2": "evaluated",
+  "whisk__aigen_3": "evaluated",
+  "whisk__aigen_4": "evaluated",
+  "whisk__aigen_5": "evaluated",
+  "whisk__aigen_6": "evaluated",
+  "whisk__aigen_7": "evaluated",
+  "whisk__aigen_8": "evaluated",
+  "pitcher__aigen_0": "evaluated",
+  "pitcher__aigen_1": "physics_excluded",
+  "pitcher__aigen_10": "evaluated",
+  "pitcher__aigen_11": "evaluated",
+  "pitcher__aigen_12": "physics_excluded",
+  "pitcher__aigen_2": "physics_excluded",
+  "pitcher__aigen_3": "physics_excluded",
+  "pitcher__aigen_4": "evaluated",
+  "pitcher__aigen_5": "evaluated",
+  "pitcher__aigen_6": "physics_excluded",
+  "pitcher__aigen_7": "evaluated",
+  "pitcher__aigen_8": "evaluated",
+  "pitcher__aigen_9": "evaluated",
+  "ice_cream__aigen_0": "evaluated",
+  "ice_cream__aigen_1": "evaluated",
+  "ice_cream__aigen_10": "evaluated",
+  "ice_cream__aigen_11": "evaluated",
+  "ice_cream__aigen_12": "evaluated",
+  "ice_cream__aigen_2": "evaluated",
+  "ice_cream__aigen_3": "evaluated",
+  "ice_cream__aigen_4": "evaluated",
+  "ice_cream__aigen_5": "evaluated",
+  "ice_cream__aigen_6": "evaluated",
+  "ice_cream__aigen_7": "evaluated",
+  "ice_cream__aigen_8": "evaluated",
+  "ice_cream__aigen_9": "evaluated",
+  "peanut_butter__aigen_jar_0": "evaluated",
+  "peanut_butter__aigen_jar_1": "evaluated",
+  "peanut_butter__aigen_jar_10": "evaluated",
+  "peanut_butter__aigen_jar_11": "evaluated",
+  "peanut_butter__aigen_jar_12": "evaluated",
+  "peanut_butter__aigen_jar_2": "evaluated",
+  "peanut_butter__aigen_jar_3": "evaluated",
+  "peanut_butter__aigen_jar_4": "evaluated",
+  "peanut_butter__aigen_jar_5": "evaluated",
+  "peanut_butter__aigen_jar_6": "evaluated",
+  "peanut_butter__aigen_jar_7": "evaluated",
+  "peanut_butter__aigen_jar_8": "evaluated",
+  "peanut_butter__aigen_jar_9": "evaluated",
+  "thermos__aigen_0": "physics_excluded",
+  "thermos__aigen_1": "evaluated",
+  "thermos__aigen_10": "physics_excluded",
+  "thermos__aigen_11": "physics_excluded",
+  "thermos__aigen_12": "physics_excluded",
+  "thermos__aigen_2": "evaluated",
+  "thermos__aigen_3": "physics_excluded",
+  "thermos__aigen_4": "physics_excluded",
+  "thermos__aigen_5": "physics_excluded",
+  "thermos__aigen_6": "physics_excluded",
+  "thermos__aigen_7": "physics_excluded",
+  "thermos__aigen_8": "physics_excluded",
+  "thermos__aigen_9": "physics_excluded",
+  "dumpling__aigen_0": "evaluated",
+  "dumpling__aigen_1": "evaluated",
+  "dumpling__aigen_10": "evaluated",
+  "dumpling__aigen_11": "evaluated",
+  "dumpling__aigen_12": "evaluated",
+  "dumpling__aigen_13": "evaluated",
+  "dumpling__aigen_14": "evaluated",
+  "dumpling__aigen_15": "evaluated",
+  "dumpling__aigen_16": "evaluated",
+  "dumpling__aigen_17": "evaluated",
+  "dumpling__aigen_18": "evaluated",
+  "dumpling__aigen_19": "evaluated",
+  "dumpling__aigen_2": "evaluated",
+  "dumpling__aigen_20": "evaluated",
+  "dumpling__aigen_21": "evaluated",
+  "dumpling__aigen_3": "evaluated",
+  "dumpling__aigen_4": "evaluated",
+  "dumpling__aigen_5": "evaluated",
+  "dumpling__aigen_6": "evaluated",
+  "dumpling__aigen_7": "evaluated",
+  "dumpling__aigen_8": "evaluated",
+  "dumpling__aigen_9": "evaluated",
+  "tongs__aigen_0": "evaluated",
+  "tongs__aigen_1": "evaluated",
+  "tongs__aigen_2": "physics_excluded",
+  "tongs__aigen_3": "evaluated",
+  "tongs__aigen_4": "physics_excluded",
+  "tongs__aigen_5": "physics_excluded",
+  "tongs__aigen_6": "evaluated",
+  "ginger__aigen_0": "evaluated",
+  "ginger__aigen_1": "evaluated",
+  "ginger__aigen_2": "evaluated",
+  "ginger__aigen_3": "evaluated",
+  "ginger__aigen_4": "evaluated",
+  "ginger__aigen_5": "evaluated",
+  "ginger__aigen_6": "evaluated",
+  "shrimp__aigen_0": "evaluated",
+  "shrimp__aigen_1": "evaluated",
+  "shrimp__aigen_2": "evaluated",
+  "shrimp__aigen_3": "evaluated",
+  "shrimp__aigen_4": "evaluated",
+  "shrimp__aigen_5": "evaluated",
+  "shrimp__aigen_6": "evaluated",
+  "shrimp__aigen_7": "evaluated",
+  "shrimp__aigen_8": "evaluated",
+  "honey_bottle__aigen_0": "evaluated",
+  "honey_bottle__aigen_1": "evaluated",
+  "honey_bottle__aigen_10": "evaluated",
+  "honey_bottle__aigen_11": "evaluated",
+  "honey_bottle__aigen_12": "evaluated",
+  "honey_bottle__aigen_13": "evaluated",
+  "honey_bottle__aigen_14": "evaluated",
+  "honey_bottle__aigen_15": "evaluated",
+  "honey_bottle__aigen_2": "evaluated",
+  "honey_bottle__aigen_3": "evaluated",
+  "honey_bottle__aigen_4": "evaluated",
+  "honey_bottle__aigen_5": "evaluated",
+  "honey_bottle__aigen_6": "evaluated",
+  "honey_bottle__aigen_7": "evaluated",
+  "honey_bottle__aigen_8": "evaluated",
+  "honey_bottle__aigen_9": "evaluated",
+  "grapes__aigen_0": "evaluated",
+  "grapes__aigen_1": "evaluated",
+  "grapes__aigen_10": "evaluated",
+  "grapes__aigen_11": "evaluated",
+  "grapes__aigen_12": "evaluated",
+  "grapes__aigen_13": "physics_excluded",
+  "grapes__aigen_2": "evaluated",
+  "grapes__aigen_3": "evaluated",
+  "grapes__aigen_4": "evaluated",
+  "grapes__aigen_5": "evaluated",
+  "grapes__aigen_6": "evaluated",
+  "grapes__aigen_7": "evaluated",
+  "grapes__aigen_8": "evaluated",
+  "grapes__aigen_9": "evaluated",
+  "chili_pepper__aigen_0": "evaluated",
+  "chili_pepper__aigen_1": "evaluated",
+  "chili_pepper__aigen_2": "evaluated",
+  "chili_pepper__aigen_3": "evaluated",
+  "chili_pepper__aigen_4": "evaluated",
+  "chili_pepper__aigen_5": "evaluated",
+  "chili_pepper__aigen_6": "evaluated",
+  "chili_pepper__aigen_7": "evaluated",
+  "celery__aigen_0": "evaluated",
+  "celery__aigen_1": "evaluated",
+  "celery__aigen_2": "evaluated",
+  "celery__aigen_3": "physics_excluded",
+  "celery__aigen_4": "evaluated",
+  "celery__aigen_5": "evaluated",
+  "celery__aigen_6": "physics_excluded",
+  "celery__aigen_7": "evaluated",
+  "celery__aigen_8": "evaluated",
+  "burrito__aigen_0": "evaluated",
+  "burrito__aigen_1": "evaluated",
+  "burrito__aigen_10": "evaluated",
+  "burrito__aigen_11": "evaluated",
+  "burrito__aigen_2": "evaluated",
+  "burrito__aigen_3": "evaluated",
+  "burrito__aigen_4": "evaluated",
+  "burrito__aigen_5": "evaluated",
+  "burrito__aigen_6": "evaluated",
+  "burrito__aigen_7": "evaluated",
+  "burrito__aigen_8": "evaluated",
+  "burrito__aigen_9": "evaluated",
+  "olive_oil_bottle__aigen_0": "evaluated",
+  "olive_oil_bottle__aigen_1": "physics_excluded",
+  "olive_oil_bottle__aigen_10": "evaluated",
+  "olive_oil_bottle__aigen_11": "evaluated",
+  "olive_oil_bottle__aigen_12": "physics_excluded",
+  "olive_oil_bottle__aigen_13": "physics_excluded",
+  "olive_oil_bottle__aigen_14": "physics_excluded",
+  "olive_oil_bottle__aigen_2": "evaluated",
+  "olive_oil_bottle__aigen_3": "evaluated",
+  "olive_oil_bottle__aigen_4": "evaluated",
+  "olive_oil_bottle__aigen_5": "evaluated",
+  "olive_oil_bottle__aigen_6": "physics_excluded",
+  "olive_oil_bottle__aigen_7": "physics_excluded",
+  "olive_oil_bottle__aigen_8": "physics_excluded",
+  "olive_oil_bottle__aigen_9": "physics_excluded",
+  "kebabs__aigen_0": "physics_excluded",
+  "kebabs__aigen_1": "physics_excluded",
+  "kebabs__aigen_10": "evaluated",
+  "kebabs__aigen_11": "evaluated",
+  "kebabs__aigen_12": "evaluated",
+  "kebabs__aigen_13": "physics_excluded",
+  "kebabs__aigen_14": "physics_excluded",
+  "kebabs__aigen_2": "evaluated",
+  "kebabs__aigen_3": "evaluated",
+  "kebabs__aigen_4": "evaluated",
+  "kebabs__aigen_5": "evaluated",
+  "kebabs__aigen_6": "evaluated",
+  "kebabs__aigen_7": "evaluated",
+  "kebabs__aigen_8": "evaluated",
+  "kebabs__aigen_9": "evaluated",
+  "chicken_breast__aigen_0": "evaluated",
+  "chicken_breast__aigen_1": "evaluated",
+  "chicken_breast__aigen_10": "evaluated",
+  "chicken_breast__aigen_11": "evaluated",
+  "chicken_breast__aigen_2": "evaluated",
+  "chicken_breast__aigen_3": "evaluated",
+  "chicken_breast__aigen_4": "evaluated",
+  "chicken_breast__aigen_5": "evaluated",
+  "chicken_breast__aigen_6": "evaluated",
+  "chicken_breast__aigen_7": "evaluated",
+  "chicken_breast__aigen_8": "evaluated",
+  "chicken_breast__aigen_9": "evaluated",
+  "jello_cup__aigen_0": "evaluated",
+  "jello_cup__aigen_1": "evaluated",
+  "jello_cup__aigen_2": "evaluated",
+  "jello_cup__aigen_3": "evaluated",
+  "jello_cup__aigen_4": "evaluated",
+  "jello_cup__aigen_5": "evaluated",
+  "jello_cup__aigen_6": "evaluated",
+  "jello_cup__aigen_7": "evaluated",
+  "jello_cup__aigen_8": "evaluated",
+  "lobster__aigen_0": "evaluated",
+  "lobster__aigen_1": "evaluated",
+  "lobster__aigen_10": "evaluated",
+  "lobster__aigen_2": "evaluated",
+  "lobster__aigen_3": "evaluated",
+  "lobster__aigen_4": "evaluated",
+  "lobster__aigen_5": "evaluated",
+  "lobster__aigen_6": "evaluated",
+  "lobster__aigen_7": "evaluated",
+  "lobster__aigen_8": "evaluated",
+  "lobster__aigen_9": "physics_excluded",
+  "brussel_sprout__aigen_0": "evaluated",
+  "brussel_sprout__aigen_1": "evaluated",
+  "brussel_sprout__aigen_10": "evaluated",
+  "brussel_sprout__aigen_11": "evaluated",
+  "brussel_sprout__aigen_12": "evaluated",
+  "brussel_sprout__aigen_13": "evaluated",
+  "brussel_sprout__aigen_2": "evaluated",
+  "brussel_sprout__aigen_3": "evaluated",
+  "brussel_sprout__aigen_4": "evaluated",
+  "brussel_sprout__aigen_5": "evaluated",
+  "brussel_sprout__aigen_6": "evaluated",
+  "brussel_sprout__aigen_7": "evaluated",
+  "brussel_sprout__aigen_8": "evaluated",
+  "brussel_sprout__aigen_9": "evaluated",
+  "sushi__aigen_0": "evaluated",
+  "sushi__aigen_1": "evaluated",
+  "sushi__aigen_10": "evaluated",
+  "sushi__aigen_11": "evaluated",
+  "sushi__aigen_12": "evaluated",
+  "sushi__aigen_2": "evaluated",
+  "sushi__aigen_3": "evaluated",
+  "sushi__aigen_4": "evaluated",
+  "sushi__aigen_5": "evaluated",
+  "sushi__aigen_6": "evaluated",
+  "sushi__aigen_7": "evaluated",
+  "sushi__aigen_8": "evaluated",
+  "sushi__aigen_9": "evaluated",
+  "wine_glass__aigen_0": "evaluated",
+  "wine_glass__aigen_1": "evaluated",
+  "wine_glass__aigen_2": "evaluated",
+  "wine_glass__aigen_3": "evaluated",
+  "wine_glass__aigen_4": "evaluated",
+  "wine_glass__aigen_5": "physics_excluded",
+  "wine_glass__aigen_6": "evaluated",
+  "asparagus__aigen_0": "evaluated",
+  "asparagus__aigen_1": "evaluated",
+  "asparagus__aigen_10": "evaluated",
+  "asparagus__aigen_11": "evaluated",
+  "asparagus__aigen_12": "evaluated",
+  "asparagus__aigen_2": "evaluated",
+  "asparagus__aigen_3": "evaluated",
+  "asparagus__aigen_4": "physics_excluded",
+  "asparagus__aigen_5": "evaluated",
+  "asparagus__aigen_6": "evaluated",
+  "asparagus__aigen_7": "evaluated",
+  "asparagus__aigen_8": "physics_excluded",
+  "asparagus__aigen_9": "evaluated",
+  "lamb_chop__aigen_0": "evaluated",
+  "lamb_chop__aigen_1": "evaluated",
+  "lamb_chop__aigen_2": "evaluated",
+  "lamb_chop__aigen_3": "evaluated",
+  "lamb_chop__aigen_4": "evaluated",
+  "lamb_chop__aigen_5": "evaluated",
+  "lamb_chop__aigen_6": "evaluated",
+  "lamb_chop__aigen_7": "evaluated",
+  "pickle__aigen_0": "evaluated",
+  "pickle__aigen_1": "evaluated",
+  "pickle__aigen_2": "evaluated",
+  "pickle__aigen_3": "evaluated",
+  "pickle__aigen_4": "evaluated",
+  "pickle__aigen_5": "evaluated",
+  "pickle__aigen_6": "evaluated",
+  "canola_oil__aigen_0": "evaluated",
+  "canola_oil__aigen_1": "evaluated",
+  "canola_oil__aigen_10": "evaluated",
+  "canola_oil__aigen_11": "evaluated",
+  "canola_oil__aigen_12": "evaluated",
+  "canola_oil__aigen_13": "evaluated",
+  "canola_oil__aigen_2": "physics_excluded",
+  "canola_oil__aigen_3": "evaluated",
+  "canola_oil__aigen_4": "evaluated",
+  "canola_oil__aigen_5": "evaluated",
+  "canola_oil__aigen_6": "evaluated",
+  "canola_oil__aigen_7": "physics_excluded",
+  "canola_oil__aigen_8": "evaluated",
+  "canola_oil__aigen_9": "physics_excluded",
+  "strawberry__aigen_0": "evaluated",
+  "strawberry__aigen_1": "evaluated",
+  "strawberry__aigen_2": "evaluated",
+  "strawberry__aigen_3": "evaluated",
+  "strawberry__aigen_4": "evaluated",
+  "strawberry__aigen_5": "evaluated",
+  "strawberry__aigen_6": "evaluated",
+  "strawberry__aigen_7": "evaluated",
+  "strawberry__aigen_8": "evaluated",
+  "strawberry__aigen_9": "evaluated",
+  "pizza_cutter__aigen_0": "evaluated",
+  "pizza_cutter__aigen_1": "physics_excluded",
+  "pizza_cutter__aigen_2": "evaluated",
+  "pizza_cutter__aigen_3": "evaluated",
+  "pizza_cutter__aigen_4": "evaluated",
+  "pizza_cutter__aigen_5": "evaluated",
+  "pizza_cutter__aigen_6": "evaluated",
+  "pizza_cutter__aigen_7": "evaluated",
+  "pizza_cutter__aigen_8": "evaluated",
+  "pomegranate__aigen_0": "evaluated",
+  "pomegranate__aigen_1": "evaluated",
+  "pomegranate__aigen_2": "evaluated",
+  "pomegranate__aigen_3": "evaluated",
+  "pomegranate__aigen_4": "evaluated",
+  "pomegranate__aigen_5": "evaluated",
+  "pomegranate__aigen_6": "evaluated",
+  "apricot__aigen_0": "evaluated",
+  "apricot__aigen_1": "evaluated",
+  "apricot__aigen_2": "evaluated",
+  "apricot__aigen_3": "evaluated",
+  "apricot__aigen_4": "evaluated",
+  "apricot__aigen_5": "evaluated",
+  "apricot__aigen_6": "evaluated",
+  "apricot__aigen_7": "evaluated",
+  "apricot__aigen_8": "evaluated",
+  "beet__aigen_6": "evaluated",
+  "beet__aigen_9": "evaluated",
+  "saucepan__objaverse_pan_0": "evaluated",
+  "saucepan__objaverse_pan_17": "physics_excluded",
+  "saucepan__objaverse_pan_22": "physics_excluded",
+  "bowl__aigen_1": "physics_excluded",
+  "bowl__aigen_5": "physics_excluded",
+  "bowl__aigen_7": "physics_excluded",
+  "bowl__objaverse_1": "physics_excluded",
+  "bowl__objaverse_14": "evaluated",
+  "bowl__objaverse_19": "physics_excluded",
+  "bowl__objaverse_2": "physics_excluded",
+  "bowl__objaverse_5": "physics_excluded",
+  "boxed_food__aigen_2": "evaluated",
+  "boxed_food__aigen_4": "evaluated",
+  "boxed_food__aigen_5": "evaluated",
+  "boxed_food__objaverse_0": "evaluated",
+  "boxed_food__objaverse_1": "evaluated",
+  "boxed_food__objaverse_11": "evaluated",
+  "boxed_food__objaverse_2": "evaluated",
+  "boxed_food__objaverse_4": "evaluated",
+  "can__aigen_2": "evaluated",
+  "can__aigen_3": "evaluated",
+  "can__aigen_6": "evaluated",
+  "can__objaverse_11": "evaluated",
+  "can__objaverse_15": "evaluated",
+  "can__objaverse_16": "evaluated",
+  "can__objaverse_18": "evaluated",
+  "can__objaverse_6": "evaluated",
+  "canned_food__aigen_2": "evaluated",
+  "canned_food__aigen_4": "evaluated",
+  "canned_food__aigen_6": "evaluated",
+  "canned_food__objaverse_0": "evaluated",
+  "canned_food__objaverse_11": "evaluated",
+  "canned_food__objaverse_18": "evaluated",
+  "canned_food__objaverse_3": "evaluated",
+  "canned_food__objaverse_4": "evaluated",
+  "cherry__aigen_0": "evaluated",
+  "cherry__aigen_1": "evaluated",
+  "cherry__aigen_2": "evaluated",
+  "cherry__aigen_3": "evaluated",
+  "cherry__aigen_4": "evaluated",
+  "cherry__aigen_7": "evaluated",
+  "cherry__aigen_8": "evaluated",
+  "cherry__aigen_9": "evaluated",
+  "coffee_cup__aigen_2": "evaluated",
+  "coffee_cup__aigen_3": "evaluated",
+  "coffee_cup__aigen_4": "evaluated",
+  "coffee_cup__objaverse_16": "evaluated",
+  "coffee_cup__objaverse_17": "evaluated",
+  "coffee_cup__objaverse_3": "evaluated",
+  "coffee_cup__objaverse_7": "evaluated",
+  "coffee_cup__objaverse_9": "evaluated",
+  "condiment_bottle__objaverse_condiment_0": "evaluated",
+  "condiment_bottle__objaverse_condiment_2": "evaluated",
+  "condiment_bottle__objaverse_condiment_3": "evaluated",
+  "corn__aigen_0": "evaluated",
+  "corn__aigen_1": "evaluated",
+  "corn__aigen_2": "evaluated",
+  "corn__objaverse_0": "evaluated",
+  "corn__objaverse_1": "physics_excluded",
+  "corn__objaverse_3": "physics_excluded",
+  "corn__objaverse_4": "physics_excluded",
+  "cup__aigen_13": "evaluated",
+  "cup__aigen_17": "evaluated",
+  "cup__aigen_3": "evaluated",
+  "cup__objaverse_2": "evaluated",
+  "cup__objaverse_3": "evaluated",
+  "cup__objaverse_4": "evaluated",
+  "cup__objaverse_5": "evaluated",
+  "ketchup__aigen_4": "evaluated",
+  "ketchup__aigen_6": "evaluated",
+  "ketchup__aigen_9": "evaluated",
+  "ketchup__objaverse_10": "evaluated",
+  "ketchup__objaverse_11": "evaluated",
+  "ketchup__objaverse_2": "evaluated",
+  "ketchup__objaverse_7": "evaluated",
+  "ketchup__objaverse_8": "evaluated",
+  "milk__aigen_4": "evaluated",
+  "milk__aigen_6": "evaluated",
+  "milk__aigen_7": "evaluated",
+  "milk__objaverse_0": "evaluated",
+  "milk__objaverse_1": "evaluated",
+  "milk__objaverse_10": "evaluated",
+  "milk__objaverse_4": "evaluated",
+  "milk__objaverse_5": "evaluated",
+  "mug__objaverse_11": "evaluated",
+  "mug__objaverse_13": "evaluated",
+  "mug__objaverse_14": "evaluated",
+  "mug__objaverse_16": "evaluated",
+  "mug__objaverse_17": "evaluated",
+  "mug__objaverse_18": "evaluated",
+  "mug__objaverse_2": "evaluated",
+  "mug__objaverse_4": "evaluated",
+  "pan__aigen_2": "physics_excluded",
+  "pan__aigen_3": "physics_excluded",
+  "pan__aigen_4": "evaluated",
+  "pan__objaverse_11": "evaluated",
+  "pan__objaverse_14": "physics_excluded",
+  "pan__objaverse_2": "physics_excluded",
+  "pan__objaverse_21": "evaluated",
+  "pan__objaverse_7": "physics_excluded",
+  "wine__aigen_3": "evaluated",
+  "wine__aigen_4": "evaluated",
+  "wine__aigen_5": "evaluated",
+  "wine__objaverse_1": "physics_excluded",
+  "wine__objaverse_12": "physics_excluded",
+  "wine__objaverse_2": "physics_excluded",
+  "wine__objaverse_4": "evaluated",
+  "wine__objaverse_6": "physics_excluded"
+ }
+}

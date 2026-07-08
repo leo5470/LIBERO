@@ -1,0 +1,2201 @@
+{
+  "suite": "libero_object_unseen_full",
+  "n_tasks": 130,
+  "n_failed": 8,
+  "results": [
+    {
+      "name": "pick_up_the_apple__objaverse_17_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_apple__objaverse_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_asparagus__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_avocado__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_avocado__objaverse_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_baguette__aigen_15_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_baguette__objaverse_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_banana__objaverse_18_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_banana__objaverse_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bar__objaverse_11_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bar_soap__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_beer__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_beer__objaverse_16_and_place_it_in_the_basket",
+      "ok": false,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      },
+      "error": "AssertionError: target did not stay in basket after settling",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/smoke_check_suite.py\", line 116, in check_task\n    raise AssertionError(\"target did not stay in basket after settling\")\nAssertionError: target did not stay in basket after settling\n"
+    },
+    {
+      "name": "pick_up_the_bell_pepper__objaverse_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 20,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bottled_drink__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bottled_water__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 8,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bottled_water__aigen_9_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bottled_water__objaverse_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_boxed_drink__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_boxed_drink__aigen_9_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_boxed_food__objaverse_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bread__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bread__objaverse_21_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_bread_flat__aigen_bread_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_brussel_sprout__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_brussel_sprout__aigen_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_burrito__aigen_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cake__objaverse_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_can__objaverse_18_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candle__objaverse_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candle__objaverse_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_candy__aigen_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_canola_oil__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_carrot__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_carrot__objaverse_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_celery__aigen_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cereal__objaverse_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cheese__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cheese__aigen_9_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cheese_grater__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cherry__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_chicken_breast__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_coffee_cup__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_corn__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_croissant__objaverse_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cucumber__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cucumber__objaverse_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cupcake__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 30,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cupcake__aigen_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_cupcake__objaverse_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 16,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_donut__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_donut__objaverse_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_dumpling__aigen_15_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_dumpling__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_egg__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_egg__objaverse_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_eggplant__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 41,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_fish__aigen_5_and_place_it_in_the_basket",
+      "ok": false,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 8,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      },
+      "error": "AssertionError: target did not stay in basket after settling",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/smoke_check_suite.py\", line 116, in check_task\n    raise AssertionError(\"target did not stay in basket after settling\")\nAssertionError: target did not stay in basket after settling\n"
+    },
+    {
+      "name": "pick_up_the_fish__objaverse_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_garlic__aigen_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ginger__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_grapes__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_honey_bottle__aigen_14_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 8,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_hot_dog__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_hot_dog__objaverse_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ice_cream__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_jam__aigen_15_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_jam__objaverse_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_jello_cup__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_jug__objaverse_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_jug_wide_opening__objaverse_jug_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_kebabs__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ketchup__objaverse_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_kettle_non_electric__objaverse_kettle_16_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_kettle_non_electric__objaverse_kettle_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_kiwi__aigen_9_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_ladle__aigen_5_and_place_it_in_the_basket",
+      "ok": false,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      },
+      "error": "AssertionError: target did not stay in basket after settling",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/smoke_check_suite.py\", line 116, in check_task\n    raise AssertionError(\"target did not stay in basket after settling\")\nAssertionError: target did not stay in basket after settling\n"
+    },
+    {
+      "name": "pick_up_the_lamb_chop__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_lemon__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 37,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_lemon__objaverse_15_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_lemonade__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_liquor__objaverse_alcohol_11_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_lobster__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_mango__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_mango__objaverse_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 30,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_milk__objaverse_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 11,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_mushroom__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_mushroom__objaverse_15_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_olive_oil_bottle__aigen_12_and_place_it_in_the_basket",
+      "ok": false,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      },
+      "error": "AssertionError: target did not stay in basket after settling",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/smoke_check_suite.py\", line 116, in check_task\n    raise AssertionError(\"target did not stay in basket after settling\")\nAssertionError: target did not stay in basket after settling\n"
+    },
+    {
+      "name": "pick_up_the_onion__objaverse_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 22,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_orange__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_orange__objaverse_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_peach__aigen_10_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_peach__objaverse_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_peanut_butter__aigen_jar_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_pear__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_pear__objaverse_16_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_pickle__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_pitcher__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_pomegranate__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_potato__aigen_12_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_potato__objaverse_11_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_potato__objaverse_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_rolling_pin__objaverse_1_and_place_it_in_the_basket",
+      "ok": false,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      },
+      "error": "AssertionError: target did not stay in basket after settling",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/smoke_check_suite.py\", line 116, in check_task\n    raise AssertionError(\"target did not stay in basket after settling\")\nAssertionError: target did not stay in basket after settling\n"
+    },
+    {
+      "name": "pick_up_the_scallops__aigen_12_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_shaker__aigen_0_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_shrimp__aigen_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_soap_dispenser__aigen_3_and_place_it_in_the_basket",
+      "ok": false,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      },
+      "error": "AssertionError: target did not stay in basket after settling",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/smoke_check_suite.py\", line 116, in check_task\n    raise AssertionError(\"target did not stay in basket after settling\")\nAssertionError: target did not stay in basket after settling\n"
+    },
+    {
+      "name": "pick_up_the_soap_dispenser__objaverse_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_sponge__objaverse_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_spray__aigen_2_and_place_it_in_the_basket",
+      "ok": false,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      },
+      "error": "AssertionError: target did not stay in basket after settling",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/smoke_check_suite.py\", line 116, in check_task\n    raise AssertionError(\"target did not stay in basket after settling\")\nAssertionError: target did not stay in basket after settling\n"
+    },
+    {
+      "name": "pick_up_the_squash__objaverse_1_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_steak__aigen_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_steak__objaverse_5_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_strawberry__aigen_8_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_sushi__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_sweet_potato__aigen_7_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_syrup_bottle__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_tangerine__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_tangerine__objaverse_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_teapot__objaverse_11_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_thermos__aigen_11_and_place_it_in_the_basket",
+      "ok": false,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      },
+      "error": "AssertionError: target did not stay in basket after settling",
+      "traceback": "Traceback (most recent call last):\n  File \"scripts/smoke_check_suite.py\", line 116, in check_task\n    raise AssertionError(\"target did not stay in basket after settling\")\nAssertionError: target did not stay in basket after settling\n"
+    },
+    {
+      "name": "pick_up_the_tomato__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_tomato__objaverse_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_walnut__aigen_2_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_water_bottle__objaverse_16_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_water_bottle__objaverse_6_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_wine__aigen_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 11,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_wine_glass__aigen_4_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    },
+    {
+      "name": "pick_up_the_yogurt__objaverse_3_and_place_it_in_the_basket",
+      "ok": true,
+      "checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": true,
+        "init_roundtrip": {
+          "n_states": 50,
+          "ok": true
+        }
+      }
+    }
+  ]
+}
