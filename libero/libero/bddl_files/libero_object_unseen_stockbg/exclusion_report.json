@@ -1,0 +1,2496 @@
+{
+  "suite": "libero_object_unseen_stockbg",
+  "n_tasks": 1557,
+  "n_excluded": 140,
+  "n_feasible": 1417,
+  "excluded": [
+    {
+      "task_id": 38,
+      "name": "pick_up_the_asparagus__aigen_4_and_place_it_in_the_basket",
+      "target_key": "asparagus__aigen_4",
+      "target_category": "asparagus",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 42,
+      "name": "pick_up_the_asparagus__aigen_8_and_place_it_in_the_basket",
+      "target_key": "asparagus__aigen_8",
+      "target_category": "asparagus",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 65,
+      "name": "pick_up_the_baguette__aigen_12_and_place_it_in_the_basket",
+      "target_key": "baguette__aigen_12",
+      "target_category": "baguette",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 66,
+      "name": "pick_up_the_baguette__aigen_13_and_place_it_in_the_basket",
+      "target_key": "baguette__aigen_13",
+      "target_category": "baguette",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 73,
+      "name": "pick_up_the_baguette__aigen_4_and_place_it_in_the_basket",
+      "target_key": "baguette__aigen_4",
+      "target_category": "baguette",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 74,
+      "name": "pick_up_the_baguette__aigen_5_and_place_it_in_the_basket",
+      "target_key": "baguette__aigen_5",
+      "target_category": "baguette",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 78,
+      "name": "pick_up_the_baguette__aigen_9_and_place_it_in_the_basket",
+      "target_key": "baguette__aigen_9",
+      "target_category": "baguette",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 81,
+      "name": "pick_up_the_baguette__objaverse_2_and_place_it_in_the_basket",
+      "target_key": "baguette__objaverse_2",
+      "target_category": "baguette",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 85,
+      "name": "pick_up_the_banana__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "banana__objaverse_1",
+      "target_category": "banana",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 151,
+      "name": "pick_up_the_beer__objaverse_15_and_place_it_in_the_basket",
+      "target_key": "beer__objaverse_15",
+      "target_category": "beer",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 152,
+      "name": "pick_up_the_beer__objaverse_16_and_place_it_in_the_basket",
+      "target_key": "beer__objaverse_16",
+      "target_category": "beer",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 158,
+      "name": "pick_up_the_beer__objaverse_7_and_place_it_in_the_basket",
+      "target_key": "beer__objaverse_7",
+      "target_category": "beer",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 201,
+      "name": "pick_up_the_bottled_water__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "bottled_water__objaverse_1",
+      "target_category": "bottled_water",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 214,
+      "name": "pick_up_the_bowl__aigen_1_and_place_it_in_the_basket",
+      "target_key": "bowl__aigen_1",
+      "target_category": "bowl",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 8,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 215,
+      "name": "pick_up_the_bowl__aigen_5_and_place_it_in_the_basket",
+      "target_key": "bowl__aigen_5",
+      "target_category": "bowl",
+      "reasons": [
+        "smoke_failed: RandomizationError: Cannot place all objects ):"
+      ],
+      "smoke_checks": {}
+    },
+    {
+      "task_id": 216,
+      "name": "pick_up_the_bowl__aigen_7_and_place_it_in_the_basket",
+      "target_key": "bowl__aigen_7",
+      "target_category": "bowl",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 8,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 217,
+      "name": "pick_up_the_bowl__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "bowl__objaverse_1",
+      "target_category": "bowl",
+      "reasons": [
+        "smoke_failed: RandomizationError: Cannot place all objects ):"
+      ],
+      "smoke_checks": {}
+    },
+    {
+      "task_id": 219,
+      "name": "pick_up_the_bowl__objaverse_19_and_place_it_in_the_basket",
+      "target_key": "bowl__objaverse_19",
+      "target_category": "bowl",
+      "reasons": [
+        "smoke_failed: RandomizationError: Cannot place all objects ):"
+      ],
+      "smoke_checks": {}
+    },
+    {
+      "task_id": 220,
+      "name": "pick_up_the_bowl__objaverse_2_and_place_it_in_the_basket",
+      "target_key": "bowl__objaverse_2",
+      "target_category": "bowl",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 8,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 221,
+      "name": "pick_up_the_bowl__objaverse_5_and_place_it_in_the_basket",
+      "target_key": "bowl__objaverse_5",
+      "target_category": "bowl",
+      "reasons": [
+        "smoke_failed: RandomizationError: Cannot place all objects ):"
+      ],
+      "smoke_checks": {}
+    },
+    {
+      "task_id": 354,
+      "name": "pick_up_the_candle__aigen_8_and_place_it_in_the_basket",
+      "target_key": "candle__aigen_8",
+      "target_category": "candle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 395,
+      "name": "pick_up_the_canola_oil__aigen_13_and_place_it_in_the_basket",
+      "target_key": "canola_oil__aigen_13",
+      "target_category": "canola_oil",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 396,
+      "name": "pick_up_the_canola_oil__aigen_2_and_place_it_in_the_basket",
+      "target_key": "canola_oil__aigen_2",
+      "target_category": "canola_oil",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 401,
+      "name": "pick_up_the_canola_oil__aigen_7_and_place_it_in_the_basket",
+      "target_key": "canola_oil__aigen_7",
+      "target_category": "canola_oil",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 403,
+      "name": "pick_up_the_canola_oil__aigen_9_and_place_it_in_the_basket",
+      "target_key": "canola_oil__aigen_9",
+      "target_category": "canola_oil",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 414,
+      "name": "pick_up_the_carrot__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "carrot__objaverse_1",
+      "target_category": "carrot",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 422,
+      "name": "pick_up_the_celery__aigen_2_and_place_it_in_the_basket",
+      "target_key": "celery__aigen_2",
+      "target_category": "celery",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 423,
+      "name": "pick_up_the_celery__aigen_3_and_place_it_in_the_basket",
+      "target_key": "celery__aigen_3",
+      "target_category": "celery",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 426,
+      "name": "pick_up_the_celery__aigen_6_and_place_it_in_the_basket",
+      "target_key": "celery__aigen_6",
+      "target_category": "celery",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 475,
+      "name": "pick_up_the_cheese_grater__aigen_1_and_place_it_in_the_basket",
+      "target_key": "cheese_grater__aigen_1",
+      "target_category": "cheese_grater",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 481,
+      "name": "pick_up_the_cheese_grater__aigen_7_and_place_it_in_the_basket",
+      "target_key": "cheese_grater__aigen_7",
+      "target_category": "cheese_grater",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 526,
+      "name": "pick_up_the_corn__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "corn__objaverse_1",
+      "target_category": "corn",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 527,
+      "name": "pick_up_the_corn__objaverse_3_and_place_it_in_the_basket",
+      "target_key": "corn__objaverse_3",
+      "target_category": "corn",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 528,
+      "name": "pick_up_the_corn__objaverse_4_and_place_it_in_the_basket",
+      "target_key": "corn__objaverse_4",
+      "target_category": "corn",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 687,
+      "name": "pick_up_the_fish__aigen_0_and_place_it_in_the_basket",
+      "target_key": "fish__aigen_0",
+      "target_category": "fish",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 688,
+      "name": "pick_up_the_fish__aigen_1_and_place_it_in_the_basket",
+      "target_key": "fish__aigen_1",
+      "target_category": "fish",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 689,
+      "name": "pick_up_the_fish__aigen_2_and_place_it_in_the_basket",
+      "target_key": "fish__aigen_2",
+      "target_category": "fish",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 692,
+      "name": "pick_up_the_fish__aigen_5_and_place_it_in_the_basket",
+      "target_key": "fish__aigen_5",
+      "target_category": "fish",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 695,
+      "name": "pick_up_the_fish__objaverse_0_and_place_it_in_the_basket",
+      "target_key": "fish__objaverse_0",
+      "target_category": "fish",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 700,
+      "name": "pick_up_the_fish__objaverse_3_and_place_it_in_the_basket",
+      "target_key": "fish__objaverse_3",
+      "target_category": "fish",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 737,
+      "name": "pick_up_the_grapes__aigen_13_and_place_it_in_the_basket",
+      "target_key": "grapes__aigen_13",
+      "target_category": "grapes",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 837,
+      "name": "pick_up_the_jug__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "jug__objaverse_1",
+      "target_category": "jug",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 840,
+      "name": "pick_up_the_jug__objaverse_4_and_place_it_in_the_basket",
+      "target_key": "jug__objaverse_4",
+      "target_category": "jug",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 841,
+      "name": "pick_up_the_jug__objaverse_5_and_place_it_in_the_basket",
+      "target_key": "jug__objaverse_5",
+      "target_category": "jug",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 845,
+      "name": "pick_up_the_jug_wide_opening__objaverse_jug_1_and_place_it_in_the_basket",
+      "target_key": "jug_wide_opening__objaverse_jug_1",
+      "target_category": "jug_wide_opening",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 847,
+      "name": "pick_up_the_jug_wide_opening__objaverse_jug_4_and_place_it_in_the_basket",
+      "target_key": "jug_wide_opening__objaverse_jug_4",
+      "target_category": "jug_wide_opening",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 850,
+      "name": "pick_up_the_kebabs__aigen_0_and_place_it_in_the_basket",
+      "target_key": "kebabs__aigen_0",
+      "target_category": "kebabs",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 851,
+      "name": "pick_up_the_kebabs__aigen_1_and_place_it_in_the_basket",
+      "target_key": "kebabs__aigen_1",
+      "target_category": "kebabs",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 855,
+      "name": "pick_up_the_kebabs__aigen_13_and_place_it_in_the_basket",
+      "target_key": "kebabs__aigen_13",
+      "target_category": "kebabs",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 856,
+      "name": "pick_up_the_kebabs__aigen_14_and_place_it_in_the_basket",
+      "target_key": "kebabs__aigen_14",
+      "target_category": "kebabs",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 915,
+      "name": "pick_up_the_ladle__aigen_0_and_place_it_in_the_basket",
+      "target_key": "ladle__aigen_0",
+      "target_category": "ladle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 916,
+      "name": "pick_up_the_ladle__aigen_1_and_place_it_in_the_basket",
+      "target_key": "ladle__aigen_1",
+      "target_category": "ladle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 918,
+      "name": "pick_up_the_ladle__aigen_3_and_place_it_in_the_basket",
+      "target_key": "ladle__aigen_3",
+      "target_category": "ladle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 920,
+      "name": "pick_up_the_ladle__aigen_5_and_place_it_in_the_basket",
+      "target_key": "ladle__aigen_5",
+      "target_category": "ladle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 923,
+      "name": "pick_up_the_ladle__aigen_8_and_place_it_in_the_basket",
+      "target_key": "ladle__aigen_8",
+      "target_category": "ladle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 925,
+      "name": "pick_up_the_ladle__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "ladle__objaverse_1",
+      "target_category": "ladle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 927,
+      "name": "pick_up_the_ladle__objaverse_3_and_place_it_in_the_basket",
+      "target_key": "ladle__objaverse_3",
+      "target_category": "ladle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 998,
+      "name": "pick_up_the_lobster__aigen_9_and_place_it_in_the_basket",
+      "target_key": "lobster__aigen_9",
+      "target_category": "lobster",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1061,
+      "name": "pick_up_the_olive_oil_bottle__aigen_1_and_place_it_in_the_basket",
+      "target_key": "olive_oil_bottle__aigen_1",
+      "target_category": "olive_oil_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1064,
+      "name": "pick_up_the_olive_oil_bottle__aigen_12_and_place_it_in_the_basket",
+      "target_key": "olive_oil_bottle__aigen_12",
+      "target_category": "olive_oil_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1065,
+      "name": "pick_up_the_olive_oil_bottle__aigen_13_and_place_it_in_the_basket",
+      "target_key": "olive_oil_bottle__aigen_13",
+      "target_category": "olive_oil_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1067,
+      "name": "pick_up_the_olive_oil_bottle__aigen_2_and_place_it_in_the_basket",
+      "target_key": "olive_oil_bottle__aigen_2",
+      "target_category": "olive_oil_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1070,
+      "name": "pick_up_the_olive_oil_bottle__aigen_5_and_place_it_in_the_basket",
+      "target_key": "olive_oil_bottle__aigen_5",
+      "target_category": "olive_oil_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1072,
+      "name": "pick_up_the_olive_oil_bottle__aigen_7_and_place_it_in_the_basket",
+      "target_key": "olive_oil_bottle__aigen_7",
+      "target_category": "olive_oil_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1073,
+      "name": "pick_up_the_olive_oil_bottle__aigen_8_and_place_it_in_the_basket",
+      "target_key": "olive_oil_bottle__aigen_8",
+      "target_category": "olive_oil_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1074,
+      "name": "pick_up_the_olive_oil_bottle__aigen_9_and_place_it_in_the_basket",
+      "target_key": "olive_oil_bottle__aigen_9",
+      "target_category": "olive_oil_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1102,
+      "name": "pick_up_the_pan__aigen_2_and_place_it_in_the_basket",
+      "target_key": "pan__aigen_2",
+      "target_category": "pan",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1103,
+      "name": "pick_up_the_pan__aigen_3_and_place_it_in_the_basket",
+      "target_key": "pan__aigen_3",
+      "target_category": "pan",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1105,
+      "name": "pick_up_the_pan__objaverse_11_and_place_it_in_the_basket",
+      "target_key": "pan__objaverse_11",
+      "target_category": "pan",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1106,
+      "name": "pick_up_the_pan__objaverse_14_and_place_it_in_the_basket",
+      "target_key": "pan__objaverse_14",
+      "target_category": "pan",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1107,
+      "name": "pick_up_the_pan__objaverse_2_and_place_it_in_the_basket",
+      "target_key": "pan__objaverse_2",
+      "target_category": "pan",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1109,
+      "name": "pick_up_the_pan__objaverse_7_and_place_it_in_the_basket",
+      "target_key": "pan__objaverse_7",
+      "target_category": "pan",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1175,
+      "name": "pick_up_the_pitcher__aigen_1_and_place_it_in_the_basket",
+      "target_key": "pitcher__aigen_1",
+      "target_category": "pitcher",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1178,
+      "name": "pick_up_the_pitcher__aigen_12_and_place_it_in_the_basket",
+      "target_key": "pitcher__aigen_12",
+      "target_category": "pitcher",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1179,
+      "name": "pick_up_the_pitcher__aigen_2_and_place_it_in_the_basket",
+      "target_key": "pitcher__aigen_2",
+      "target_category": "pitcher",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1180,
+      "name": "pick_up_the_pitcher__aigen_3_and_place_it_in_the_basket",
+      "target_key": "pitcher__aigen_3",
+      "target_category": "pitcher",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1183,
+      "name": "pick_up_the_pitcher__aigen_6_and_place_it_in_the_basket",
+      "target_key": "pitcher__aigen_6",
+      "target_category": "pitcher",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1188,
+      "name": "pick_up_the_pizza_cutter__aigen_1_and_place_it_in_the_basket",
+      "target_key": "pizza_cutter__aigen_1",
+      "target_category": "pizza_cutter",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1191,
+      "name": "pick_up_the_pizza_cutter__aigen_4_and_place_it_in_the_basket",
+      "target_key": "pizza_cutter__aigen_4",
+      "target_category": "pizza_cutter",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1236,
+      "name": "pick_up_the_rolling_pin__aigen_0_and_place_it_in_the_basket",
+      "target_key": "rolling_pin__aigen_0",
+      "target_category": "rolling_pin",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1237,
+      "name": "pick_up_the_rolling_pin__aigen_1_and_place_it_in_the_basket",
+      "target_key": "rolling_pin__aigen_1",
+      "target_category": "rolling_pin",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1243,
+      "name": "pick_up_the_rolling_pin__objaverse_0_and_place_it_in_the_basket",
+      "target_key": "rolling_pin__objaverse_0",
+      "target_category": "rolling_pin",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1244,
+      "name": "pick_up_the_rolling_pin__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "rolling_pin__objaverse_1",
+      "target_category": "rolling_pin",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1246,
+      "name": "pick_up_the_rolling_pin__objaverse_3_and_place_it_in_the_basket",
+      "target_key": "rolling_pin__objaverse_3",
+      "target_category": "rolling_pin",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1247,
+      "name": "pick_up_the_rolling_pin__objaverse_4_and_place_it_in_the_basket",
+      "target_key": "rolling_pin__objaverse_4",
+      "target_category": "rolling_pin",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1248,
+      "name": "pick_up_the_rolling_pin__objaverse_5_and_place_it_in_the_basket",
+      "target_key": "rolling_pin__objaverse_5",
+      "target_category": "rolling_pin",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1250,
+      "name": "pick_up_the_saucepan__objaverse_pan_17_and_place_it_in_the_basket",
+      "target_key": "saucepan__objaverse_pan_17",
+      "target_category": "saucepan",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1251,
+      "name": "pick_up_the_saucepan__objaverse_pan_22_and_place_it_in_the_basket",
+      "target_key": "saucepan__objaverse_pan_22",
+      "target_category": "saucepan",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1288,
+      "name": "pick_up_the_soap_dispenser__aigen_0_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_0",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1289,
+      "name": "pick_up_the_soap_dispenser__aigen_1_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_1",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1290,
+      "name": "pick_up_the_soap_dispenser__aigen_10_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_10",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1291,
+      "name": "pick_up_the_soap_dispenser__aigen_2_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_2",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1292,
+      "name": "pick_up_the_soap_dispenser__aigen_3_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_3",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1293,
+      "name": "pick_up_the_soap_dispenser__aigen_4_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_4",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1294,
+      "name": "pick_up_the_soap_dispenser__aigen_5_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_5",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1295,
+      "name": "pick_up_the_soap_dispenser__aigen_6_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_6",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1296,
+      "name": "pick_up_the_soap_dispenser__aigen_7_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_7",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1297,
+      "name": "pick_up_the_soap_dispenser__aigen_8_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_8",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1298,
+      "name": "pick_up_the_soap_dispenser__aigen_9_and_place_it_in_the_basket",
+      "target_key": "soap_dispenser__aigen_9",
+      "target_category": "soap_dispenser",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1323,
+      "name": "pick_up_the_spray__aigen_0_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_0",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1324,
+      "name": "pick_up_the_spray__aigen_1_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_1",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1326,
+      "name": "pick_up_the_spray__aigen_11_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_11",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1327,
+      "name": "pick_up_the_spray__aigen_12_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_12",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1328,
+      "name": "pick_up_the_spray__aigen_2_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_2",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1329,
+      "name": "pick_up_the_spray__aigen_3_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_3",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1330,
+      "name": "pick_up_the_spray__aigen_4_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_4",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1331,
+      "name": "pick_up_the_spray__aigen_5_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_5",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1332,
+      "name": "pick_up_the_spray__aigen_6_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_6",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1334,
+      "name": "pick_up_the_spray__aigen_8_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_8",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1335,
+      "name": "pick_up_the_spray__aigen_9_and_place_it_in_the_basket",
+      "target_key": "spray__aigen_9",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1336,
+      "name": "pick_up_the_spray__objaverse_0_and_place_it_in_the_basket",
+      "target_key": "spray__objaverse_0",
+      "target_category": "spray",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1410,
+      "name": "pick_up_the_syrup_bottle__aigen_12_and_place_it_in_the_basket",
+      "target_key": "syrup_bottle__aigen_12",
+      "target_category": "syrup_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1440,
+      "name": "pick_up_the_teapot__aigen_1_and_place_it_in_the_basket",
+      "target_key": "teapot__aigen_1",
+      "target_category": "teapot",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1442,
+      "name": "pick_up_the_teapot__aigen_3_and_place_it_in_the_basket",
+      "target_key": "teapot__aigen_3",
+      "target_category": "teapot",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1443,
+      "name": "pick_up_the_teapot__aigen_4_and_place_it_in_the_basket",
+      "target_key": "teapot__aigen_4",
+      "target_category": "teapot",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 9,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1454,
+      "name": "pick_up_the_teapot__objaverse_5_and_place_it_in_the_basket",
+      "target_key": "teapot__objaverse_5",
+      "target_category": "teapot",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1455,
+      "name": "pick_up_the_teapot__objaverse_6_and_place_it_in_the_basket",
+      "target_key": "teapot__objaverse_6",
+      "target_category": "teapot",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 7,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1457,
+      "name": "pick_up_the_thermos__aigen_0_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_0",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1459,
+      "name": "pick_up_the_thermos__aigen_10_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_10",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1460,
+      "name": "pick_up_the_thermos__aigen_11_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_11",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1461,
+      "name": "pick_up_the_thermos__aigen_12_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_12",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1463,
+      "name": "pick_up_the_thermos__aigen_3_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_3",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1464,
+      "name": "pick_up_the_thermos__aigen_4_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_4",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1465,
+      "name": "pick_up_the_thermos__aigen_5_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_5",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1466,
+      "name": "pick_up_the_thermos__aigen_6_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_6",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1467,
+      "name": "pick_up_the_thermos__aigen_7_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_7",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1468,
+      "name": "pick_up_the_thermos__aigen_8_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_8",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1469,
+      "name": "pick_up_the_thermos__aigen_9_and_place_it_in_the_basket",
+      "target_key": "thermos__aigen_9",
+      "target_category": "thermos",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1489,
+      "name": "pick_up_the_tongs__aigen_2_and_place_it_in_the_basket",
+      "target_key": "tongs__aigen_2",
+      "target_category": "tongs",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1491,
+      "name": "pick_up_the_tongs__aigen_4_and_place_it_in_the_basket",
+      "target_key": "tongs__aigen_4",
+      "target_category": "tongs",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1492,
+      "name": "pick_up_the_tongs__aigen_5_and_place_it_in_the_basket",
+      "target_key": "tongs__aigen_5",
+      "target_category": "tongs",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1511,
+      "name": "pick_up_the_water_bottle__objaverse_19_and_place_it_in_the_basket",
+      "target_key": "water_bottle__objaverse_19",
+      "target_category": "water_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 6,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1514,
+      "name": "pick_up_the_water_bottle__objaverse_21_and_place_it_in_the_basket",
+      "target_key": "water_bottle__objaverse_21",
+      "target_category": "water_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1517,
+      "name": "pick_up_the_water_bottle__objaverse_3_and_place_it_in_the_basket",
+      "target_key": "water_bottle__objaverse_3",
+      "target_category": "water_bottle",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1532,
+      "name": "pick_up_the_wine__aigen_3_and_place_it_in_the_basket",
+      "target_key": "wine__aigen_3",
+      "target_category": "wine",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1535,
+      "name": "pick_up_the_wine__objaverse_1_and_place_it_in_the_basket",
+      "target_key": "wine__objaverse_1",
+      "target_category": "wine",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1536,
+      "name": "pick_up_the_wine__objaverse_12_and_place_it_in_the_basket",
+      "target_key": "wine__objaverse_12",
+      "target_category": "wine",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1537,
+      "name": "pick_up_the_wine__objaverse_2_and_place_it_in_the_basket",
+      "target_key": "wine__objaverse_2",
+      "target_category": "wine",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1539,
+      "name": "pick_up_the_wine__objaverse_6_and_place_it_in_the_basket",
+      "target_key": "wine__objaverse_6",
+      "target_category": "wine",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    },
+    {
+      "task_id": 1545,
+      "name": "pick_up_the_wine_glass__aigen_5_and_place_it_in_the_basket",
+      "target_key": "wine_glass__aigen_5",
+      "target_category": "wine_glass",
+      "reasons": [
+        "smoke_failed: AssertionError: target did not stay in basket after settling"
+      ],
+      "smoke_checks": {
+        "placement": {
+          "resets": 5,
+          "tries": 5,
+          "ok": true
+        },
+        "teleport_goal_fires": true,
+        "settle_still_success": false
+      }
+    }
+  ]
+}

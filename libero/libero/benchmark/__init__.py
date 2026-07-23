@@ -111,6 +111,7 @@ def _load_manifest_suite(suite_name):
 
 _load_manifest_suite("libero_object_unseen")
 _load_manifest_suite("libero_object_unseen_full")
+_load_manifest_suite("libero_object_unseen_stockbg")
 
 
 task_orders = [
@@ -282,6 +283,11 @@ class LIBERO_OBJECT_UNSEEN(_ManifestBenchmark):
 @register_benchmark
 class LIBERO_OBJECT_UNSEEN_FULL(_ManifestBenchmark):
     suite_name = "libero_object_unseen_full"
+
+
+@register_benchmark
+class LIBERO_OBJECT_UNSEEN_STOCKBG(_ManifestBenchmark):
+    suite_name = "libero_object_unseen_stockbg"
 
 
 @register_benchmark
