@@ -84,7 +84,7 @@ for libero_suite in libero_suites:
 def _load_manifest_suite(suite_name):
     """Load a generated suite whose folder carries a manifest.json.
 
-    Manifest suites (e.g. libero_object_unseen) store task languages explicitly —
+    Manifest suites (e.g. libero_object_unseen_stockbg) store task languages explicitly —
     filename-derived languages would mangle per-instance keys like apple__objaverse_15 —
     and may have != 10 tasks. Missing manifest just leaves the suite unregistered so the
     package still imports on machines where it was never generated.
@@ -109,8 +109,6 @@ def _load_manifest_suite(suite_name):
     }
 
 
-_load_manifest_suite("libero_object_unseen")
-_load_manifest_suite("libero_object_unseen_full")
 _load_manifest_suite("libero_object_unseen_stockbg")
 
 
@@ -273,16 +271,6 @@ class _ManifestBenchmark(Benchmark):
         # Manifest suites can have != 10 tasks; identity order (cf. libero_90 above).
         self.tasks = list(task_maps[self.name].values())
         self.n_tasks = len(self.tasks)
-
-
-@register_benchmark
-class LIBERO_OBJECT_UNSEEN(_ManifestBenchmark):
-    suite_name = "libero_object_unseen"
-
-
-@register_benchmark
-class LIBERO_OBJECT_UNSEEN_FULL(_ManifestBenchmark):
-    suite_name = "libero_object_unseen_full"
 
 
 @register_benchmark

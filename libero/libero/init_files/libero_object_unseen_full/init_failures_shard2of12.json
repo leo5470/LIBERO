@@ -1,8 +1,0 @@
-[
-  {
-    "name": "pick_up_the_banana__objaverse_10_and_place_it_in_the_basket",
-    "n_states": 0,
-    "tries": 0,
-    "error": "RandomizationError: Cannot place all objects ):"
-  }
-]
