@@ -80,10 +80,29 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
 
   Meshes, geom sizes and geom positions are untouched — objects are the same shape, just
   heavier, with inertia up to 6.8× and shifted `body_ipos`/`body_iquat`. The round-trip is
-  idempotent after the first application. **Stock LIBERO-Object behaves identically** (milk
-  31.7 g → 68.5 g, 2.16×; same basket 4.06×), so the original human demos were recorded in
-  the heavy physics too and every LIBERO policy is trained on one physics and evaluated in
-  another. We inherit that; we did not introduce it.
+  idempotent after the first application.
+
+  **Confirmed directly against upstream LIBERO's shipped data, not inferred.** LIBERO's own
+  `scripts/collect_demonstration.py` (present at the `init` commit) wraps in
+  `DataCollectionWrapper` at line 306, and each stock episode stores the XML that collector
+  was running. Rewriting its two hard-coded asset prefixes
+  (`/Users/yifengz/workspace/{robosuite-master/robosuite/models, libero-dev/chiliocosm/assets}`)
+  to local paths resolves all 81 refs, and compiling it gives the **round-tripped** masses
+  exactly — every object, to four decimals:
+
+  | body (stock `pick_up_the_milk`) | plain build (eval) | round-tripped | **shipped demo** |
+  | :--- | ---: | ---: | ---: |
+  | `milk_1` | 0.0317 | 0.0685 | **0.0685** |
+  | `basket_1` | 0.1361 | 0.5532 | **0.5532** |
+  | `orange_juice_1` | 0.0317 | 0.0676 | **0.0676** |
+  | `tomato_sauce_1` | 0.0266 | 0.0545 | **0.0545** |
+  | `chocolate_pudding_1` | 0.0102 | 0.0216 | **0.0216** |
+  | `cream_cheese_1` | 0.0062 | 0.0124 | **0.0124** |
+  | `butter_1` | 0.0052 | 0.0103 | **0.0103** |
+
+  So the original human demos were recorded in the heavy physics, and eval runs the light
+  one. Every LIBERO policy is trained on one physics and evaluated in another. We inherit
+  that; we did not introduce it.
 
   How much it matters: on `boxed_drink__aigen_8` the same policy, grasp and seed give
   **10/10 wrapped and 0/10 unwrapped** — light objects skitter, so the jaw pre-shape hunts,
