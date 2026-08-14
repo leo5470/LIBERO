@@ -66,10 +66,21 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   `DataCollectionWrapper._start_new_episode()` rebuilds the sim on *every* reset —
   `sim.model.get_xml()` → `reset_from_xml_string()` → `sim.reset()` → restore state, robosuite's
   "trick for ensuring that we can play MuJoCo demonstrations back deterministically".
-  `model.get_xml()` is MuJoCo's `mj_saveLastXML`, and it is **lossy**: robosuite assembles a
-  79,301-char task XML, MuJoCo re-serializes it to 72,541 (`scale=` 40→39, `solref=` 98→96,
-  `friction=` 98→96, `condim=` 3→2, `group=` 180→73). Recompiling that shorter string gives a
-  **different model**. Verified directly — compiling robosuite's task XML reproduces the live
+  `model.get_xml()` is MuJoCo's `mj_saveLastXML`, and it is **lossy**. The single attribute
+  that matters:
+
+  ```
+  robosuite task XML : <compiler angle="radian" meshdir="meshes/" inertiagrouprange="0 0" />
+  mj_saveLastXML     : <compiler angle="radian" meshdir="meshes/"/>
+  ```
+
+  `inertiagrouprange="0 0"` restricts inertia to group-0 **collision** geoms. MuJoCo's writer
+  does not emit it, so the reload falls back to the default `0 5` and counts the **visual**
+  meshes as well — and since visual and collision meshes occupy the same volume, every object's
+  mass is that volume counted twice. Re-injecting the attribute into the round-tripped XML
+  recovers the intended masses exactly (`rtol 1e-6`, verified on manipuland, basket and a stock
+  distractor), which closes the causal chain. **So the heavy build is not a different-but-valid
+  physics; it is double-counted geometry.** Compiling robosuite's task XML reproduces the live
   mass, compiling `get_xml()` output does not:
 
   | | manipuland (`boxed_drink__aigen_8`) | basket | stock distractors |
@@ -103,6 +114,18 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   So the original human demos were recorded in the heavy physics, and eval runs the light
   one. Every LIBERO policy is trained on one physics and evaluated in another. We inherit
   that; we did not introduce it.
+
+  **Which way to close the gap.** Making *eval* heavy works mechanically — round-tripping an
+  `OffScreenRenderEnv` keeps rendering and `set_init_state` intact and takes
+  `boxed_drink__aigen_8` from 0/10 to 10/10 — but it adopts the double-counted masses and
+  invalidates comparison with every published LIBERO number and our own completed runs. The
+  principled direction is the opposite: restore `inertiagrouprange` on the XML the wrapper
+  reloads, so collection runs the physics eval runs. That reads as a ~4.4 pt yield cost, but
+  it is better understood as **revealing** that 4.4 points of recorded yield was never
+  reproducible at eval — the demos it removes are the ones that do not transfer. Cheapest to
+  do while re-collecting for another reason. Lowest-risk alternative: change no physics and
+  just gate collection on an eval-physics spot-check, which flags the same tasks without
+  moving any numbers.
 
   How much it matters: on `boxed_drink__aigen_8` the same policy, grasp and seed give
   **10/10 wrapped and 0/10 unwrapped** — light objects skitter, so the jaw pre-shape hunts,
