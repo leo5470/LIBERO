@@ -62,23 +62,42 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   bottle's weight; it happens with an idle arm too.
 - Basket: 16.2 × 17.3 cm, rim top 0.183 at spawn (0.143 after settling), interior floor
   ≈0.036, **14.6 cm deep**.
-- **A wrapped env is not the same physics as a bddl-built one.**
-  `DataCollectionWrapper._start_new_episode()` runs an MJCF round-trip on *every* reset —
-  `sim.model.get_xml()` → `reset_from_xml_string()` → `sim.reset()` → restore state, which
-  robosuite calls its "trick for ensuring that we can play MuJoCo demonstrations back
-  deterministically". The text round-trip perturbs model numerics, and that is not a
-  rounding curiosity: on `boxed_drink__aigen_8` (a small carton with a 4.3 cm side grasp)
-  the same policy, grasp and seed give **10/10 wrapped and 0/10 unwrapped** — the jaw
-  pre-shape hunts, closes on empty air and the arm carries nothing to the basket.
-  Performing *only* the round-trip on an unwrapped env restores 10/10, so that step alone
-  is the cause. Actions match bit-exactly at t=0 and diverge in the 4th decimal by t=1.
-  Consequences: (1) **anything that re-steps recorded actions must build the env from the
-  demo's recorded `model_file`** — `render_demo_videos.py` and `create_dataset.py` do
-  (`reset_from_xml_string`), and `render_suite_videos.py` inherits it; (2) pure state-playback
-  analysis (`set_state_from_flattened` + `forward`, no stepping) is unaffected; (3) any
-  A/B measured in an unwrapped env has valid *contrasts* but wrong *absolute* yields — an
-  unwrapped baseline scores 89.0% suite-weighted where the collector's physics scores 93.4%
-  against a recorded population mean of 92.3%.
+- **Demos are collected in HEAVIER physics than eval runs. This is upstream LIBERO, not ours.**
+  `DataCollectionWrapper._start_new_episode()` rebuilds the sim on *every* reset —
+  `sim.model.get_xml()` → `reset_from_xml_string()` → `sim.reset()` → restore state, robosuite's
+  "trick for ensuring that we can play MuJoCo demonstrations back deterministically".
+  `model.get_xml()` is MuJoCo's `mj_saveLastXML`, and it is **lossy**: robosuite assembles a
+  79,301-char task XML, MuJoCo re-serializes it to 72,541 (`scale=` 40→39, `solref=` 98→96,
+  `friction=` 98→96, `condim=` 3→2, `group=` 180→73). Recompiling that shorter string gives a
+  **different model**. Verified directly — compiling robosuite's task XML reproduces the live
+  mass, compiling `get_xml()` output does not:
+
+  | | manipuland (`boxed_drink__aigen_8`) | basket | stock distractors |
+  | :--- | ---: | ---: | ---: |
+  | plain bddl build (**what eval runs**) | 1.7 g | 136 g | — |
+  | after the round-trip (**what demos are collected in**) | 20.3 g | 553 g | ~2× heavier |
+  | ratio | **11.9×** | **4.06×** | 2.0–2.2× |
+
+  Meshes, geom sizes and geom positions are untouched — objects are the same shape, just
+  heavier, with inertia up to 6.8× and shifted `body_ipos`/`body_iquat`. The round-trip is
+  idempotent after the first application. **Stock LIBERO-Object behaves identically** (milk
+  31.7 g → 68.5 g, 2.16×; same basket 4.06×), so the original human demos were recorded in
+  the heavy physics too and every LIBERO policy is trained on one physics and evaluated in
+  another. We inherit that; we did not introduce it.
+
+  How much it matters: on `boxed_drink__aigen_8` the same policy, grasp and seed give
+  **10/10 wrapped and 0/10 unwrapped** — light objects skitter, so the jaw pre-shape hunts,
+  closes on empty air and the arm carries nothing. Actions match bit-exactly at t=0 and
+  diverge in the 4th decimal by t=1.
+
+  Consequences: (1) **anything that re-steps recorded actions must build from the demo's
+  recorded `model_file`** — `render_demo_videos.py` and `create_dataset.py` do
+  (`reset_from_xml_string`), `render_suite_videos.py` inherits it; (2) pure state-playback
+  analysis (`set_state_from_flattened` + `forward`, no stepping) is unaffected; (3) an A/B run
+  unwrapped has valid *contrasts* but eval-physics absolute yields — 89.0% suite-weighted
+  where the collector scores 93.4% against a recorded population mean of 92.3%. Pick the
+  physics to match the question: `--roundtrip` to predict collection yield, plain to predict
+  eval behaviour.
 
 ---
 
