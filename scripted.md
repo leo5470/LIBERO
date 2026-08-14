@@ -62,6 +62,23 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   bottle's weight; it happens with an idle arm too.
 - Basket: 16.2 × 17.3 cm, rim top 0.183 at spawn (0.143 after settling), interior floor
   ≈0.036, **14.6 cm deep**.
+- **A wrapped env is not the same physics as a bddl-built one.**
+  `DataCollectionWrapper._start_new_episode()` runs an MJCF round-trip on *every* reset —
+  `sim.model.get_xml()` → `reset_from_xml_string()` → `sim.reset()` → restore state, which
+  robosuite calls its "trick for ensuring that we can play MuJoCo demonstrations back
+  deterministically". The text round-trip perturbs model numerics, and that is not a
+  rounding curiosity: on `boxed_drink__aigen_8` (a small carton with a 4.3 cm side grasp)
+  the same policy, grasp and seed give **10/10 wrapped and 0/10 unwrapped** — the jaw
+  pre-shape hunts, closes on empty air and the arm carries nothing to the basket.
+  Performing *only* the round-trip on an unwrapped env restores 10/10, so that step alone
+  is the cause. Actions match bit-exactly at t=0 and diverge in the 4th decimal by t=1.
+  Consequences: (1) **anything that re-steps recorded actions must build the env from the
+  demo's recorded `model_file`** — `render_demo_videos.py` and `create_dataset.py` do
+  (`reset_from_xml_string`), and `render_suite_videos.py` inherits it; (2) pure state-playback
+  analysis (`set_state_from_flattened` + `forward`, no stepping) is unaffected; (3) any
+  A/B measured in an unwrapped env has valid *contrasts* but wrong *absolute* yields — an
+  unwrapped baseline scores 89.0% suite-weighted where the collector's physics scores 93.4%
+  against a recorded population mean of 92.3%.
 
 ---
 
@@ -156,7 +173,12 @@ are cleared. `DESCEND` then drops vertically onto the grasp, unchanged.
 **Choosing the height — 60 tasks × 20 attempts, paired on identical initial states, grasp
 pinned to each task's stored `chosen_entry`, so trajectory is the only variable.** Tasks are
 stratified by their v2 collect-yield and re-weighted to the real suite composition (81% of
-tasks sit in the ≥95% band, which is what makes the raw sample mean misleading):
+tasks sit in the ≥95% band, which is what makes the raw sample mean misleading).
+
+⚠️ **The sweep below was measured in an *unwrapped* env, i.e. not the physics the collector
+runs** (§2). Its contrasts are internally valid — both arms shared the physics — but its
+absolute levels are pessimistic, and the ≥95 band it reports (94.0%) is 5.8 points below what
+that band actually scores under the collector (99.8%). The corrected measurement follows.
 
 | `transit_height` | achieved z@50% | ≥95 band | 50–95 | 20–50 | <20 | **suite-weighted** |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -183,11 +205,33 @@ lesson as §5.2.
 | **pooled (120 tasks)** | **+0.2** | **+5.5** | **+22.0** | **+1.5** | **+1.4 [−1.4, +4.0]** |
 
 The tuning estimate was optimistic, as expected — the held-out ≥95 delta regresses to
-roughly zero. **The honest read: the dominant band is neutral (+0.2) and the gain is
-concentrated in the mid and hard bands (+5.5 / +22.0), where coverage is actually at risk.**
-Paired McNemar over all 2,400 rollouts: gained 240, lost 112, p = 8e-12. Note the collector
-re-calibrates the grasp under the new policy, which this measurement cannot capture — every
-number here pins each task's `chosen_entry` from v2, so it is a floor.
+roughly zero.
+
+**Re-measured in the collector's physics (all 120 tasks, `ab_transit.py --roundtrip`), the
+yield case all but disappears:**
+
+| physics | baseline | with fix | ≥95 | 50–95 | 20–50 | <20 | weighted delta |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| unwrapped (wrong) | 89.0% | 90.3% | +0.2 | +5.5 | +22.0 | +1.5 | +1.4 [−1.5, +4.3] |
+| **collector (correct)** | **93.4%** | **93.5%** | **−0.5** | **+0.5** | **+15.0** | **+5.6** | **+0.1 [−1.2, +1.4]** |
+
+*(the correct baseline lands on the recorded population mean of 92.3%; the unwrapped one is
+4.4 points low, which is what inflated every earlier delta)*
+
+**The honest read: at the suite level this change is yield-NEUTRAL (+0.1). The dominant band
+is saturated at 99.8% — there was never room to gain there — and the real gains are confined
+to the hard tail (20–50 band +15.0, <20 band +5.6).** Paired McNemar over 2,400 rollouts still
+favours it (gained 216, lost 131, p = 5.9e-6), but that count is dominated by tail tasks. The
+justification for the change is therefore trajectory realism plus tail coverage, *not* suite
+yield. One thing the measurement cannot capture in the fix's favour: the collector
+re-calibrates the grasp under the new policy, whereas every number here pins v2's
+`chosen_entry`.
+
+⚠️ **Open: the 0.24 default was chosen on the unwrapped sweep, where the ≥95 band appeared to
+fall off a cliff past 0.24 (94.0 → 91.0). Under the collector's physics that band sits at
+99.8% and barely moves, so the cliff may be an artifact and taller transits — including 0.28,
+which lands at the human 24.9 cm — may now be affordable.** Re-sweep 0.26/0.28/0.30 with
+`--roundtrip` before treating 0.24 as final.
 
 **Matching the humans exactly is not the optimum.** 0.28 lands at 24.9 cm, within a
 millimetre of their 25.0 median — and costs 1.2 points. So 0.24 deliberately stops 3.7 cm
