@@ -99,6 +99,18 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   physics to match the question: `--roundtrip` to predict collection yield, plain to predict
   eval behaviour.
 
+  **How much it costs, and what it does *not* cost.** Same scripted policy, same initial
+  states, 120 tasks, physics the only variable: suite-weighted **−4.4 pts** moving from
+  collection to eval physics. The median task loses **0.0** — the damage is a tail, not a
+  broad tax: 25/120 tasks lose >10 pts, 12 lose >25, 5 lose >50, and two are wiped out
+  (`boxed_drink__aigen_8` 100→0, `lemon__aigen_4` 95→0). Those tasks ship demos that are
+  gate-verified at collection and near-unreproducible at eval. **But the gap does not
+  visibly contaminate the eval results**: over the 75 categories with both a measured gap
+  and a Cosmos-Predict2.5 SR, corr is only −0.22, and the 12 hardest-hit categories average
+  a *higher* SR (0.269) than the unaffected ones (0.202) — light produce is skittish for the
+  scripted policy but easy for a trained one. So treat this as a measurement hazard for
+  generator experiments, not as evidence that the benchmark numbers are depressed.
+
 ---
 
 ## 3. The policy
