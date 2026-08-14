@@ -166,12 +166,28 @@ tasks sit in the ≥95% band, which is what makes the raw sample mean misleading
 | 0.28 | 24.9 | 90.6% | 81.4% | 64.0% | 0.0% | 85.6% (−1.2) |
 | 0.30 | 27.0 | 89.8% | 83.9% | 78.0% | 5.5% | 85.7% (−1.0) |
 
-**0.24 is the only value that does not cost the dominant band** (paired McNemar over 1,200
-rollouts: gained 120, lost 47, p = 1.5e-8). Going higher keeps buying yield in the hard tail
-and keeps losing it in the ≥95 band, and because that band is 81% of the suite the net turns
-negative — the raw sample mean says the opposite, which is the trap. Decelerating the last
-4 cm of the taller descent (tested at 0.30) does not recover it either: per-task outcomes
-flip chaotically between nearby settings, the same "reliability is dynamic" lesson as §5.2.
+**0.24 is the only value that does not cost the dominant band.** Going higher keeps buying
+yield in the hard tail and keeps losing it in the ≥95 band, and because that band is 81% of
+the suite the net turns negative — the raw sample mean says the opposite, which is the trap.
+Decelerating the last 4 cm of the taller descent (tested at 0.30) does not recover it either:
+per-task outcomes flip chaotically between nearby settings, the same "reliability is dynamic"
+lesson as §5.2.
+
+**Confirmed on 60 held-out tasks** (disjoint from the sweep above, different seed), because
+0.24 was picked partly on how it landed in the ≥95 band of the tuning sample:
+
+| sample | ≥95 | 50–95 | 20–50 | <20 | suite-weighted |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| tuning (60 tasks) | +1.5 | +4.6 | +26.0 | +0.4 | +2.3 [−0.9, +6.1] |
+| held-out (60 tasks) | −1.0 | +6.4 | +18.0 | +2.5 | +0.5 [−3.9, +4.1] |
+| **pooled (120 tasks)** | **+0.2** | **+5.5** | **+22.0** | **+1.5** | **+1.4 [−1.4, +4.0]** |
+
+The tuning estimate was optimistic, as expected — the held-out ≥95 delta regresses to
+roughly zero. **The honest read: the dominant band is neutral (+0.2) and the gain is
+concentrated in the mid and hard bands (+5.5 / +22.0), where coverage is actually at risk.**
+Paired McNemar over all 2,400 rollouts: gained 240, lost 112, p = 8e-12. Note the collector
+re-calibrates the grasp under the new policy, which this measurement cannot capture — every
+number here pins each task's `chosen_entry` from v2, so it is a floor.
 
 **Matching the humans exactly is not the optimum.** 0.28 lands at 24.9 cm, within a
 millimetre of their 25.0 median — and costs 1.2 points. So 0.24 deliberately stops 3.7 cm
