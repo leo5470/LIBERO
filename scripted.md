@@ -90,8 +90,23 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   | ratio | **11.9×** | **4.06×** | 2.0–2.2× |
 
   Meshes, geom sizes and geom positions are untouched — objects are the same shape, just
-  heavier, with inertia up to 6.8× and shifted `body_ipos`/`body_iquat`. The round-trip is
-  idempotent after the first application.
+  heavier, with inertia up to 6.8× and shifted `body_ipos`/`body_iquat`.
+
+  **The conversion is per-episode, not once.** `hard_reset` is `True`, so every
+  `MujocoEnv.reset()` runs `_load_model()` + `_initialize_sim()` and rebuilds from the task
+  XML — the model really is reloaded each time, and a round-trip applied by hand is undone by
+  the next `reset()` (0.02030 → 0.00170). `reset_from_xml_string()` only sets
+  `deterministic_reset = True` for the duration of its own internal `reset()` and clears it
+  again. So the collector's cycle is, every single episode:
+
+  ```
+  wrapper.reset() -> env.reset()            -> _load_model/_initialize_sim  -> LIGHT
+                  -> _start_new_episode()   -> get_xml + reset_from_xml_string -> HEAVY
+  ```
+
+  Verified over three consecutive episodes: light at wrap time, heavy for the whole of every
+  episode thereafter. Placements survive because the wrapper restores the saved state after
+  the reload.
 
   **Confirmed directly against upstream LIBERO's shipped data, not inferred.** LIBERO's own
   `scripts/collect_demonstration.py` (present at the `init` commit) wraps in
