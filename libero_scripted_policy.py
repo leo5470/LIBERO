@@ -19,6 +19,15 @@ the receptacle rim and distractor objects; only once aligned above the target do
 descend (LOWER) and open the gripper (DROP). It needs only object/receptacle positions
 (``obs[f"{name}_pos"]``) and ``obs["robot0_eef_pos"]``.
 
+Transit height: APPROACH crosses the table at ``table_z + transit_height`` -- measured from
+the manipuland's resting bottom, which *is* the table -- and only then descends. This has to
+be table-relative rather than object-relative, because an origin-relative hover makes the
+transit height track the object's own height: measured over stockbg_v2, the hand crossed at
+13.8-19.4 cm for flat items vs 25.0 cm [22.7, 26.5] in the stock human demos, and for an
+object taller than ~24 cm (wine: 27.0 cm tall, origin 13.4) the old rule put the hand *below*
+the object's top and swept through it. The floor at ``top_z + transit_clearance`` keeps those
+tall manipulands cleared. See ``scripted.md`` §3.5 for the height sweep behind the default.
+
 Grasp height: rather than a per-object hand-tuned ``grasp_z_offset`` (a metres offset from
 the object *origin*, which conflates where the mesh origin sits with the object's size and
 so does not transfer across geometries), the policy prefers a geometry-relative target. If
@@ -104,7 +113,9 @@ class ScriptedPickPlacePolicy:
         self,
         obj_name: str,
         target_name: str,
-        hover_height: float = 0.12,
+        hover_height: float = 0.12,        # fallback only, when extents aren't injected
+        transit_height: float = 0.24,      # None -> object-relative hover (old behaviour)
+        transit_clearance: float = 0.05,
         grasp_z_offset: float = 0.005,
         grasp_frac: float = 0.55,
         lift_height: float = 0.20,
@@ -127,6 +138,8 @@ class ScriptedPickPlacePolicy:
         self.obj_name = obj_name
         self.target_name = target_name
         self.hover_height = hover_height
+        self.transit_height = transit_height
+        self.transit_clearance = transit_clearance
         self.grasp_z_offset = grasp_z_offset
         self.grasp_frac = grasp_frac
         self.lift_height = lift_height
@@ -156,6 +169,7 @@ class ScriptedPickPlacePolicy:
         self._grasp_xy = None
         self._carry_z = None  # absolute carry height, set at grasp (= grasp eef_z + lift_height)
         self._grasp_offset = None  # object-origin - eef xy offset, latched when grasping
+        self._table_z = None  # world-z of the table, latched from the object's resting bottom
         return self
 
     def _advance(self, nxt: str):
@@ -174,6 +188,29 @@ class ScriptedPickPlacePolicy:
         if bz is not None and tz is not None:
             return float(bz) + self.grasp_frac * (float(tz) - float(bz))
         return float(obj[2]) + self.grasp_z_offset
+
+    def _transit_z(self, obs, obj):
+        """World-z to cross the table at during APPROACH, before descending onto the grasp.
+
+        Measured from the table (the manipuland's bottom while it is still at rest), never
+        from the object's origin -- see the module docstring for why. Floored so a tall
+        manipuland is cleared by ``transit_clearance`` rather than swept through.
+
+        Falls back to the old origin-relative hover when ``transit_height`` is None
+        (``--no-high-transit``) or when the collector did not inject the live extents.
+        """
+        if self.transit_height is None:
+            return float(obj[2]) + self.hover_height
+        bz = obs.get(f"{self.obj_name}_bottom_z")
+        if self._table_z is None and bz is not None:
+            self._table_z = float(bz)
+        if self._table_z is None:
+            return float(obj[2]) + self.hover_height
+        z = self._table_z + self.transit_height
+        tz = obs.get(f"{self.obj_name}_top_z")
+        if tz is not None:
+            z = max(z, float(tz) + self.transit_clearance)
+        return z
 
     def _grasp_point(self, obs, obj):
         """Where to close the fingers: the injected candidate midpoint, else the
@@ -247,7 +284,7 @@ class ScriptedPickPlacePolicy:
 
         if self.phase == "APPROACH":
             gp = self._grasp_point(obs, obj)
-            target = np.array([gp[0], gp[1], obj[2] + self.hover_height])
+            target = np.array([gp[0], gp[1], self._transit_z(obs, obj)])
             a, err = self._goto(obs, target, self._open_action(obs))
             if (np.linalg.norm(err[:2]) < self.xy_tol and abs(err[2]) < self.z_tol) or timed_out:
                 self._advance("DESCEND")

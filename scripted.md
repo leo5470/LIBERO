@@ -130,14 +130,69 @@ The jaw descends pre-shaped to `grasp_width + 2 × 0.012 m` rather than fully op
 closed-loop on `robot0_gripper_qpos`. This keeps the sampler's clearance model honest — the
 two must stay in sync via `GS.pre_grasp_half_for`.
 
-### 3.5 Defaults
+### 3.5 Transit height
 
-`hover_height 0.12 · grasp_frac 0.55 · lift_height 0.20 · place_drop 0.06 ·
-basket_clear 0.02 · release_above_rim 0.02 · pre_grasp_clearance 0.012 · pos_gain 20 ·
-xy_tol 0.012 · z_tol 0.015 · yaw_gain 2.0 · max_phase_steps 90`
+**Measured against the stock human demos** (`libero_object`, same arena, floor plane at
+z = 0), eef height above the table by *horizontal progress* toward the grasp — both start
+from the same home pose and travel the same ~25 cm:
+
+| | start | 10% | 50% | 90% | at grasp |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| stock human (teleop) | 25.8 | 25.5 | **25.4** | 24.2 | 4.9 |
+| ours, stockbg_v2 | 26.1 | 24.2 | **16.4** | 14.6 | 4.8 |
+
+The human holds its start altitude across the table and drops the last 20 cm vertically;
+ours bled altitude the whole way and arrived low. Cause: `APPROACH` hovered at
+`obj_origin_z + hover_height`, so the **transit height tracked the object's own height** —
+13.8–19.4 cm across 23 categories, versus a flat 25.0 [22.7, 26.5] for the humans. That band
+sits at the basket rim (14.0 cm) and below the tallest table object (orange juice, 19.1 cm),
+and for anything taller than ~24 cm the rule inverts: `wine` is 27.0 cm tall with its origin
+13.4 cm up, so the old hover put the hand **1.6 cm below the bottle's top** and swept through it.
+
+Fix: `APPROACH` crosses at `table_z + transit_height`, where `table_z` is latched from the
+manipuland's resting `bottom_z`, floored at `top_z + transit_clearance` so tall manipulands
+are cleared. `DESCEND` then drops vertically onto the grasp, unchanged.
+
+**Choosing the height — 60 tasks × 20 attempts, paired on identical initial states, grasp
+pinned to each task's stored `chosen_entry`, so trajectory is the only variable.** Tasks are
+stratified by their v2 collect-yield and re-weighted to the real suite composition (81% of
+tasks sit in the ≥95% band, which is what makes the raw sample mean misleading):
+
+| `transit_height` | achieved z@50% | ≥95 band | 50–95 | 20–50 | <20 | **suite-weighted** |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: |
+| *off (origin-relative)* | 16.9 cm | 94.0% | 73.9% | 37.5% | 0.4% | 86.8% |
+| **0.24** | 21.3 | **95.4%** | 78.6% | 63.5% | 0.0% | **89.1%** (+2.3) |
+| 0.26 | 23.2 | 91.0% | 80.0% | 77.5% | 2.7% | 86.1% (−0.7) |
+| 0.28 | 24.9 | 90.6% | 81.4% | 64.0% | 0.0% | 85.6% (−1.2) |
+| 0.30 | 27.0 | 89.8% | 83.9% | 78.0% | 5.5% | 85.7% (−1.0) |
+
+**0.24 is the only value that does not cost the dominant band** (paired McNemar over 1,200
+rollouts: gained 120, lost 47, p = 1.5e-8). Going higher keeps buying yield in the hard tail
+and keeps losing it in the ≥95 band, and because that band is 81% of the suite the net turns
+negative — the raw sample mean says the opposite, which is the trap. Decelerating the last
+4 cm of the taller descent (tested at 0.30) does not recover it either: per-task outcomes
+flip chaotically between nearby settings, the same "reliability is dynamic" lesson as §5.2.
+
+**Matching the humans exactly is not the optimum.** 0.28 lands at 24.9 cm, within a
+millimetre of their 25.0 median — and costs 1.2 points. So 0.24 deliberately stops 3.7 cm
+short of the reference distribution: what actually mattered was removing the *coupling* to
+object height (13.8–19.4 cm, varying with the object → a flat 21.0–21.7 for everything),
+not reproducing the absolute height.
+
+Cost: +1.6 steps per episode (141.1 → 142.7 mean). Distractor disturbance is **unchanged**
+(p90 = 0.09 cm in every condition) — this is not a collision fix.
+
+### 3.6 Defaults
+
+`hover_height 0.12 · transit_height 0.24 · transit_clearance 0.05 · grasp_frac 0.55 ·
+lift_height 0.20 · place_drop 0.06 · basket_clear 0.02 · release_above_rim 0.02 ·
+pre_grasp_clearance 0.012 · pos_gain 20 · xy_tol 0.012 · z_tol 0.015 · yaw_gain 2.0 ·
+max_phase_steps 90`
+
+`hover_height` is now only the fallback for when the live extents aren't injected.
 
 Opt-outs restoring earlier behaviour exactly: `--no-align-yaw`, `--no-center-placement`,
-`--no-rim-release`, `--no-preshape`, `--no-grasp-sampler`.
+`--no-rim-release`, `--no-preshape`, `--no-grasp-sampler`, `--no-high-transit`.
 
 ---
 

@@ -369,7 +369,18 @@ def main():
                     help=".pruned_init-format state pool; episodes are seeded from it "
                          "instead of trusting the flaky random placement sampler")
     # policy knobs (override per geometry if needed)
-    ap.add_argument("--hover-height", type=float, default=0.12)
+    ap.add_argument("--hover-height", type=float, default=0.12,
+                    help="object-origin-relative APPROACH hover; used only as the fallback "
+                         "when the live extents can't be injected (or --no-high-transit)")
+    ap.add_argument("--transit-height", type=float, default=0.24,
+                    help="height above the TABLE at which APPROACH crosses before dropping "
+                         "onto the grasp. 0.24 was picked by a paired 60-task sweep: it is "
+                         "the only value that does not cost the >=95%% band (0.26 and 0.30 "
+                         "buy more in the hard tail but lose 3-4 pts there, which dominates "
+                         "the suite because 81%% of tasks live in it)")
+    ap.add_argument("--transit-clearance", type=float, default=0.05,
+                    help="minimum clearance over the manipuland's own top during APPROACH; "
+                         "what keeps a tall object (wine, 27 cm) from being swept through")
     ap.add_argument("--grasp-z-offset", type=float, default=0.005,
                     help="fallback origin-relative grasp offset (used only if live "
                          "extents can't be injected)")
@@ -421,6 +432,9 @@ def main():
     ap.add_argument("--no-rim-release", action="store_true",
                     help="disable the rim clamp (reproduces the hand-inside-the-basket "
                          "behaviour of the first collection run)")
+    ap.add_argument("--no-high-transit", action="store_true",
+                    help="cross the table at the object-relative --hover-height instead of "
+                         "the table-relative --transit-height (pre-v3 behaviour)")
     ap.add_argument("--pre-grasp-clearance", type=float, default=0.012,
                     help="per-side gap the jaw pre-shapes to before descending; must match "
                          "libero_grasp_synthesis.PRE_GRASP_CLEARANCE, which the sampler's "
@@ -500,6 +514,8 @@ def main():
         return ScriptedPickPlacePolicy(
             obj_name, target_name,
             hover_height=args.hover_height, grasp_z_offset=args.grasp_z_offset,
+            transit_height=(None if args.no_high_transit else args.transit_height),
+            transit_clearance=args.transit_clearance,
             grasp_frac=frac,
             lift_height=args.lift_height, place_drop=args.place_drop,
             release_above_rim=(None if args.no_rim_release else args.release_above_rim),
