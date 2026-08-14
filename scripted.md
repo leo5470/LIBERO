@@ -130,6 +130,18 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   one. Every LIBERO policy is trained on one physics and evaluated in another. We inherit
   that; we did not introduce it.
 
+  **Where the bug lives.** robosuite sets `inertiagrouprange="0 0"` and then, every reset,
+  re-loads the model through a serializer that discards it — silently changing the physics of
+  the env the caller constructed, in order to make replay self-consistent. The correct source
+  was one attribute away: `env.model.get_xml()` (robosuite's own assembled task XML, which it
+  already used to build the sim) round-trips with the mass **preserved exactly**, and object
+  placement survives regardless because placement lives in the restored *state*, not the XML.
+  MuJoCo's writer contributes: it emits `<compiler angle meshdir>` but drops
+  `inertiagrouprange`, and does not compensate by baking explicit `<inertial>` elements
+  (15 in both XMLs; the manipuland has none), so the saved file recompiles to a different
+  model with no warning. Treat `sim.model.get_xml()` as lossy for compile-time directives —
+  it is not a model serializer.
+
   **Which way to close the gap.** Making *eval* heavy works mechanically — round-tripping an
   `OffScreenRenderEnv` keeps rendering and `set_init_state` intact and takes
   `boxed_drink__aigen_8` from 0/10 to 10/10 — but it adopts the double-counted masses and
