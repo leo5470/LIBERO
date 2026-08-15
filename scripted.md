@@ -168,6 +168,42 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   physics to match the question: `--roundtrip` to predict collection yield, plain to predict
   eval behaviour.
 
+  **Swept over the whole dataset** (`scripts/check_eval_reproducibility.py`, 1,394 tasks ×
+  10 attempts, CPU-only, ~40 min at 36 workers; results in `eval/eval_repro_flags.csv`).
+  Each task's stored `chosen_entry` replayed in the plain build, against the collect yield
+  recorded when its demos were made:
+
+  | | tasks | share |
+  | :--- | ---: | ---: |
+  | reproduces (within 10 pts) | 1,249 | 89.7% |
+  | degraded (10–25 pts) | 51 | 3.7% |
+  | badly degraded (25–50 pts) | 52 | 3.7% |
+  | lost (>50 pts) | 41 | 2.9% |
+
+  Mean collect yield 92.4% → mean eval-physics yield 89.2%; **median task delta 0.0**.
+  93 tasks are genuine casualties (delta < −25) spread over 51 categories, and **12 collected
+  at ≥90% but reproduce below 10%** — confident, gate-passed demos that cannot be executed
+  where policies are scored. `eval/eval_repro_flags.csv` labels every task
+  `ok / degraded / badly_degraded / unreproducible / degenerate_mass`.
+
+  **No category loses coverage.** The three categories with no instance reproducing ≥50%
+  (`pot`, `tongs`, `wine`) were already at 44.9%/12.0%/8.7% *at collection* — pre-existing
+  geometry problems (§8), not physics. Every category the physics does hit keeps healthy
+  instances: cereal 14/21, pomegranate 3/7, ladle 2/7. Beware reading raw 0% eval yields as
+  casualties: of the 71 tasks at 0%, **46 collected below 30%**, so 0/10 is unremarkable —
+  the delta is the signal, not the level.
+
+  **Mass still does not predict it at full scale.** The worst-hit category is `cereal`
+  (10/21 casualties) at 53–88 g and only 2.0× inflation — heavy objects, not light ones.
+  Over the 98 tasks with both measurements, corr(log eval mass, drop) = +0.14 and
+  corr(log ratio, drop) = −0.10. Triage by object property does not work; only measurement
+  identifies them, which is what the sweep is for.
+
+  Separately, **5 tasks have a degenerate eval-physics mass** (<1 g; `pot__aigen_0`,
+  `saucepan__objaverse_pan_0`, `pan__aigen_4`, `pan__objaverse_21` are ~0.0000 g) — no
+  inertia-contributing geom at all. Two of them still reproduce at 80–100%, so it is not
+  automatically fatal, but it is unphysical and worth fixing at the asset level.
+
   **How much it costs, and what it does *not* cost.** Same scripted policy, same initial
   states, 120 tasks, physics the only variable: suite-weighted **−4.4 pts** moving from
   collection to eval physics. The median task loses **0.0** — the damage is a tail, not a
