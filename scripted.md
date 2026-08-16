@@ -180,6 +180,14 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   | badly degraded (25–50 pts) | 52 | 3.7% |
   | lost (>50 pts) | 41 | 2.9% |
 
+  **`eval/physics_degradation.csv` (147 objects) is not a list of objects with a mass
+  anomaly — every object has one.** 0 of 1,393 have a mass ratio of 1.00; 99.9% exceed 1.05×
+  (p10 1.10×, median 1.77×, p90 1.90×, max 11.93×), and across the suite the manipulands
+  weigh 175.94 kg at collection versus 138.54 kg at eval. The inflation is the same in both
+  groups — median 1.79× for the flagged objects, 1.77× for the rest. The CSV lists the objects
+  where that universal difference *changed the outcome*; the other 1,246 carry it too and
+  simply survive it. So the train/eval mismatch applies to all 1,394 objects, not 147.
+
   Mean collect yield 92.4% → mean eval-physics yield 89.2%; **median task delta 0.0**.
   93 tasks are genuine casualties (delta < −25) spread over 51 categories, and **12 collected
   at ≥90% but reproduce below 10%** — confident, gate-passed demos that cannot be executed
