@@ -169,22 +169,58 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   | survivor | heavy | 4.53 cm | 4.38 cm | 23.1 cm | 0% |
 
   A held object stops the jaw at its own width. On surviving objects the jaw settles at the
-  grasp width in *both* physics. On affected objects in the light build the jaw closes **0.84
-  cm past** the width — it compresses through the object — and in 18% of rollouts squirts it
-  out entirely, after which the arm carries nothing and "releases" 21 cm from the basket.
+  grasp width in *both* physics; on affected objects in the light build it closes past the
+  width. **[corrected]** I first read that aggregate as "the mechanism is squeeze-out". It is
+  not — the mean is dragged down by a few outright ejections. Classified per task over the 18
+  affected objects, there are **two** modes:
+
+  | mode | tasks | obj z at MOVE | at LOWER | release offset | success |
+  | :--- | ---: | ---: | ---: | ---: | ---: |
+  | **ejected** — jaw closes through the object | 3 | 3.6 cm | 3.6 cm | 36.7 cm | 0/15 |
+  | *the same, in demo physics* | | 22.6 | 21.8 | 3.05 | 15/15 |
+  | **held, then dropped in transit** | 15 | 23.8 cm | 17.2 cm | 18.0 cm | 4/75 |
+  | *the same, in demo physics* | | 24.0 | 24.0 | 2.06 | 71/75 |
+
+  So only 3 of 18 are squeeze-out. The other 15 grip the object at the correct width and lift
+  it to the normal carry height, and it falls out **during the MOVE traverse** — z decays from
+  23.8 cm to 17.2 cm between the start of MOVE and the start of LOWER, where demo physics holds
+  a flat 24.0 cm. In both modes the arm completes the motion and "releases" 18–37 cm from the
+  basket because it is no longer carrying anything.
+
+  What is common to both: in the light build the jaw ends up **further closed** than in the
+  heavy one on nearly every affected task (boxed_drink_10 3.52 vs 3.89 cm, sushi_5 2.53 vs
+  2.69, bread_11 3.82 vs 3.96) — the same lighter-object contact response, mild enough to
+  still grip but not to survive the carry, or severe enough to eject.
   Three things this rules out, all of which were measured and found flat: the object is *not*
   displaced before the grasp (0.28 cm vs 0.21 cm), the fingers are *not* closing on empty air
   at the moment of grasp (jaw 4.32 vs 4.38 cm at the GRASP→LIFT transition, 0% empty in
   either), and every rollout reaches DROP in both.
 
-  Why mass decides it: the jaw applies a closing force, and any grasp whose contact normals
-  are not perfectly opposed leaves a net lateral component. The object ejects if it can
-  accelerate out of the jaw before the closing force balances — acceleration is `F/m`, so
-  **the same lateral force ejects a light object and not a heavy one**. Local surface geometry
-  at the grasp site sets `F`; mass sets the response. Neither alone predicts anything, which
-  is why mass correlates at +0.14 and grasp width at +0.03 — but grasp *kind* does show the
-  mechanism through: casualty rates run central 3.9% < side 9.8% < fallback 12.5%, in exactly
-  the order of how well-opposed those grasps are.
+  Grasp *kind* shows the effect through, in the order of how well-opposed the contact normals
+  are: casualty rates run central 3.9% < side 9.8% < fallback 12.5%. Mass alone still predicts
+  nothing (+0.14), nor does grasp width (+0.03) — it is the combination of local contact
+  geometry and mass, which is why only measurement finds the affected objects.
+
+  **More grip force does not fix it** (probe only, nothing applied). The Panda gripper is a
+  *position* servo — `<position kp="1000" forcerange="-20 20">` — so `a[6]` drives a target
+  position accumulator and "grip force" is not in the action space at all; raising it means
+  editing the robot's actuator limits, i.e. leaving the stock embodiment. Scaling
+  `actuator_forcerange` ×3 and ×5 (with kp ×3) in memory, over 6 affected objects × 5 rollouts:
+
+  | task | width | stock 20 N | ×3 force | ×5 force + kp |
+  | :--- | ---: | ---: | ---: | ---: |
+  | yogurt_2 | 6.35 cm | 0/5, jaw 0.40 | 0/5, jaw 0.18 | 0/5, jaw 0.10 |
+  | pomegranate_0 | 8.00 | 0/5, jaw 7.64 | 0/5, jaw 6.04 | 0/5, jaw 1.24 |
+  | boxed_drink_8 | 4.27 | 0/5, jaw 0.18 | 0/5, jaw 0.18 | 3/5, jaw 0.92 |
+  | sushi_0 | 3.01 | 0/5, jaw 2.91 | 0/5, jaw 2.94 | 0/5, jaw 0.10 |
+  | asparagus_3 | 2.74 | 0/5, jaw 2.80 | 0/5, jaw 2.80 | 0/5, jaw 2.72 |
+  | cereal_5 | 3.22 | 0/5, jaw 3.41 | 1/5, jaw 3.40 | 0/5, jaw 3.28 |
+
+  Force pushes the jaw *further through* the object — exactly the wrong direction — and 4 of 6
+  stay at 0/5 at every level. The one that improves (boxed_drink at ×5) does so with the jaw
+  at 0.92 cm on a 4.27 cm grasp, i.e. by crushing rather than gripping. The lever is grasp
+  *selection*, not grip strength: the collector already picks by measured yield, it just
+  measures in the wrong physics.
 
   Consequences: (1) **anything that re-steps recorded actions must build from the demo's
   recorded `model_file`** — `render_demo_videos.py` and `create_dataset.py` do
