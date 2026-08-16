@@ -155,9 +155,36 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   moving any numbers.
 
   How much it matters: on `boxed_drink__aigen_8` the same policy, grasp and seed give
-  **10/10 wrapped and 0/10 unwrapped** — light objects skitter, so the jaw pre-shape hunts,
-  closes on empty air and the arm carries nothing. Actions match bit-exactly at t=0 and
-  diverge in the 4th decimal by t=1.
+  **10/10 wrapped and 0/10 unwrapped**. Actions match bit-exactly at t=0 and diverge in the
+  4th decimal by t=1.
+
+  **The failure mode is squeeze-out, not a missed grasp.** Measured over 18 affected and 18
+  surviving objects, 5 rollouts each, both physics (`scratchpad/disturbance.py`):
+
+  | group | physics | jaw at end of LIFT | grasp width | obj z at MOVE | ejected |
+  | :--- | :--- | ---: | ---: | ---: | ---: |
+  | affected | light (eval) | **3.21 cm** | 4.05 cm | 20.4 cm | **18%** |
+  | affected | heavy (demo) | 4.27 cm | 4.05 cm | 23.8 cm | 1% |
+  | survivor | light | 4.49 cm | 4.38 cm | 23.0 cm | 0% |
+  | survivor | heavy | 4.53 cm | 4.38 cm | 23.1 cm | 0% |
+
+  A held object stops the jaw at its own width. On surviving objects the jaw settles at the
+  grasp width in *both* physics. On affected objects in the light build the jaw closes **0.84
+  cm past** the width — it compresses through the object — and in 18% of rollouts squirts it
+  out entirely, after which the arm carries nothing and "releases" 21 cm from the basket.
+  Three things this rules out, all of which were measured and found flat: the object is *not*
+  displaced before the grasp (0.28 cm vs 0.21 cm), the fingers are *not* closing on empty air
+  at the moment of grasp (jaw 4.32 vs 4.38 cm at the GRASP→LIFT transition, 0% empty in
+  either), and every rollout reaches DROP in both.
+
+  Why mass decides it: the jaw applies a closing force, and any grasp whose contact normals
+  are not perfectly opposed leaves a net lateral component. The object ejects if it can
+  accelerate out of the jaw before the closing force balances — acceleration is `F/m`, so
+  **the same lateral force ejects a light object and not a heavy one**. Local surface geometry
+  at the grasp site sets `F`; mass sets the response. Neither alone predicts anything, which
+  is why mass correlates at +0.14 and grasp width at +0.03 — but grasp *kind* does show the
+  mechanism through: casualty rates run central 3.9% < side 9.8% < fallback 12.5%, in exactly
+  the order of how well-opposed those grasps are.
 
   Consequences: (1) **anything that re-steps recorded actions must build from the demo's
   recorded `model_file`** — `render_demo_videos.py` and `create_dataset.py` do
@@ -220,8 +247,8 @@ Injected keys: `<obj>_bottom_z`, `<obj>_top_z`, `<obj>_grasp_xyz`, `<obj>_grasp_
   gate-verified at collection and near-unreproducible at eval. **But the gap does not
   visibly contaminate the eval results**: over the 75 categories with both a measured gap
   and a Cosmos-Predict2.5 SR, corr is only −0.22, and the 12 hardest-hit categories average
-  a *higher* SR (0.269) than the unaffected ones (0.202) — light produce is skittish for the
-  scripted policy but easy for a trained one. So treat this as a measurement hazard for
+  a *higher* SR (0.269) than the unaffected ones (0.202) — a fixed scripted grasp is what
+  squeeze-out defeats, whereas a trained closed-loop policy re-grasps. So treat this as a measurement hazard for
   generator experiments, not as evidence that the benchmark numbers are depressed.
 
 ---
