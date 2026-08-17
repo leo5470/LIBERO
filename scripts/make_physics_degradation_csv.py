@@ -14,6 +14,7 @@ SP = os.path.dirname(os.path.abspath(__file__))
 REPO = "/tmp2/leocheng/forks/LIBERO"
 V2 = "/tmp2/leocheng/ricl_scratch/stockbg_v2/collect"
 OUT = os.path.join(REPO, "eval", "physics_degradation.csv")
+OUT_CAT = os.path.join(REPO, "eval", "physics_degradation_by_category.csv")
 
 rows = list(csv.DictReader(open(os.path.join(REPO, "eval", "eval_repro_flags.csv"))))
 for r in rows:
@@ -66,6 +67,35 @@ with open(OUT, "w", newline="") as f:
                     f"{r['eval_mass_g']:.4f}", f"{r['demo_mass_g']:.4f}",
                     f"{r['mass_ratio']:.2f}",
                     len(cat[r["category"]]), healthy[r["category"]], r["task"]])
+
+# ---- per-category rollup -------------------------------------------------
+# Sorted worst-first by mean delta. `note` exists because sorting any of these
+# tables by absolute eval yield is misleading: tongs/wine/pot read 0% but never
+# collected well either, so their demos are not physics casualties.
+with open(OUT_CAT, "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["category", "n_instances", "mean_delta_pts", "median_delta_pts",
+                "casualties", "unreproducible", "degenerate_mass", "healthy_instances",
+                "mean_collect_yield", "mean_eval_yield", "demos_total",
+                "demos_in_casualties", "coverage_risk", "note"])
+    stats = []
+    for c, v in cat.items():
+        d = sorted(x["delta"] for x in v)
+        cas = [x for x in v if x["delta"] < -25]
+        med = d[len(d) // 2] if len(d) % 2 else (d[len(d) // 2 - 1] + d[len(d) // 2]) / 2
+        stats.append((sum(d) / len(d), c, v, cas, med))
+    for mean_d, c, v, cas, med in sorted(stats):
+        best_collect = max(x["v2_collect_yield"] for x in v)
+        risk = "yes" if healthy[c] <= 2 and len(cas) >= 1 else "no"
+        note = "pre_existing_low_yield" if best_collect < 50 else ""
+        w.writerow([c, len(v), f"{mean_d:.1f}", f"{med:.1f}", len(cas),
+                    sum(1 for x in v if x["v2_collect_yield"] >= 50 and x["eval_yield"] < 10),
+                    sum(1 for x in v if x["eval_mass_g"] < 1.0), healthy[c],
+                    f"{sum(x['v2_collect_yield'] for x in v)/len(v):.1f}",
+                    f"{sum(x['eval_yield'] for x in v)/len(v):.1f}",
+                    sum(int(n_demos(x["task"]) or 0) for x in v),
+                    sum(int(n_demos(x["task"]) or 0) for x in cas), risk, note])
+print(f"wrote {OUT_CAT}  ({len(cat)} categories)")
 
 by = collections.Counter(severity(r) or "mass_only" for r in affected)
 dem = sum(int(n_demos(r["task"]) or 0) for r in affected)
