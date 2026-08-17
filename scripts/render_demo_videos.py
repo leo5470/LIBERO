@@ -29,25 +29,64 @@ import numpy as np
 import init_path  # noqa: F401  (adds repo to sys.path, mirrors other scripts)
 import libero.libero.utils.utils as libero_utils
 from libero.libero.envs import TASK_MAPPING
+from robosuite.utils.errors import RandomizationError
 
 
 def _cam_key(cam):
     return f"{cam}_image"
 
 
-def render_demo(env, f, ep, cameras, flip):
+def build_env(f, cameras, height, width, build_tries=15):
+    """Build the offscreen replay env for an open demo HDF5 from its stored attrs.
+
+    The constructor runs one placement sample of its own, so a task with tight regions
+    can fail on constructor luck alone; retry with a fresh numpy seed each attempt (the
+    same fix the collector uses). Returns ``(env, problem_info)``.
+    """
+    env_kwargs = json.loads(f["data"].attrs["env_info"])
+    problem_info = json.loads(f["data"].attrs["problem_info"])
+    bddl_file_name = f["data"].attrs["bddl_file_name"]
+    libero_utils.update_env_kwargs(
+        env_kwargs,
+        bddl_file_name=bddl_file_name,
+        has_renderer=False,
+        has_offscreen_renderer=True,
+        ignore_done=True,
+        use_camera_obs=True,
+        camera_names=cameras,
+        reward_shaping=True,
+        control_freq=20,
+        camera_heights=height,
+        camera_widths=width,
+        camera_depths=False,
+        camera_segmentations=None,
+    )
+    last = None
+    for attempt in range(build_tries):
+        np.random.seed(7919 * attempt)
+        try:
+            return TASK_MAPPING[problem_info["problem_name"]](**env_kwargs), problem_info
+        except RandomizationError as e:
+            last = e
+    raise RuntimeError(f"env build failed {build_tries}x (RandomizationError: {last})")
+
+
+def render_demo(env, f, ep, cameras, flip, reset_tries=50):
     """Replay one demo episode and return a list of (stacked) RGB frames."""
     model_xml = f[f"data/{ep}"].attrs["model_file"]
     states = f[f"data/{ep}/states"][()]
     actions = np.array(f[f"data/{ep}/actions"][()])
 
     reset_ok = False
-    while not reset_ok:
+    for _ in range(reset_tries):
         try:
             env.reset()
             reset_ok = True
+            break
         except Exception:
             continue
+    if not reset_ok:
+        raise RuntimeError(f"env.reset() failed {reset_tries}x for {ep}")
 
     model_xml = libero_utils.postprocess_model_xml(model_xml, {})
     env.reset_from_xml_string(model_xml)
@@ -102,28 +141,8 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
 
     f = h5py.File(args.demo_file, "r")
-    env_kwargs = json.loads(f["data"].attrs["env_info"])
-    problem_info = json.loads(f["data"].attrs["problem_info"])
-    problem_name = problem_info["problem_name"]
-    bddl_file_name = f["data"].attrs["bddl_file_name"]
+    env, problem_info = build_env(f, cameras, args.height, args.width)
     print("[task]", problem_info["language_instruction"])
-
-    libero_utils.update_env_kwargs(
-        env_kwargs,
-        bddl_file_name=bddl_file_name,
-        has_renderer=False,
-        has_offscreen_renderer=True,
-        ignore_done=True,
-        use_camera_obs=True,
-        camera_names=cameras,
-        reward_shaping=True,
-        control_freq=20,
-        camera_heights=args.height,
-        camera_widths=args.width,
-        camera_depths=False,
-        camera_segmentations=None,
-    )
-    env = TASK_MAPPING[problem_name](**env_kwargs)
 
     demos = sorted(f["data"].keys(), key=lambda k: int(k.split("_")[-1]))
     if args.max_demos is not None:

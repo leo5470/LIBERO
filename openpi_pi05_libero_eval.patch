@@ -1,0 +1,368 @@
+# =============================================================================
+# openpi LIBERO eval harness patch — pi0.5 (and pi0-FAST) on the customized
+# libero_object_unseen* suites
+# =============================================================================
+#
+# WHAT THIS IS
+#   A git patch for the openpi LIBERO evaluation client. It teaches the stock
+#   harness to (a) run our custom object-swapped suites, (b) run an arbitrary
+#   subset of task ids (for sharding across GPUs), (c) write a structured,
+#   crash-safe results JSON, and (d) survive robosuite RandomizationErrors
+#   instead of dying mid-run. Same client is used for pi0.5 and pi0-FAST — only
+#   the served checkpoint and --model_name differ.
+#
+# UPSTREAM BASE (apply on top of exactly this)
+#   repo   : https://github.com/Physical-Intelligence/openpi.git
+#   branch : main
+#   commit : 15a9616a00943ada6c20a0f158e3adb39df2ccac
+#            ("update output objects to support batching (#975)")
+#   If HEAD differs, `git apply` may reject hunks; check out the commit above
+#   first, or apply with `patch -p1` (fuzzier) and eyeball the result.
+#
+# FILES TOUCHED
+#   examples/libero/main.py      <- the real work (new args, results JSON,
+#                                    RandomizationError retries/skip, MAX_STEPS
+#                                    table incl. the unseen suites, unique
+#                                    per-episode video names)
+#   examples/libero/Dockerfile   <- config.yaml written via printf (heredoc was
+#                                    brittle); functional no-op
+#   examples/libero/compose.yml  <- pin the GPU with ${GPU_ID:-0} instead of
+#                                    count:1, so two containers can target
+#                                    different physical GPUs for sharded runs
+#
+# HOW TO APPLY (on the new machine)
+#   git clone https://github.com/Physical-Intelligence/openpi.git
+#   cd openpi
+#   git checkout 15a9616a00943ada6c20a0f158e3adb39df2ccac
+#   git apply /path/to/openpi_pi05_libero_eval.patch      # or: patch -p1 < ...
+#   # verify: git apply --check /path/to/openpi_pi05_libero_eval.patch
+#
+# PREREQUISITE — the suites must be registered in the env you run this in
+#   The client calls `benchmark.get_benchmark_dict()[args.task_suite_name]`.
+#   For "libero_object_unseen" / "libero_object_unseen_full" to resolve, the
+#   CUSTOMIZED LIBERO fork must be the installed `libero` package:
+#       repo : https://github.com/leo5470/LIBERO.git
+#       note : the unseen + unseen_full suites live on the branches that still
+#              contain them (they were later removed on cosmos-predict2.5-eval,
+#              which keeps only libero_object_unseen_stockbg). Check out a branch
+#              that has the suite you want, and make sure its bddl_files/,
+#              init_files/, manifest.json and converted assets/ are present and
+#              pointed at by ~/.libero/config.yaml.
+#   Stock suites (libero_object, etc.) work with an unmodified LIBERO.
+#
+# HOW TO RUN (two processes: policy server + this client)
+#   1) Serve the checkpoint (separate openpi server process), e.g. pi05_libero.
+#   2) Run this client. New/changed flags:
+#        --task_suite_name   libero_object_unseen_full   # or _unseen / _stockbg / stock
+#        --task_ids          "0,2,4,..."   # optional subset; omit = all tasks.
+#                                          # We sharded by even/odd ids across 2 GPUs.
+#        --num_trials_per_task 10          # finals used 10; upstream default is 50
+#        --seed              7             # finals seed
+#        --model_name        pi05_libero   # stamped into results JSON + filename
+#        --results_out_path  /path/to/eval_results/full   # dir for incremental JSON
+#        --save_videos       failures      # all | failures | none
+#        --video_out_path    /path/to/videos
+#   Example:
+#     python examples/libero/main.py \
+#       --task_suite_name libero_object_unseen_full \
+#       --num_trials_per_task 10 --seed 7 \
+#       --model_name pi05_libero \
+#       --results_out_path /tmp2/leocheng/eval_results/full \
+#       --task_ids "$(seq -s, 0 2 1556)"        # even ids -> GPU0 lane, etc.
+#
+# RESULTS FORMAT (one file per run, rewritten atomically after every task)
+#   <results_out_path>/<model_name>_<suite>_trials<N>_seed<S>.json
+#   {model, suite, num_trials_per_task, seed, max_steps,
+#    total_episodes, total_successes,
+#    tasks:[{task_id, task_name, language, episodes, successes,
+#            episode_results:[{episode_idx, success, steps}], error?}]}
+#   A task that could not build/reset carries an "error" tag and 0 episodes
+#   (values: randomization_error_env_build / randomization_error_episode_reset).
+#   Feed these files to LIBERO fork scripts/aggregate_unseen_eval.py together
+#   with the suite's manifest.json to get per-category success-rate CSVs.
+#
+# GOTCHAS worth re-deriving on the new box
+#   * MAX_STEPS for the unseen suites = 280 (they reuse the libero_object task
+#     design). New suites you add must be inserted into the MAX_STEPS table or
+#     the client raises "Unknown task suite".
+#   * env.seed() affects object positions even with a fixed init state, so the
+#     RandomizationError retry loop just resamples — the state is overwritten by
+#     set_init_state() right after, so retrying is safe.
+#   * Reference numbers produced by this harness (finals, seed 7):
+#     pi0.5  full 1,421-task suite = 29.1% ; 92-task = 46.6%.
+#     pi0-FAST full = 15.9%.  (sanity check a re-run against these.)
+#
+# Source working tree this diff was captured from:
+#   /tmp2/leocheng/PhysicalIntelligence/openpi  (uncommitted changes, 2026-07-24)
+# =============================================================================
+
+diff --git a/examples/libero/Dockerfile b/examples/libero/Dockerfile
+index e7ff546..abef4d2 100644
+--- a/examples/libero/Dockerfile
++++ b/examples/libero/Dockerfile
+@@ -49,13 +49,13 @@ ENV PYTHONPATH=/app:/app/packages/openpi-client/src:/app/third_party/libero
+ # Create a default config file to avoid an input prompt from LIBERO's init script.
+ # https://github.com/Lifelong-Robot-Learning/LIBERO/blob/master/libero/libero/__init__.py
+ ENV LIBERO_CONFIG_PATH=/tmp/libero
+-RUN mkdir -p /tmp/libero && cat <<'EOF' > /tmp/libero/config.yaml
+-benchmark_root: /app/third_party/libero/libero/libero
+-bddl_files: /app/third_party/libero/libero/libero/bddl_files
+-init_states: /app/third_party/libero/libero/libero/init_files
+-datasets: /app/third_party/libero/libero/datasets
+-assets: /app/third_party/libero/libero/libero/assets
+-EOF
++RUN mkdir -p /tmp/libero && printf '%s\n' \
++    'benchmark_root: /app/third_party/libero/libero/libero' \
++    'bddl_files: /app/third_party/libero/libero/libero/bddl_files' \
++    'init_states: /app/third_party/libero/libero/libero/init_files' \
++    'datasets: /app/third_party/libero/libero/datasets' \
++    'assets: /app/third_party/libero/libero/libero/assets' \
++    > /tmp/libero/config.yaml
+ 
+ RUN mkdir -p /usr/share/glvnd/egl_vendor.d && echo '{"file_format_version" : "1.0.0", "ICD" : { "library_path" : "libEGL_nvidia.so.0" }}' > /usr/share/glvnd/egl_vendor.d/10_nvidia.json
+ 
+diff --git a/examples/libero/compose.yml b/examples/libero/compose.yml
+index 253f196..6ba840f 100644
+--- a/examples/libero/compose.yml
++++ b/examples/libero/compose.yml
+@@ -28,7 +28,7 @@ services:
+         reservations:
+           devices:
+             - driver: nvidia
+-              count: 1
++              device_ids: ['${GPU_ID:-0}']
+               capabilities: [gpu]
+ 
+   openpi_server:
+@@ -53,5 +53,5 @@ services:
+         reservations:
+           devices:
+             - driver: nvidia
+-              count: 1
++              device_ids: ['${GPU_ID:-0}']
+               capabilities: [gpu]
+diff --git a/examples/libero/main.py b/examples/libero/main.py
+index dc015a6..11b7076 100644
+--- a/examples/libero/main.py
++++ b/examples/libero/main.py
+@@ -1,5 +1,6 @@
+ import collections
+ import dataclasses
++import json
+ import logging
+ import math
+ import pathlib
+@@ -11,12 +12,23 @@ from libero.libero.envs import OffScreenRenderEnv
+ import numpy as np
+ from openpi_client import image_tools
+ from openpi_client import websocket_client_policy as _websocket_client_policy
++from robosuite.utils.errors import RandomizationError
+ import tqdm
+ import tyro
+ 
+ LIBERO_DUMMY_ACTION = [0.0] * 6 + [-1.0]
+ LIBERO_ENV_RESOLUTION = 256  # resolution used to render training data
+ 
++MAX_STEPS = {
++    "libero_spatial": 220,  # longest training demo has 193 steps
++    "libero_object": 280,  # longest training demo has 254 steps
++    "libero_goal": 300,  # longest training demo has 270 steps
++    "libero_10": 520,  # longest training demo has 505 steps
++    "libero_90": 400,  # longest training demo has 373 steps
++    "libero_object_unseen": 280,  # same task design as libero_object
++    "libero_object_unseen_full": 280,  # same task design as libero_object
++}
++
+ 
+ @dataclasses.dataclass
+ class Args:
+@@ -36,11 +48,15 @@ class Args:
+     )
+     num_steps_wait: int = 10  # Number of steps to wait for objects to stabilize i n sim
+     num_trials_per_task: int = 50  # Number of rollouts per task
++    task_ids: str = ""  # Comma-separated task indices to run (default: all tasks in the suite)
+ 
+     #################################################################################################################
+     # Utils
+     #################################################################################################################
+     video_out_path: str = "data/libero/videos"  # Path to save videos
++    save_videos: str = "failures"  # Which episode replays to write: all | failures | none
++    model_name: str = "pi05_libero"  # Stamped into the results JSON to distinguish served checkpoints
++    results_out_path: str = "data/libero/results"  # Directory for the per-task-incremental results JSON
+ 
+     seed: int = 7  # Random Seed (for reproducibility)
+ 
+@@ -57,24 +73,31 @@ def eval_libero(args: Args) -> None:
+ 
+     pathlib.Path(args.video_out_path).mkdir(parents=True, exist_ok=True)
+ 
+-    if args.task_suite_name == "libero_spatial":
+-        max_steps = 220  # longest training demo has 193 steps
+-    elif args.task_suite_name == "libero_object":
+-        max_steps = 280  # longest training demo has 254 steps
+-    elif args.task_suite_name == "libero_goal":
+-        max_steps = 300  # longest training demo has 270 steps
+-    elif args.task_suite_name == "libero_10":
+-        max_steps = 520  # longest training demo has 505 steps
+-    elif args.task_suite_name == "libero_90":
+-        max_steps = 400  # longest training demo has 373 steps
+-    else:
++    if args.task_suite_name not in MAX_STEPS:
+         raise ValueError(f"Unknown task suite: {args.task_suite_name}")
++    max_steps = MAX_STEPS[args.task_suite_name]
+ 
+     client = _websocket_client_policy.WebsocketClientPolicy(args.host, args.port)
+ 
++    task_ids = [int(x) for x in args.task_ids.split(",")] if args.task_ids else list(range(num_tasks_in_suite))
++    results = {
++        "model": args.model_name,
++        "suite": args.task_suite_name,
++        "num_trials_per_task": args.num_trials_per_task,
++        "seed": args.seed,
++        "max_steps": max_steps,
++        "tasks": [],
++        "total_episodes": 0,
++        "total_successes": 0,
++    }
++    results_file = pathlib.Path(args.results_out_path) / (
++        f"{args.model_name}_{args.task_suite_name}_trials{args.num_trials_per_task}_seed{args.seed}.json"
++    )
++    results_file.parent.mkdir(parents=True, exist_ok=True)
++
+     # Start evaluation
+     total_episodes, total_successes = 0, 0
+-    for task_id in tqdm.tqdm(range(num_tasks_in_suite)):
++    for task_id in tqdm.tqdm(task_ids):
+         # Get task
+         task = task_suite.get_task(task_id)
+ 
+@@ -82,15 +105,47 @@ def eval_libero(args: Args) -> None:
+         initial_states = task_suite.get_task_init_states(task_id)
+ 
+         # Initialize LIBERO environment and task description
+-        env, task_description = _get_libero_env(task, LIBERO_ENV_RESOLUTION, args.seed)
++        try:
++            env, task_description = _get_libero_env(task, LIBERO_ENV_RESOLUTION, args.seed)
++        except RandomizationError:
++            logging.error(f"Task {task_id} ({task.name}): placement sampling failed 20x at env build; skipping task.")
++            results["tasks"].append(
++                {
++                    "task_id": task_id,
++                    "task_name": task.name,
++                    "language": str(task.language),
++                    "episodes": 0,
++                    "successes": 0,
++                    "episode_results": [],
++                    "error": "randomization_error_env_build",
++                }
++            )
++            tmp_file = results_file.with_suffix(".json.tmp")
++            tmp_file.write_text(json.dumps(results, indent=2))
++            tmp_file.replace(results_file)
++            continue
+ 
+         # Start episodes
+         task_episodes, task_successes = 0, 0
++        task_error = None
++        episode_records = []
+         for episode_idx in tqdm.tqdm(range(args.num_trials_per_task)):
+             logging.info(f"\nTask: {task_description}")
+ 
+-            # Reset environment
+-            env.reset()
++            # Reset environment. Placement sampling rarely fails (RandomizationError);
++            # retry - the sampled state is overwritten by set_init_state below anyway.
++            reset_ok = False
++            for _attempt in range(20):
++                try:
++                    env.reset()
++                    reset_ok = True
++                    break
++                except RandomizationError:
++                    pass
++            if not reset_ok:
++                logging.error(f"Task {task_id}: placement sampling failed 20x at episode reset; abandoning remaining episodes.")
++                task_error = "randomization_error_episode_reset"
++                break
+             action_plan = collections.deque()
+ 
+             # Set initial states
+@@ -98,6 +153,7 @@ def eval_libero(args: Args) -> None:
+ 
+             # Setup
+             t = 0
++            done = False
+             replay_images = []
+ 
+             logging.info(f"Starting episode {task_episodes+1}...")
+@@ -163,15 +219,20 @@ def eval_libero(args: Args) -> None:
+ 
+             task_episodes += 1
+             total_episodes += 1
++            episode_records.append(
++                {"episode_idx": episode_idx, "success": bool(done), "steps": max(0, t - args.num_steps_wait)}
++            )
+ 
+             # Save a replay video of the episode
+             suffix = "success" if done else "failure"
+             task_segment = task_description.replace(" ", "_")
+-            imageio.mimwrite(
+-                pathlib.Path(args.video_out_path) / f"rollout_{task_segment}_{suffix}.mp4",
+-                [np.asarray(x) for x in replay_images],
+-                fps=10,
+-            )
++            if args.save_videos == "all" or (args.save_videos == "failures" and not done):
++                imageio.mimwrite(
++                    pathlib.Path(args.video_out_path)
++                    / f"rollout_{args.task_suite_name}_task{task_id}_ep{episode_idx}_{task_segment}_{suffix}.mp4",
++                    [np.asarray(x) for x in replay_images],
++                    fps=10,
++                )
+ 
+             # Log current results
+             logging.info(f"Success: {done}")
+@@ -179,8 +240,27 @@ def eval_libero(args: Args) -> None:
+             logging.info(f"# successes: {total_successes} ({total_successes / total_episodes * 100:.1f}%)")
+ 
+         # Log final results
+-        logging.info(f"Current task success rate: {float(task_successes) / float(task_episodes)}")
+-        logging.info(f"Current total success rate: {float(total_successes) / float(total_episodes)}")
++        if task_episodes > 0:
++            logging.info(f"Current task success rate: {float(task_successes) / float(task_episodes)}")
++            logging.info(f"Current total success rate: {float(total_successes) / float(total_episodes)}")
++
++        # Persist results incrementally (atomic rewrite after each task; crash-safe partials)
++        results["tasks"].append(
++            {
++                "task_id": task_id,
++                "task_name": task.name,
++                "language": str(task_description),
++                "episodes": task_episodes,
++                "successes": task_successes,
++                "episode_results": episode_records,
++                **({"error": task_error} if task_error else {}),
++            }
++        )
++        results["total_episodes"] = total_episodes
++        results["total_successes"] = total_successes
++        tmp_file = results_file.with_suffix(".json.tmp")
++        tmp_file.write_text(json.dumps(results, indent=2))
++        tmp_file.replace(results_file)
+ 
+     logging.info(f"Total success rate: {float(total_successes) / float(total_episodes)}")
+     logging.info(f"Total episodes: {total_episodes}")
+@@ -191,7 +271,13 @@ def _get_libero_env(task, resolution, seed):
+     task_description = task.language
+     task_bddl_file = pathlib.Path(get_libero_path("bddl_files")) / task.problem_folder / task.bddl_file
+     env_args = {"bddl_file_name": task_bddl_file, "camera_heights": resolution, "camera_widths": resolution}
+-    env = OffScreenRenderEnv(**env_args)
++    for _attempt in range(20):  # constructor also runs one placement sample; retry rare failures
++        try:
++            env = OffScreenRenderEnv(**env_args)
++            break
++        except RandomizationError:
++            if _attempt == 19:
++                raise
+     env.seed(seed)  # IMPORTANT: seed seems to affect object positions even when using fixed initial state
+     return env, task_description
+ 
